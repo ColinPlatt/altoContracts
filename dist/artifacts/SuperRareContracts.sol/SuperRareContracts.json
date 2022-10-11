@@ -1,0 +1,330 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "SUPERRARE_REGISTRY",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SUPERRARE_V1",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SUPERRARE_V2",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x60f9610039600b82828239805160001a60731461002c57634e487b7160e01b600052600060045260246000fd5b30600052607381538281f3fe730000000000000000000000000000000000000000301460806040526004361060475760003560e01c806389f796ba14604c578063d236782314608f578063f19312ff1460a9575b600080fd5b606673b932a70a57673d89f4acffbe830e8ed7f75fb9e081565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b60667317b0c8564e53f22364a6c8de6f7ca5ce9bea4e5d81565b60667341a322b28d0ff354040e2cbc676f0320d8c8850d8156fea26469706673582212204b3b48a4983e00c55b7f093e802e80c1722621f06052dfd9917e1516a581149664736f6c634300080a0033",
+    "sourceMap": "58:298:13:-:0;;;;;;;;;;;;;;;-1:-1:-1;;;58:298:13;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x730000000000000000000000000000000000000000301460806040526004361060475760003560e01c806389f796ba14604c578063d236782314608f578063f19312ff1460a9575b600080fd5b606673b932a70a57673d89f4acffbe830e8ed7f75fb9e081565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b60667317b0c8564e53f22364a6c8de6f7ca5ce9bea4e5d81565b60667341a322b28d0ff354040e2cbc676f0320d8c8850d8156fea26469706673582212204b3b48a4983e00c55b7f093e802e80c1722621f06052dfd9917e1516a581149664736f6c634300080a0033",
+    "sourceMap": "58:298:13:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;271:81;;310:42;271:81;;;;;198:42:128;186:55;;;168:74;;156:2;141:18;271:81:13;;;;;;;91:87;;136:42;91:87;;184:81;;223:42;184:81;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "SUPERRARE_REGISTRY()": "d2367823",
+    "SUPERRARE_V1()": "f19312ff",
+    "SUPERRARE_V2()": "89f796ba"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"SUPERRARE_REGISTRY\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"SUPERRARE_V1\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"SUPERRARE_V2\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/manifold/libraries/SuperRareContracts.sol\":\"SuperRareContracts\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@manifoldxyz/=node_modules/@manifoldxyz/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/manifold/libraries/SuperRareContracts.sol\":{\"keccak256\":\"0xe75565539822f6faad3d042d8605a875c79055380fc976298e5fb3b921ef03f8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://73de00d1041e32945dd5ce2159431083e9ee8827ffedf7a2547729e421d4c89c\",\"dweb:/ipfs/Qmb3RZq7UW21vrroJz4rTZHBJR9pBBBxvjR75DbYTZdSch\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "SUPERRARE_REGISTRY",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "SUPERRARE_V1",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "SUPERRARE_V2",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@manifoldxyz/=node_modules/@manifoldxyz/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/manifold/libraries/SuperRareContracts.sol": "SuperRareContracts"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/manifold/libraries/SuperRareContracts.sol": {
+        "keccak256": "0xe75565539822f6faad3d042d8605a875c79055380fc976298e5fb3b921ef03f8",
+        "urls": [
+          "bzz-raw://73de00d1041e32945dd5ce2159431083e9ee8827ffedf7a2547729e421d4c89c",
+          "dweb:/ipfs/Qmb3RZq7UW21vrroJz4rTZHBJR9pBBBxvjR75DbYTZdSch"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/manifold/libraries/SuperRareContracts.sol",
+    "id": 2519,
+    "exportedSymbols": {
+      "SuperRareContracts": [
+        2518
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:323:13",
+    "nodes": [
+      {
+        "id": 2508,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:13",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 2518,
+        "nodeType": "ContractDefinition",
+        "src": "58:298:13",
+        "nodes": [
+          {
+            "id": 2511,
+            "nodeType": "VariableDeclaration",
+            "src": "91:87:13",
+            "constant": true,
+            "functionSelector": "d2367823",
+            "mutability": "constant",
+            "name": "SUPERRARE_REGISTRY",
+            "nameLocation": "115:18:13",
+            "scope": 2518,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 2509,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "91:7:13",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "hexValue": "307831374230433835363445353366323233363441364338646536463763613543453942456134653544",
+              "id": 2510,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "136:42:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              },
+              "value": "0x17B0C8564E53f22364A6C8de6F7ca5CE9BEa4e5D"
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 2514,
+            "nodeType": "VariableDeclaration",
+            "src": "184:81:13",
+            "constant": true,
+            "functionSelector": "f19312ff",
+            "mutability": "constant",
+            "name": "SUPERRARE_V1",
+            "nameLocation": "208:12:13",
+            "scope": 2518,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 2512,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "184:7:13",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "hexValue": "307834314133323262323844306646333534303430653243624336373646303332306438633838353064",
+              "id": 2513,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "223:42:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              },
+              "value": "0x41A322b28D0fF354040e2CbC676F0320d8c8850d"
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 2517,
+            "nodeType": "VariableDeclaration",
+            "src": "271:81:13",
+            "constant": true,
+            "functionSelector": "89f796ba",
+            "mutability": "constant",
+            "name": "SUPERRARE_V2",
+            "nameLocation": "295:12:13",
+            "scope": 2518,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 2515,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "271:7:13",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": {
+              "hexValue": "307862393332613730413537363733643839663461636646424538333045386564376637354662396530",
+              "id": 2516,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "310:42:13",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              },
+              "value": "0xb932a70A57673d89f4acfFBE830E8ed7f75Fb9e0"
+            },
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "SuperRareContracts",
+        "contractDependencies": [],
+        "contractKind": "library",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          2518
+        ],
+        "name": "SuperRareContracts",
+        "nameLocation": "66:18:13",
+        "scope": 2519,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 13
+}

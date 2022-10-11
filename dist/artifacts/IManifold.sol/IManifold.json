@@ -1,0 +1,308 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getRoyalties",
+      "outputs": [
+        {
+          "internalType": "address payable[]",
+          "name": "",
+          "type": "address[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getRoyalties(uint256)": "bb3bafd6"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"getRoyalties\",\"outputs\":[{\"internalType\":\"address payable[]\",\"name\":\"\",\"type\":\"address[]\"},{\"internalType\":\"uint256[]\",\"name\":\"\",\"type\":\"uint256[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Royalty interface for creator core classes\",\"kind\":\"dev\",\"methods\":{\"getRoyalties(uint256)\":{\"details\":\"Get royalites of a token.  Returns list of receivers and basisPoints  bytes4(keccak256('getRoyalties(uint256)')) == 0xbb3bafd6  => 0xbb3bafd6 = 0xbb3bafd6\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/manifold/specs/IManifold.sol\":\"IManifold\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@manifoldxyz/=node_modules/@manifoldxyz/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/manifold/specs/IManifold.sol\":{\"keccak256\":\"0x2415afdf23699b1e50e1a9f8ad7c3550b5e718e7707db5f6648fbdee93afbe97\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5dc2f01bee50baf2bed6169573e3fe1b990bb876b14c30f201104ebc2f456da3\",\"dweb:/ipfs/Qmcd7Mhi75JsPVGkYjm3AJHJ1iU4CqwGYpc3m8GjSBnrah\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getRoyalties",
+          "outputs": [
+            {
+              "internalType": "address payable[]",
+              "name": "",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "",
+              "type": "uint256[]"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "getRoyalties(uint256)": {
+            "details": "Get royalites of a token.  Returns list of receivers and basisPoints  bytes4(keccak256('getRoyalties(uint256)')) == 0xbb3bafd6  => 0xbb3bafd6 = 0xbb3bafd6"
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@manifoldxyz/=node_modules/@manifoldxyz/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/manifold/specs/IManifold.sol": "IManifold"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/manifold/specs/IManifold.sol": {
+        "keccak256": "0x2415afdf23699b1e50e1a9f8ad7c3550b5e718e7707db5f6648fbdee93afbe97",
+        "urls": [
+          "bzz-raw://5dc2f01bee50baf2bed6169573e3fe1b990bb876b14c30f201104ebc2f456da3",
+          "dweb:/ipfs/Qmcd7Mhi75JsPVGkYjm3AJHJ1iU4CqwGYpc3m8GjSBnrah"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/manifold/specs/IManifold.sol",
+    "id": 3136,
+    "exportedSymbols": {
+      "IManifold": [
+        3135
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:457:24",
+    "nodes": [
+      {
+        "id": 3121,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:24",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 3135,
+        "nodeType": "ContractDefinition",
+        "src": "144:346:24",
+        "nodes": [
+          {
+            "id": 3134,
+            "nodeType": "FunctionDefinition",
+            "src": "382:106:24",
+            "documentation": {
+              "id": 3123,
+              "nodeType": "StructuredDocumentation",
+              "src": "171:206:24",
+              "text": " @dev Get royalites of a token.  Returns list of receivers and basisPoints\n  bytes4(keccak256('getRoyalties(uint256)')) == 0xbb3bafd6\n  => 0xbb3bafd6 = 0xbb3bafd6"
+            },
+            "functionSelector": "bb3bafd6",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getRoyalties",
+            "nameLocation": "391:12:24",
+            "parameters": {
+              "id": 3126,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3125,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nameLocation": "412:7:24",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3134,
+                  "src": "404:15:24",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 3124,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "404:7:24",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "403:17:24"
+            },
+            "returnParameters": {
+              "id": 3133,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3129,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3134,
+                  "src": "444:24:24",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_payable_$dyn_memory_ptr",
+                    "typeString": "address payable[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 3127,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "444:15:24",
+                      "stateMutability": "payable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "id": 3128,
+                    "nodeType": "ArrayTypeName",
+                    "src": "444:17:24",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_payable_$dyn_storage_ptr",
+                      "typeString": "address payable[]"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3132,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3134,
+                  "src": "470:16:24",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 3130,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "470:7:24",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 3131,
+                    "nodeType": "ArrayTypeName",
+                    "src": "470:9:24",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "443:44:24"
+            },
+            "scope": 3135,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IManifold",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 3122,
+          "nodeType": "StructuredDocumentation",
+          "src": "85:58:24",
+          "text": " @dev Royalty interface for creator core classes"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          3135
+        ],
+        "name": "IManifold",
+        "nameLocation": "154:9:24",
+        "scope": 3136,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 24
+}

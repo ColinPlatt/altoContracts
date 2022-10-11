@@ -1,0 +1,203 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "admin",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "admin()": "f851a440"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"admin\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Art Blocks nfts\",\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/manifold/specs/IArtBlocks.sol\":\"IArtBlocks\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@manifoldxyz/=node_modules/@manifoldxyz/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/manifold/specs/IArtBlocks.sol\":{\"keccak256\":\"0xca38d8627a2d172f9a92af7e8d7bf696483919246a72a94e9aa247ab67f504aa\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8d1c3b29c2f134eaeaec37b8278b22c371389e300a9c2520cd64a0c3f46d5bb4\",\"dweb:/ipfs/QmdL9LyXWXnNCFg3AwK9EN8o4McYhdiG5xDCc5Lf2hcRz6\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "admin",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@manifoldxyz/=node_modules/@manifoldxyz/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/manifold/specs/IArtBlocks.sol": "IArtBlocks"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/manifold/specs/IArtBlocks.sol": {
+        "keccak256": "0xca38d8627a2d172f9a92af7e8d7bf696483919246a72a94e9aa247ab67f504aa",
+        "urls": [
+          "bzz-raw://8d1c3b29c2f134eaeaec37b8278b22c371389e300a9c2520cd64a0c3f46d5bb4",
+          "dweb:/ipfs/QmdL9LyXWXnNCFg3AwK9EN8o4McYhdiG5xDCc5Lf2hcRz6"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/manifold/specs/IArtBlocks.sol",
+    "id": 3040,
+    "exportedSymbols": {
+      "IArtBlocks": [
+        3039
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:185:19",
+    "nodes": [
+      {
+        "id": 3032,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:19",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 3039,
+        "nodeType": "ContractDefinition",
+        "src": "90:127:19",
+        "nodes": [
+          {
+            "id": 3038,
+            "nodeType": "FunctionDefinition",
+            "src": "166:49:19",
+            "functionSelector": "f851a440",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "admin",
+            "nameLocation": "175:5:19",
+            "parameters": {
+              "id": 3034,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "180:2:19"
+            },
+            "returnParameters": {
+              "id": 3037,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3036,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3038,
+                  "src": "206:7:19",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3035,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "206:7:19",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "205:9:19"
+            },
+            "scope": 3039,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IArtBlocks",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 3033,
+          "nodeType": "StructuredDocumentation",
+          "src": "58:31:19",
+          "text": " @dev Art Blocks nfts"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          3039
+        ],
+        "name": "IArtBlocks",
+        "nameLocation": "100:10:19",
+        "scope": 3040,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 19
+}

@@ -1,0 +1,1932 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "media",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "convertBidShares",
+      "outputs": [
+        {
+          "internalType": "address payable[]",
+          "name": "receivers",
+          "type": "address[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "bps",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5061073c806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806301ffc9a71461003b578063f662207414610063575b600080fd5b61004e6100493660046103c6565b610084565b60405190151581526020015b60405180910390f35b610076610071366004610434565b61011d565b60405161005a929190610460565b60007fffffffff0000000000000000000000000000000000000000000000000000000082167ff662207400000000000000000000000000000000000000000000000000000000148061011757507f01ffc9a7000000000000000000000000000000000000000000000000000000007fffffffff000000000000000000000000000000000000000000000000000000008316145b92915050565b60608060008473ffffffffffffffffffffffffffffffffffffffff1663a1794bcd6040518163ffffffff1660e01b8152600401602060405180830381865afa15801561016d573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061019191906104f1565b73ffffffffffffffffffffffffffffffffffffffff1663f9ce0582856040518263ffffffff1660e01b81526004016101cb91815260200190565b606060405180830381865afa1580156101e8573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061020c91906105a6565b6020810151519091506000901561022b57806102278161063c565b9150505b8067ffffffffffffffff8111156102445761024461050e565b60405190808252806020026020018201604052801561026d578160200160208202803683370190505b5093508067ffffffffffffffff8111156102895761028961050e565b6040519080825280602002602001820160405280156102b2578160200160208202803683370190505b50602083015151909350156103bd576040517fe0fd045f0000000000000000000000000000000000000000000000000000000081526004810186905273ffffffffffffffffffffffffffffffffffffffff87169063e0fd045f90602401602060405180830381865afa15801561032c573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061035091906104f1565b846000815181106103635761036361069c565b73ffffffffffffffffffffffffffffffffffffffff9092166020928302919091018201528201515161039d90662386f26fc10000906106cb565b836000815181106103b0576103b061069c565b6020026020010181815250505b50509250929050565b6000602082840312156103d857600080fd5b81357fffffffff000000000000000000000000000000000000000000000000000000008116811461040857600080fd5b9392505050565b73ffffffffffffffffffffffffffffffffffffffff8116811461043157600080fd5b50565b6000806040838503121561044757600080fd5b82356104528161040f565b946020939093013593505050565b604080825283519082018190526000906020906060840190828701845b828110156104af57815173ffffffffffffffffffffffffffffffffffffffff168452928401929084019060010161047d565b5050508381038285015284518082528583019183019060005b818110156104e4578351835292840192918401916001016104c8565b5090979650505050505050565b60006020828403121561050357600080fd5b81516104088161040f565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b60006020828403121561054f57600080fd5b6040516020810181811067ffffffffffffffff82111715610599577f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b6040529151825250919050565b6000606082840312156105b857600080fd5b6040516060810181811067ffffffffffffffff82111715610602577f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b60405261060f848461053d565b815261061e846020850161053d565b6020820152610630846040850161053d565b60408201529392505050565b60007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff821415610695577f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b5060010190565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b600082610701577f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b50049056fea26469706673582212202d324de2ffd5149d8acadcd5f0bf012a9754d7758fbbd7432461a571d7e98e0164736f6c634300080a0033",
+    "sourceMap": "236:1537:12:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806301ffc9a71461003b578063f662207414610063575b600080fd5b61004e6100493660046103c6565b610084565b60405190151581526020015b60405180910390f35b610076610071366004610434565b61011d565b60405161005a929190610460565b60007fffffffff0000000000000000000000000000000000000000000000000000000082167ff662207400000000000000000000000000000000000000000000000000000000148061011757507f01ffc9a7000000000000000000000000000000000000000000000000000000007fffffffff000000000000000000000000000000000000000000000000000000008316145b92915050565b60608060008473ffffffffffffffffffffffffffffffffffffffff1663a1794bcd6040518163ffffffff1660e01b8152600401602060405180830381865afa15801561016d573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061019191906104f1565b73ffffffffffffffffffffffffffffffffffffffff1663f9ce0582856040518263ffffffff1660e01b81526004016101cb91815260200190565b606060405180830381865afa1580156101e8573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061020c91906105a6565b6020810151519091506000901561022b57806102278161063c565b9150505b8067ffffffffffffffff8111156102445761024461050e565b60405190808252806020026020018201604052801561026d578160200160208202803683370190505b5093508067ffffffffffffffff8111156102895761028961050e565b6040519080825280602002602001820160405280156102b2578160200160208202803683370190505b50602083015151909350156103bd576040517fe0fd045f0000000000000000000000000000000000000000000000000000000081526004810186905273ffffffffffffffffffffffffffffffffffffffff87169063e0fd045f90602401602060405180830381865afa15801561032c573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061035091906104f1565b846000815181106103635761036361069c565b73ffffffffffffffffffffffffffffffffffffffff9092166020928302919091018201528201515161039d90662386f26fc10000906106cb565b836000815181106103b0576103b061069c565b6020026020010181815250505b50509250929050565b6000602082840312156103d857600080fd5b81357fffffffff000000000000000000000000000000000000000000000000000000008116811461040857600080fd5b9392505050565b73ffffffffffffffffffffffffffffffffffffffff8116811461043157600080fd5b50565b6000806040838503121561044757600080fd5b82356104528161040f565b946020939093013593505050565b604080825283519082018190526000906020906060840190828701845b828110156104af57815173ffffffffffffffffffffffffffffffffffffffff168452928401929084019060010161047d565b5050508381038285015284518082528583019183019060005b818110156104e4578351835292840192918401916001016104c8565b5090979650505050505050565b60006020828403121561050357600080fd5b81516104088161040f565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b60006020828403121561054f57600080fd5b6040516020810181811067ffffffffffffffff82111715610599577f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b6040529151825250919050565b6000606082840312156105b857600080fd5b6040516060810181811067ffffffffffffffff82111715610602577f4e487b7100000000000000000000000000000000000000000000000000000000600052604160045260246000fd5b60405261060f848461053d565b815261061e846020850161053d565b6020820152610630846040850161053d565b60408201529392505050565b60007fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff821415610695577f4e487b7100000000000000000000000000000000000000000000000000000000600052601160045260246000fd5b5060010190565b7f4e487b7100000000000000000000000000000000000000000000000000000000600052603260045260246000fd5b600082610701577f4e487b7100000000000000000000000000000000000000000000000000000000600052601260045260246000fd5b50049056fea26469706673582212202d324de2ffd5149d8acadcd5f0bf012a9754d7758fbbd7432461a571d7e98e0164736f6c634300080a0033",
+    "sourceMap": "236:1537:12:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;290:209;;;;;;:::i;:::-;;:::i;:::-;;;516:14:128;;509:22;491:41;;479:2;464:18;290:209:12;;;;;;;;571:1200;;;;;;:::i;:::-;;:::i;:::-;;;;;;;;:::i;290:209::-;383:4;406:46;;;421:31;406:46;;:86;;-1:-1:-1;952:25:123;937:40;;;;456:36:12;399:93;290:209;-1:-1:-1;;290:209:12:o;571:1200::-;659:34;695:20;727:42;795:5;784:32;;;:34;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;772:65;;;838:7;772:74;;;;;;;;;;;;;2646:25:128;;2634:2;2619:18;;2500:177;772:74:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;1163:17;;;;:23;727:119;;-1:-1:-1;906:19:12;;1163:28;1159:47;;1193:13;;;;:::i;:::-;;;;1159:47;1476:11;1454:34;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;1454:34:12;;1442:46;;1518:11;1504:26;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;1504:26:12;-1:-1:-1;1545:17:12;;;;:23;1498:32;;-1:-1:-1;1545:28:12;1541:182;;1612:40;;;;;;;;2646:25:128;;;1612:31:12;;;;;;2619:18:128;;1612:40:12;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;1589:9;1599:1;1589:12;;;;;;;;:::i;:::-;:64;;;;:12;;;;;;;;;;:64;1676:17;;;:23;:36;;1701:10;;1676:36;:::i;:::-;1667:3;1671:1;1667:6;;;;;;;;:::i;:::-;;;;;;:45;;;;;1541:182;1741:23;;571:1200;;;;;:::o;14:332:128:-;72:6;125:2;113:9;104:7;100:23;96:32;93:52;;;141:1;138;131:12;93:52;180:9;167:23;230:66;223:5;219:78;212:5;209:89;199:117;;312:1;309;302:12;199:117;335:5;14:332;-1:-1:-1;;;14:332:128:o;543:154::-;629:42;622:5;618:54;611:5;608:65;598:93;;687:1;684;677:12;598:93;543:154;:::o;702:315::-;770:6;778;831:2;819:9;810:7;806:23;802:32;799:52;;;847:1;844;837:12;799:52;886:9;873:23;905:31;930:5;905:31;:::i;:::-;955:5;1007:2;992:18;;;;979:32;;-1:-1:-1;;;702:315:128:o;1022:1217::-;1306:2;1318:21;;;1388:13;;1291:18;;;1410:22;;;1258:4;;1485;;1463:2;1448:18;;;1512:15;;;1258:4;1555:218;1569:6;1566:1;1563:13;1555:218;;;1634:13;;1649:42;1630:62;1618:75;;1713:12;;;;1748:15;;;;1591:1;1584:9;1555:218;;;-1:-1:-1;;;1809:19:128;;;1789:18;;;1782:47;1879:13;;1901:21;;;1977:15;;;;1940:12;;;2012:1;2022:189;2038:8;2033:3;2030:17;2022:189;;;2107:15;;2093:30;;2184:17;;;;2145:14;;;;2066:1;2057:11;2022:189;;;-1:-1:-1;2228:5:128;;1022:1217;-1:-1:-1;;;;;;;1022:1217:128:o;2244:251::-;2314:6;2367:2;2355:9;2346:7;2342:23;2338:32;2335:52;;;2383:1;2380;2373:12;2335:52;2415:9;2409:16;2434:31;2459:5;2434:31;:::i;2682:184::-;2734:77;2731:1;2724:88;2831:4;2828:1;2821:15;2855:4;2852:1;2845:15;2871:568;2940:5;2988:4;2976:9;2971:3;2967:19;2963:30;2960:50;;;3006:1;3003;2996:12;2960:50;3039:2;3033:9;3081:4;3073:6;3069:17;3152:6;3140:10;3137:22;3116:18;3104:10;3101:34;3098:62;3095:242;;;3193:77;3190:1;3183:88;3294:4;3291:1;3284:15;3322:4;3319:1;3312:15;3095:242;3353:2;3346:22;3416:16;;3401:32;;-1:-1:-1;3386:6:128;2871:568;-1:-1:-1;2871:568:128:o;3444:852::-;3545:6;3598:2;3586:9;3577:7;3573:23;3569:32;3566:52;;;3614:1;3611;3604:12;3566:52;3647:2;3641:9;3689:2;3681:6;3677:15;3758:6;3746:10;3743:22;3722:18;3710:10;3707:34;3704:62;3701:242;;;3799:77;3796:1;3789:88;3900:4;3897:1;3890:15;3928:4;3925:1;3918:15;3701:242;3959:2;3952:22;3998:60;4050:7;4039:9;3998:60;:::i;:::-;3990:6;3983:76;4092:69;4153:7;4148:2;4137:9;4133:18;4092:69;:::i;:::-;4087:2;4079:6;4075:15;4068:94;4195:69;4256:7;4251:2;4240:9;4236:18;4195:69;:::i;:::-;4190:2;4178:15;;4171:94;4182:6;3444:852;-1:-1:-1;;;3444:852:128:o;4301:349::-;4340:3;4371:66;4364:5;4361:77;4358:257;;;4471:77;4468:1;4461:88;4572:4;4569:1;4562:15;4600:4;4597:1;4590:15;4358:257;-1:-1:-1;4642:1:128;4631:13;;4301:349::o;4655:184::-;4707:77;4704:1;4697:88;4804:4;4801:1;4794:15;4828:4;4825:1;4818:15;4844:274;4884:1;4910;4900:189;;4945:77;4942:1;4935:88;5046:4;5043:1;5036:15;5074:4;5071:1;5064:15;4900:189;-1:-1:-1;5103:9:128;;4844:274::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "convertBidShares(address,uint256)": "f6622074",
+    "supportsInterface(bytes4)": "01ffc9a7"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"media\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"convertBidShares\",\"outputs\":[{\"internalType\":\"address payable[]\",\"name\":\"receivers\",\"type\":\"address[]\"},{\"internalType\":\"uint256[]\",\"name\":\"bps\",\"type\":\"uint256[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Implementation of Zora override\",\"kind\":\"dev\",\"methods\":{\"convertBidShares(address,uint256)\":{\"details\":\"See {IZoraOverride.convertBidShares}.\"},\"supportsInterface(bytes4)\":{\"details\":\"See {IERC165-supportsInterface}.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/manifold/impl/ZoraOverride.sol\":\"ZoraOverride\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@manifoldxyz/=node_modules/@manifoldxyz/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/manifold/impl/ZoraOverride.sol\":{\"keccak256\":\"0xff101dea7daf99274e6b63470a02a24adbaf66f267838b8e3e51aec344a70ff4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4cf231acbc3010a20056364400c5aa6bd108e6227f2860d7749db38124f074d7\",\"dweb:/ipfs/QmVZe35iv4TmwWk8zButQERNBQs7xnRVVmiLhHzcHAbr4V\"]},\"contracts/manifold/specs/IZoraOverride.sol\":{\"keccak256\":\"0x44ceeff92022d1105b35464584e863a5b0391c0d7caa8d1dcce661bff5773d6b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://99fb0e0dfd8690ffd3b709af7352948f5e91385f6e2531244966460e282d61e6\",\"dweb:/ipfs/QmRJmgdMv2Uikm5SWhafg1bSSCntBv47xzCRbcomTwGqkr\"]},\"node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol\":{\"keccak256\":\"0xd10975de010d89fd1c78dc5e8a9a7e7f496198085c151648f20cba166b32582b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://fb0048dee081f6fffa5f74afc3fb328483c2a30504e94a0ddd2a5114d731ec4d\",\"dweb:/ipfs/QmZptt1nmYoA5SgjwnSgWqgUSDgm4q52Yos3xhnMv3MV43\"]},\"node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0x447a5f3ddc18419d41ff92b3773fb86471b1db25773e07f877f548918a185bf1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://be161e54f24e5c6fae81a12db1a8ae87bc5ae1b0ddc805d82a1440a68455088f\",\"dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "media",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "convertBidShares",
+          "outputs": [
+            {
+              "internalType": "address payable[]",
+              "name": "receivers",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "bps",
+              "type": "uint256[]"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes4",
+              "name": "interfaceId",
+              "type": "bytes4"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "supportsInterface",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "convertBidShares(address,uint256)": {
+            "details": "See {IZoraOverride.convertBidShares}."
+          },
+          "supportsInterface(bytes4)": {
+            "details": "See {IERC165-supportsInterface}."
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@manifoldxyz/=node_modules/@manifoldxyz/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/manifold/impl/ZoraOverride.sol": "ZoraOverride"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/manifold/impl/ZoraOverride.sol": {
+        "keccak256": "0xff101dea7daf99274e6b63470a02a24adbaf66f267838b8e3e51aec344a70ff4",
+        "urls": [
+          "bzz-raw://4cf231acbc3010a20056364400c5aa6bd108e6227f2860d7749db38124f074d7",
+          "dweb:/ipfs/QmVZe35iv4TmwWk8zButQERNBQs7xnRVVmiLhHzcHAbr4V"
+        ],
+        "license": "MIT"
+      },
+      "contracts/manifold/specs/IZoraOverride.sol": {
+        "keccak256": "0x44ceeff92022d1105b35464584e863a5b0391c0d7caa8d1dcce661bff5773d6b",
+        "urls": [
+          "bzz-raw://99fb0e0dfd8690ffd3b709af7352948f5e91385f6e2531244966460e282d61e6",
+          "dweb:/ipfs/QmRJmgdMv2Uikm5SWhafg1bSSCntBv47xzCRbcomTwGqkr"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+        "keccak256": "0xd10975de010d89fd1c78dc5e8a9a7e7f496198085c151648f20cba166b32582b",
+        "urls": [
+          "bzz-raw://fb0048dee081f6fffa5f74afc3fb328483c2a30504e94a0ddd2a5114d731ec4d",
+          "dweb:/ipfs/QmZptt1nmYoA5SgjwnSgWqgUSDgm4q52Yos3xhnMv3MV43"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+        "keccak256": "0x447a5f3ddc18419d41ff92b3773fb86471b1db25773e07f877f548918a185bf1",
+        "urls": [
+          "bzz-raw://be161e54f24e5c6fae81a12db1a8ae87bc5ae1b0ddc805d82a1440a68455088f",
+          "dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/manifold/impl/ZoraOverride.sol",
+    "id": 2507,
+    "exportedSymbols": {
+      "ERC165": [
+        57404
+      ],
+      "IERC165": [
+        57618
+      ],
+      "IZoraMarket": [
+        3248
+      ],
+      "IZoraMedia": [
+        3278
+      ],
+      "IZoraOverride": [
+        3294
+      ],
+      "ZoraOverride": [
+        2506
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:1740:12",
+    "nodes": [
+      {
+        "id": 2374,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:12",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 2375,
+        "nodeType": "ImportDirective",
+        "src": "85:64:12",
+        "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "file": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 2507,
+        "sourceUnit": 57405,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 2376,
+        "nodeType": "ImportDirective",
+        "src": "150:36:12",
+        "absolutePath": "contracts/manifold/specs/IZoraOverride.sol",
+        "file": "../specs/IZoraOverride.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 2507,
+        "sourceUnit": 3295,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 2506,
+        "nodeType": "ContractDefinition",
+        "src": "236:1537:12",
+        "nodes": [
+          {
+            "id": 2403,
+            "nodeType": "FunctionDefinition",
+            "src": "290:209:12",
+            "body": {
+              "id": 2402,
+              "nodeType": "Block",
+              "src": "389:110:12",
+              "statements": [
+                {
+                  "expression": {
+                    "commonType": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "id": 2400,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "commonType": {
+                        "typeIdentifier": "t_bytes4",
+                        "typeString": "bytes4"
+                      },
+                      "id": 2395,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "id": 2390,
+                        "name": "interfaceId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2383,
+                        "src": "406:11:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes4",
+                          "typeString": "bytes4"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": "==",
+                      "rightExpression": {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "id": 2392,
+                              "name": "IZoraOverride",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 3294,
+                              "src": "426:13:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_contract$_IZoraOverride_$3294_$",
+                                "typeString": "type(contract IZoraOverride)"
+                              }
+                            }
+                          ],
+                          "expression": {
+                            "argumentTypes": [
+                              {
+                                "typeIdentifier": "t_type$_t_contract$_IZoraOverride_$3294_$",
+                                "typeString": "type(contract IZoraOverride)"
+                              }
+                            ],
+                            "id": 2391,
+                            "name": "type",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -27,
+                            "src": "421:4:12",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_metatype_pure$__$returns$__$",
+                              "typeString": "function () pure"
+                            }
+                          },
+                          "id": 2393,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "421:19:12",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_meta_type_t_contract$_IZoraOverride_$3294",
+                            "typeString": "type(contract IZoraOverride)"
+                          }
+                        },
+                        "id": 2394,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "memberName": "interfaceId",
+                        "nodeType": "MemberAccess",
+                        "src": "421:31:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes4",
+                          "typeString": "bytes4"
+                        }
+                      },
+                      "src": "406:46:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "||",
+                    "rightExpression": {
+                      "arguments": [
+                        {
+                          "id": 2398,
+                          "name": "interfaceId",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 2383,
+                          "src": "480:11:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bytes4",
+                            "typeString": "bytes4"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_bytes4",
+                            "typeString": "bytes4"
+                          }
+                        ],
+                        "expression": {
+                          "id": 2396,
+                          "name": "super",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -25,
+                          "src": "456:5:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_super$_ZoraOverride_$2506_$",
+                            "typeString": "type(contract super ZoraOverride)"
+                          }
+                        },
+                        "id": 2397,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "supportsInterface",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 57403,
+                        "src": "456:23:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_view$_t_bytes4_$returns$_t_bool_$",
+                          "typeString": "function (bytes4) view returns (bool)"
+                        }
+                      },
+                      "id": 2399,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "456:36:12",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "406:86:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 2389,
+                  "id": 2401,
+                  "nodeType": "Return",
+                  "src": "399:93:12"
+                }
+              ]
+            },
+            "baseFunctions": [
+              57403
+            ],
+            "functionSelector": "01ffc9a7",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "supportsInterface",
+            "nameLocation": "299:17:12",
+            "overrides": {
+              "id": 2386,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [
+                {
+                  "id": 2385,
+                  "name": "ERC165",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 57404,
+                  "src": "366:6:12"
+                }
+              ],
+              "src": "357:16:12"
+            },
+            "parameters": {
+              "id": 2384,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2383,
+                  "mutability": "mutable",
+                  "name": "interfaceId",
+                  "nameLocation": "324:11:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2403,
+                  "src": "317:18:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes4",
+                    "typeString": "bytes4"
+                  },
+                  "typeName": {
+                    "id": 2382,
+                    "name": "bytes4",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "317:6:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes4",
+                      "typeString": "bytes4"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "316:20:12"
+            },
+            "returnParameters": {
+              "id": 2389,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2388,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2403,
+                  "src": "383:4:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 2387,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "383:4:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "382:6:12"
+            },
+            "scope": 2506,
+            "stateMutability": "view",
+            "virtual": true,
+            "visibility": "public"
+          },
+          {
+            "id": 2505,
+            "nodeType": "FunctionDefinition",
+            "src": "571:1200:12",
+            "body": {
+              "id": 2504,
+              "nodeType": "Block",
+              "src": "717:1054:12",
+              "statements": [
+                {
+                  "assignments": [
+                    2422
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 2422,
+                      "mutability": "mutable",
+                      "name": "bidShares",
+                      "nameLocation": "760:9:12",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 2504,
+                      "src": "727:42:12",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_ZoraBidShares_$3239_memory_ptr",
+                        "typeString": "struct IZoraMarket.ZoraBidShares"
+                      },
+                      "typeName": {
+                        "id": 2421,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 2420,
+                          "name": "IZoraMarket.ZoraBidShares",
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 3239,
+                          "src": "727:25:12"
+                        },
+                        "referencedDeclaration": 3239,
+                        "src": "727:25:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_ZoraBidShares_$3239_storage_ptr",
+                          "typeString": "struct IZoraMarket.ZoraBidShares"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 2433,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "id": 2431,
+                        "name": "tokenId",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2408,
+                        "src": "838:7:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "arguments": [
+                          {
+                            "arguments": [],
+                            "expression": {
+                              "argumentTypes": [],
+                              "expression": {
+                                "arguments": [
+                                  {
+                                    "id": 2425,
+                                    "name": "media",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 2406,
+                                    "src": "795:5:12",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_address",
+                                      "typeString": "address"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_address",
+                                      "typeString": "address"
+                                    }
+                                  ],
+                                  "id": 2424,
+                                  "name": "IZoraMedia",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 3278,
+                                  "src": "784:10:12",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_contract$_IZoraMedia_$3278_$",
+                                    "typeString": "type(contract IZoraMedia)"
+                                  }
+                                },
+                                "id": 2426,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "typeConversion",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "784:17:12",
+                                "tryCall": false,
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_contract$_IZoraMedia_$3278",
+                                  "typeString": "contract IZoraMedia"
+                                }
+                              },
+                              "id": 2427,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "marketContract",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 3255,
+                              "src": "784:32:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
+                                "typeString": "function () view external returns (address)"
+                              }
+                            },
+                            "id": 2428,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "functionCall",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "784:34:12",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 2423,
+                          "name": "IZoraMarket",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 3248,
+                          "src": "772:11:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_IZoraMarket_$3248_$",
+                            "typeString": "type(contract IZoraMarket)"
+                          }
+                        },
+                        "id": 2429,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "772:47:12",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_IZoraMarket_$3248",
+                          "typeString": "contract IZoraMarket"
+                        }
+                      },
+                      "id": 2430,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "bidSharesForToken",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 3247,
+                      "src": "772:65:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_struct$_ZoraBidShares_$3239_memory_ptr_$",
+                        "typeString": "function (uint256) view external returns (struct IZoraMarket.ZoraBidShares memory)"
+                      }
+                    },
+                    "id": 2432,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "772:74:12",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_ZoraBidShares_$3239_memory_ptr",
+                      "typeString": "struct IZoraMarket.ZoraBidShares memory"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "727:119:12"
+                },
+                {
+                  "assignments": [
+                    2435
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 2435,
+                      "mutability": "mutable",
+                      "name": "totalLength",
+                      "nameLocation": "914:11:12",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 2504,
+                      "src": "906:19:12",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 2434,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "906:7:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 2437,
+                  "initialValue": {
+                    "hexValue": "30",
+                    "id": 2436,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "number",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "928:1:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_rational_0_by_1",
+                      "typeString": "int_const 0"
+                    },
+                    "value": "0"
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "906:23:12"
+                },
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 2442,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "expression": {
+                        "expression": {
+                          "id": 2438,
+                          "name": "bidShares",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 2422,
+                          "src": "1163:9:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_ZoraBidShares_$3239_memory_ptr",
+                            "typeString": "struct IZoraMarket.ZoraBidShares memory"
+                          }
+                        },
+                        "id": 2439,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "creator",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 3235,
+                        "src": "1163:17:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_ZoraDecimal_$3229_memory_ptr",
+                          "typeString": "struct IZoraMarket.ZoraDecimal memory"
+                        }
+                      },
+                      "id": 2440,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "value",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 3228,
+                      "src": "1163:23:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "hexValue": "30",
+                      "id": 2441,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "1190:1:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0"
+                    },
+                    "src": "1163:28:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 2446,
+                  "nodeType": "IfStatement",
+                  "src": "1159:47:12",
+                  "trueBody": {
+                    "expression": {
+                      "id": 2444,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "++",
+                      "prefix": false,
+                      "src": "1193:13:12",
+                      "subExpression": {
+                        "id": 2443,
+                        "name": "totalLength",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2435,
+                        "src": "1193:11:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 2445,
+                    "nodeType": "ExpressionStatement",
+                    "src": "1193:13:12"
+                  }
+                },
+                {
+                  "expression": {
+                    "id": 2453,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 2447,
+                      "name": "receivers",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2413,
+                      "src": "1442:9:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_address_payable_$dyn_memory_ptr",
+                        "typeString": "address payable[] memory"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 2451,
+                          "name": "totalLength",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 2435,
+                          "src": "1476:11:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        ],
+                        "id": 2450,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "1454:21:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_objectcreation_pure$_t_uint256_$returns$_t_array$_t_address_payable_$dyn_memory_ptr_$",
+                          "typeString": "function (uint256) pure returns (address payable[] memory)"
+                        },
+                        "typeName": {
+                          "baseType": {
+                            "id": 2448,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1458:15:12",
+                            "stateMutability": "payable",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address_payable",
+                              "typeString": "address payable"
+                            }
+                          },
+                          "id": 2449,
+                          "nodeType": "ArrayTypeName",
+                          "src": "1458:17:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_array$_t_address_payable_$dyn_storage_ptr",
+                            "typeString": "address payable[]"
+                          }
+                        }
+                      },
+                      "id": 2452,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1454:34:12",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_address_payable_$dyn_memory_ptr",
+                        "typeString": "address payable[] memory"
+                      }
+                    },
+                    "src": "1442:46:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_payable_$dyn_memory_ptr",
+                      "typeString": "address payable[] memory"
+                    }
+                  },
+                  "id": 2454,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1442:46:12"
+                },
+                {
+                  "expression": {
+                    "id": 2461,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 2455,
+                      "name": "bps",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2416,
+                      "src": "1498:3:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                        "typeString": "uint256[] memory"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 2459,
+                          "name": "totalLength",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 2435,
+                          "src": "1518:11:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        ],
+                        "id": 2458,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "lValueRequested": false,
+                        "nodeType": "NewExpression",
+                        "src": "1504:13:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_objectcreation_pure$_t_uint256_$returns$_t_array$_t_uint256_$dyn_memory_ptr_$",
+                          "typeString": "function (uint256) pure returns (uint256[] memory)"
+                        },
+                        "typeName": {
+                          "baseType": {
+                            "id": 2456,
+                            "name": "uint256",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "1508:7:12",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "id": 2457,
+                          "nodeType": "ArrayTypeName",
+                          "src": "1508:9:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                            "typeString": "uint256[]"
+                          }
+                        }
+                      },
+                      "id": 2460,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "functionCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1504:26:12",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                        "typeString": "uint256[] memory"
+                      }
+                    },
+                    "src": "1498:32:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                      "typeString": "uint256[] memory"
+                    }
+                  },
+                  "id": 2462,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1498:32:12"
+                },
+                {
+                  "condition": {
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 2467,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "expression": {
+                        "expression": {
+                          "id": 2463,
+                          "name": "bidShares",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 2422,
+                          "src": "1545:9:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_ZoraBidShares_$3239_memory_ptr",
+                            "typeString": "struct IZoraMarket.ZoraBidShares memory"
+                          }
+                        },
+                        "id": 2464,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "creator",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 3235,
+                        "src": "1545:17:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_ZoraDecimal_$3229_memory_ptr",
+                          "typeString": "struct IZoraMarket.ZoraDecimal memory"
+                        }
+                      },
+                      "id": 2465,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "value",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 3228,
+                      "src": "1545:23:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "!=",
+                    "rightExpression": {
+                      "hexValue": "30",
+                      "id": 2466,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "1572:1:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_0_by_1",
+                        "typeString": "int_const 0"
+                      },
+                      "value": "0"
+                    },
+                    "src": "1545:28:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 2499,
+                  "nodeType": "IfStatement",
+                  "src": "1541:182:12",
+                  "trueBody": {
+                    "id": 2498,
+                    "nodeType": "Block",
+                    "src": "1575:148:12",
+                    "statements": [
+                      {
+                        "expression": {
+                          "id": 2480,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "baseExpression": {
+                              "id": 2468,
+                              "name": "receivers",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 2413,
+                              "src": "1589:9:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_address_payable_$dyn_memory_ptr",
+                                "typeString": "address payable[] memory"
+                              }
+                            },
+                            "id": 2470,
+                            "indexExpression": {
+                              "hexValue": "30",
+                              "id": 2469,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "number",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "1599:1:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                              },
+                              "value": "0"
+                            },
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "nodeType": "IndexAccess",
+                            "src": "1589:12:12",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address_payable",
+                              "typeString": "address payable"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "arguments": [
+                              {
+                                "arguments": [
+                                  {
+                                    "id": 2477,
+                                    "name": "tokenId",
+                                    "nodeType": "Identifier",
+                                    "overloadedDeclarations": [],
+                                    "referencedDeclaration": 2408,
+                                    "src": "1644:7:12",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_uint256",
+                                      "typeString": "uint256"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_uint256",
+                                      "typeString": "uint256"
+                                    }
+                                  ],
+                                  "expression": {
+                                    "arguments": [
+                                      {
+                                        "id": 2474,
+                                        "name": "media",
+                                        "nodeType": "Identifier",
+                                        "overloadedDeclarations": [],
+                                        "referencedDeclaration": 2406,
+                                        "src": "1623:5:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_address",
+                                          "typeString": "address"
+                                        }
+                                      }
+                                    ],
+                                    "expression": {
+                                      "argumentTypes": [
+                                        {
+                                          "typeIdentifier": "t_address",
+                                          "typeString": "address"
+                                        }
+                                      ],
+                                      "id": 2473,
+                                      "name": "IZoraMedia",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": 3278,
+                                      "src": "1612:10:12",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_type$_t_contract$_IZoraMedia_$3278_$",
+                                        "typeString": "type(contract IZoraMedia)"
+                                      }
+                                    },
+                                    "id": 2475,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": false,
+                                    "kind": "typeConversion",
+                                    "lValueRequested": false,
+                                    "names": [],
+                                    "nodeType": "FunctionCall",
+                                    "src": "1612:17:12",
+                                    "tryCall": false,
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_contract$_IZoraMedia_$3278",
+                                      "typeString": "contract IZoraMedia"
+                                    }
+                                  },
+                                  "id": 2476,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": false,
+                                  "lValueRequested": false,
+                                  "memberName": "tokenCreators",
+                                  "nodeType": "MemberAccess",
+                                  "referencedDeclaration": 3269,
+                                  "src": "1612:31:12",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_address_$",
+                                    "typeString": "function (uint256) view external returns (address)"
+                                  }
+                                },
+                                "id": 2478,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "functionCall",
+                                "lValueRequested": false,
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "1612:40:12",
+                                "tryCall": false,
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_address",
+                                  "typeString": "address"
+                                }
+                              ],
+                              "id": 2472,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "nodeType": "ElementaryTypeNameExpression",
+                              "src": "1604:8:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_address_payable_$",
+                                "typeString": "type(address payable)"
+                              },
+                              "typeName": {
+                                "id": 2471,
+                                "name": "address",
+                                "nodeType": "ElementaryTypeName",
+                                "src": "1604:8:12",
+                                "stateMutability": "payable",
+                                "typeDescriptions": {}
+                              }
+                            },
+                            "id": 2479,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "typeConversion",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "1604:49:12",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address_payable",
+                              "typeString": "address payable"
+                            }
+                          },
+                          "src": "1589:64:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address_payable",
+                            "typeString": "address payable"
+                          }
+                        },
+                        "id": 2481,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1589:64:12"
+                      },
+                      {
+                        "expression": {
+                          "id": 2496,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftHandSide": {
+                            "baseExpression": {
+                              "id": 2482,
+                              "name": "bps",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 2416,
+                              "src": "1667:3:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                                "typeString": "uint256[] memory"
+                              }
+                            },
+                            "id": 2484,
+                            "indexExpression": {
+                              "hexValue": "30",
+                              "id": 2483,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "number",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "1671:1:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_rational_0_by_1",
+                                "typeString": "int_const 0"
+                              },
+                              "value": "0"
+                            },
+                            "isConstant": false,
+                            "isLValue": true,
+                            "isPure": false,
+                            "lValueRequested": true,
+                            "nodeType": "IndexAccess",
+                            "src": "1667:6:12",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "Assignment",
+                          "operator": "=",
+                          "rightHandSide": {
+                            "commonType": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "id": 2495,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "leftExpression": {
+                              "expression": {
+                                "expression": {
+                                  "id": 2485,
+                                  "name": "bidShares",
+                                  "nodeType": "Identifier",
+                                  "overloadedDeclarations": [],
+                                  "referencedDeclaration": 2422,
+                                  "src": "1676:9:12",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_struct$_ZoraBidShares_$3239_memory_ptr",
+                                    "typeString": "struct IZoraMarket.ZoraBidShares memory"
+                                  }
+                                },
+                                "id": 2486,
+                                "isConstant": false,
+                                "isLValue": true,
+                                "isPure": false,
+                                "lValueRequested": false,
+                                "memberName": "creator",
+                                "nodeType": "MemberAccess",
+                                "referencedDeclaration": 3235,
+                                "src": "1676:17:12",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_struct$_ZoraDecimal_$3229_memory_ptr",
+                                  "typeString": "struct IZoraMarket.ZoraDecimal memory"
+                                }
+                              },
+                              "id": 2487,
+                              "isConstant": false,
+                              "isLValue": true,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberName": "value",
+                              "nodeType": "MemberAccess",
+                              "referencedDeclaration": 3228,
+                              "src": "1676:23:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "nodeType": "BinaryOperation",
+                            "operator": "/",
+                            "rightExpression": {
+                              "components": [
+                                {
+                                  "commonType": {
+                                    "typeIdentifier": "t_rational_10000000000000000_by_1",
+                                    "typeString": "int_const 10000000000000000"
+                                  },
+                                  "id": 2493,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "lValueRequested": false,
+                                  "leftExpression": {
+                                    "hexValue": "3130",
+                                    "id": 2488,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": true,
+                                    "kind": "number",
+                                    "lValueRequested": false,
+                                    "nodeType": "Literal",
+                                    "src": "1701:2:12",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_rational_10_by_1",
+                                      "typeString": "int_const 10"
+                                    },
+                                    "value": "10"
+                                  },
+                                  "nodeType": "BinaryOperation",
+                                  "operator": "**",
+                                  "rightExpression": {
+                                    "components": [
+                                      {
+                                        "commonType": {
+                                          "typeIdentifier": "t_rational_16_by_1",
+                                          "typeString": "int_const 16"
+                                        },
+                                        "id": 2491,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": true,
+                                        "lValueRequested": false,
+                                        "leftExpression": {
+                                          "hexValue": "3138",
+                                          "id": 2489,
+                                          "isConstant": false,
+                                          "isLValue": false,
+                                          "isPure": true,
+                                          "kind": "number",
+                                          "lValueRequested": false,
+                                          "nodeType": "Literal",
+                                          "src": "1706:2:12",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_rational_18_by_1",
+                                            "typeString": "int_const 18"
+                                          },
+                                          "value": "18"
+                                        },
+                                        "nodeType": "BinaryOperation",
+                                        "operator": "-",
+                                        "rightExpression": {
+                                          "hexValue": "32",
+                                          "id": 2490,
+                                          "isConstant": false,
+                                          "isLValue": false,
+                                          "isPure": true,
+                                          "kind": "number",
+                                          "lValueRequested": false,
+                                          "nodeType": "Literal",
+                                          "src": "1709:1:12",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_rational_2_by_1",
+                                            "typeString": "int_const 2"
+                                          },
+                                          "value": "2"
+                                        },
+                                        "src": "1706:4:12",
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_rational_16_by_1",
+                                          "typeString": "int_const 16"
+                                        }
+                                      }
+                                    ],
+                                    "id": 2492,
+                                    "isConstant": false,
+                                    "isInlineArray": false,
+                                    "isLValue": false,
+                                    "isPure": true,
+                                    "lValueRequested": false,
+                                    "nodeType": "TupleExpression",
+                                    "src": "1705:6:12",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_rational_16_by_1",
+                                      "typeString": "int_const 16"
+                                    }
+                                  },
+                                  "src": "1701:10:12",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_rational_10000000000000000_by_1",
+                                    "typeString": "int_const 10000000000000000"
+                                  }
+                                }
+                              ],
+                              "id": 2494,
+                              "isConstant": false,
+                              "isInlineArray": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "nodeType": "TupleExpression",
+                              "src": "1700:12:12",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_rational_10000000000000000_by_1",
+                                "typeString": "int_const 10000000000000000"
+                              }
+                            },
+                            "src": "1676:36:12",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "src": "1667:45:12",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "id": 2497,
+                        "nodeType": "ExpressionStatement",
+                        "src": "1667:45:12"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "expression": {
+                    "components": [
+                      {
+                        "id": 2500,
+                        "name": "receivers",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2413,
+                        "src": "1749:9:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_address_payable_$dyn_memory_ptr",
+                          "typeString": "address payable[] memory"
+                        }
+                      },
+                      {
+                        "id": 2501,
+                        "name": "bps",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2416,
+                        "src": "1760:3:12",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                          "typeString": "uint256[] memory"
+                        }
+                      }
+                    ],
+                    "id": 2502,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "1748:16:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_array$_t_address_payable_$dyn_memory_ptr_$_t_array$_t_uint256_$dyn_memory_ptr_$",
+                      "typeString": "tuple(address payable[] memory,uint256[] memory)"
+                    }
+                  },
+                  "functionReturnParameters": 2417,
+                  "id": 2503,
+                  "nodeType": "Return",
+                  "src": "1741:23:12"
+                }
+              ]
+            },
+            "baseFunctions": [
+              3293
+            ],
+            "documentation": {
+              "id": 2404,
+              "nodeType": "StructuredDocumentation",
+              "src": "505:61:12",
+              "text": " @dev See {IZoraOverride.convertBidShares}."
+            },
+            "functionSelector": "f6622074",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "convertBidShares",
+            "nameLocation": "580:16:12",
+            "overrides": {
+              "id": 2410,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "641:8:12"
+            },
+            "parameters": {
+              "id": 2409,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2406,
+                  "mutability": "mutable",
+                  "name": "media",
+                  "nameLocation": "605:5:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2505,
+                  "src": "597:13:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 2405,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "597:7:12",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 2408,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nameLocation": "620:7:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2505,
+                  "src": "612:15:12",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 2407,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "612:7:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "596:32:12"
+            },
+            "returnParameters": {
+              "id": 2417,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2413,
+                  "mutability": "mutable",
+                  "name": "receivers",
+                  "nameLocation": "684:9:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2505,
+                  "src": "659:34:12",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_payable_$dyn_memory_ptr",
+                    "typeString": "address payable[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 2411,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "659:15:12",
+                      "stateMutability": "payable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "id": 2412,
+                    "nodeType": "ArrayTypeName",
+                    "src": "659:17:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_payable_$dyn_storage_ptr",
+                      "typeString": "address payable[]"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 2416,
+                  "mutability": "mutable",
+                  "name": "bps",
+                  "nameLocation": "712:3:12",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2505,
+                  "src": "695:20:12",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 2414,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "695:7:12",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 2415,
+                    "nodeType": "ArrayTypeName",
+                    "src": "695:9:12",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "658:58:12"
+            },
+            "scope": 2506,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 2378,
+              "name": "IZoraOverride",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 3294,
+              "src": "261:13:12"
+            },
+            "id": 2379,
+            "nodeType": "InheritanceSpecifier",
+            "src": "261:13:12"
+          },
+          {
+            "baseName": {
+              "id": 2380,
+              "name": "ERC165",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 57404,
+              "src": "276:6:12"
+            },
+            "id": 2381,
+            "nodeType": "InheritanceSpecifier",
+            "src": "276:6:12"
+          }
+        ],
+        "canonicalName": "ZoraOverride",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 2377,
+          "nodeType": "StructuredDocumentation",
+          "src": "188:47:12",
+          "text": " @dev Implementation of Zora override"
+        },
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          2506,
+          57404,
+          57618,
+          3294
+        ],
+        "name": "ZoraOverride",
+        "nameLocation": "245:12:12",
+        "scope": 2507,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 12
+}

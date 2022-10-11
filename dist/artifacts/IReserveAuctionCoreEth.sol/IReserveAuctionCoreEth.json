@@ -1,0 +1,982 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_tokenContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "cancelAuction",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_tokenContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_duration",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_reservePrice",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_sellerFundsRecipient",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_startTime",
+          "type": "uint256"
+        }
+      ],
+      "name": "createAuction",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_tokenContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "createBid",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_tokenContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_reservePrice",
+          "type": "uint256"
+        }
+      ],
+      "name": "setAuctionReservePrice",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_tokenContract",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "settleAuction",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "cancelAuction(address,uint256)": "859b97fe",
+    "createAuction(address,uint256,uint256,uint256,address,uint256)": "06fdd531",
+    "createBid(address,uint256)": "70a7eba9",
+    "setAuctionReservePrice(address,uint256,uint256)": "cbe98dba",
+    "settleAuction(address,uint256)": "5138b08c"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_tokenContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"cancelAuction\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_tokenContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_duration\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_reservePrice\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"_sellerFundsRecipient\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_startTime\",\"type\":\"uint256\"}],\"name\":\"createAuction\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_tokenContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"createBid\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_tokenContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"_reservePrice\",\"type\":\"uint256\"}],\"name\":\"setAuctionReservePrice\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_tokenContract\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_tokenId\",\"type\":\"uint256\"}],\"name\":\"settleAuction\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"kulkarohan\",\"kind\":\"dev\",\"methods\":{\"cancelAuction(address,uint256)\":{\"params\":{\"_tokenContract\":\"The address of the ERC-721 token\",\"_tokenId\":\"The id of the ERC-721 token\"}},\"createAuction(address,uint256,uint256,uint256,address,uint256)\":{\"params\":{\"_duration\":\"The length of time the auction should run after the first bid\",\"_reservePrice\":\"The minimum bid amount to start the auction\",\"_sellerFundsRecipient\":\"The address to send funds to once the auction is complete\",\"_startTime\":\"The time that users can begin placing bids\",\"_tokenContract\":\"The address of the ERC-721 token\",\"_tokenId\":\"The id of the ERC-721 token\"}},\"createBid(address,uint256)\":{\"params\":{\"_tokenContract\":\"The address of the ERC-721 token\",\"_tokenId\":\"The id of the ERC-721 token\"}},\"setAuctionReservePrice(address,uint256,uint256)\":{\"params\":{\"_reservePrice\":\"The new reserve price\",\"_tokenContract\":\"The address of the ERC-721 token\",\"_tokenId\":\"The id of the ERC-721 token\"}},\"settleAuction(address,uint256)\":{\"params\":{\"_tokenContract\":\"The address of the ERC-721 token\",\"_tokenId\":\"The id of the ERC-721 token\"}}},\"title\":\"IReserveAuctionCoreEth\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"cancelAuction(address,uint256)\":{\"notice\":\"Cancels the auction for a given NFT\"},\"createAuction(address,uint256,uint256,uint256,address,uint256)\":{\"notice\":\"Creates an auction for a given NFT\"},\"createBid(address,uint256)\":{\"notice\":\"Places a bid on the auction for a given NFT\"},\"setAuctionReservePrice(address,uint256,uint256)\":{\"notice\":\"Updates the auction reserve price for a given NFT\"},\"settleAuction(address,uint256)\":{\"notice\":\"Ends the auction for a given NFT\"}},\"notice\":\"Interface for Reserve Auction Core ETH\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/modules/ReserveAuction/Core/ETH/IReserveAuctionCoreEth.sol\":\"IReserveAuctionCoreEth\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@manifoldxyz/=node_modules/@manifoldxyz/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/modules/ReserveAuction/Core/ETH/IReserveAuctionCoreEth.sol\":{\"keccak256\":\"0x952ba98af19f49e34a90fd4017489501480160ef89cad0e67fa7d5c2d951e875\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://7bd8374f34d659a66623717ad9a537ceb3226778038089888f76d41d420d69a9\",\"dweb:/ipfs/QmTfYgezkw2Qu5nQnmXV7ua3KizVccWvjuj8943ieqC2iR\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_tokenContract",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "_tokenId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "cancelAuction"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_tokenContract",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "_tokenId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "_duration",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "_reservePrice",
+              "type": "uint256"
+            },
+            {
+              "internalType": "address",
+              "name": "_sellerFundsRecipient",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "_startTime",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "createAuction"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_tokenContract",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "_tokenId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "payable",
+          "type": "function",
+          "name": "createBid"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_tokenContract",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "_tokenId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "_reservePrice",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setAuctionReservePrice"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_tokenContract",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "_tokenId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "settleAuction"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "cancelAuction(address,uint256)": {
+            "params": {
+              "_tokenContract": "The address of the ERC-721 token",
+              "_tokenId": "The id of the ERC-721 token"
+            }
+          },
+          "createAuction(address,uint256,uint256,uint256,address,uint256)": {
+            "params": {
+              "_duration": "The length of time the auction should run after the first bid",
+              "_reservePrice": "The minimum bid amount to start the auction",
+              "_sellerFundsRecipient": "The address to send funds to once the auction is complete",
+              "_startTime": "The time that users can begin placing bids",
+              "_tokenContract": "The address of the ERC-721 token",
+              "_tokenId": "The id of the ERC-721 token"
+            }
+          },
+          "createBid(address,uint256)": {
+            "params": {
+              "_tokenContract": "The address of the ERC-721 token",
+              "_tokenId": "The id of the ERC-721 token"
+            }
+          },
+          "setAuctionReservePrice(address,uint256,uint256)": {
+            "params": {
+              "_reservePrice": "The new reserve price",
+              "_tokenContract": "The address of the ERC-721 token",
+              "_tokenId": "The id of the ERC-721 token"
+            }
+          },
+          "settleAuction(address,uint256)": {
+            "params": {
+              "_tokenContract": "The address of the ERC-721 token",
+              "_tokenId": "The id of the ERC-721 token"
+            }
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "cancelAuction(address,uint256)": {
+            "notice": "Cancels the auction for a given NFT"
+          },
+          "createAuction(address,uint256,uint256,uint256,address,uint256)": {
+            "notice": "Creates an auction for a given NFT"
+          },
+          "createBid(address,uint256)": {
+            "notice": "Places a bid on the auction for a given NFT"
+          },
+          "setAuctionReservePrice(address,uint256,uint256)": {
+            "notice": "Updates the auction reserve price for a given NFT"
+          },
+          "settleAuction(address,uint256)": {
+            "notice": "Ends the auction for a given NFT"
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@manifoldxyz/=node_modules/@manifoldxyz/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/modules/ReserveAuction/Core/ETH/IReserveAuctionCoreEth.sol": "IReserveAuctionCoreEth"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/modules/ReserveAuction/Core/ETH/IReserveAuctionCoreEth.sol": {
+        "keccak256": "0x952ba98af19f49e34a90fd4017489501480160ef89cad0e67fa7d5c2d951e875",
+        "urls": [
+          "bzz-raw://7bd8374f34d659a66623717ad9a537ceb3226778038089888f76d41d420d69a9",
+          "dweb:/ipfs/QmTfYgezkw2Qu5nQnmXV7ua3KizVccWvjuj8943ieqC2iR"
+        ],
+        "license": "GPL-3.0"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/modules/ReserveAuction/Core/ETH/IReserveAuctionCoreEth.sol",
+    "id": 8454,
+    "exportedSymbols": {
+      "IReserveAuctionCoreEth": [
+        8453
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "36:2010:42",
+    "nodes": [
+      {
+        "id": 8401,
+        "nodeType": "PragmaDirective",
+        "src": "36:23:42",
+        "literals": [
+          "solidity",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 8453,
+        "nodeType": "ContractDefinition",
+        "src": "169:1876:42",
+        "nodes": [
+          {
+            "id": 8418,
+            "nodeType": "FunctionDefinition",
+            "src": "698:221:42",
+            "documentation": {
+              "id": 8403,
+              "nodeType": "StructuredDocumentation",
+              "src": "208:485:42",
+              "text": "@notice Creates an auction for a given NFT\n @param _tokenContract The address of the ERC-721 token\n @param _tokenId The id of the ERC-721 token\n @param _duration The length of time the auction should run after the first bid\n @param _reservePrice The minimum bid amount to start the auction\n @param _sellerFundsRecipient The address to send funds to once the auction is complete\n @param _startTime The time that users can begin placing bids"
+            },
+            "functionSelector": "06fdd531",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "createAuction",
+            "nameLocation": "707:13:42",
+            "parameters": {
+              "id": 8416,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8405,
+                  "mutability": "mutable",
+                  "name": "_tokenContract",
+                  "nameLocation": "738:14:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8418,
+                  "src": "730:22:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8404,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "730:7:42",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 8407,
+                  "mutability": "mutable",
+                  "name": "_tokenId",
+                  "nameLocation": "770:8:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8418,
+                  "src": "762:16:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8406,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "762:7:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 8409,
+                  "mutability": "mutable",
+                  "name": "_duration",
+                  "nameLocation": "796:9:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8418,
+                  "src": "788:17:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8408,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "788:7:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 8411,
+                  "mutability": "mutable",
+                  "name": "_reservePrice",
+                  "nameLocation": "823:13:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8418,
+                  "src": "815:21:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8410,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "815:7:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 8413,
+                  "mutability": "mutable",
+                  "name": "_sellerFundsRecipient",
+                  "nameLocation": "854:21:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8418,
+                  "src": "846:29:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8412,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "846:7:42",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 8415,
+                  "mutability": "mutable",
+                  "name": "_startTime",
+                  "nameLocation": "893:10:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8418,
+                  "src": "885:18:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8414,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "885:7:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "720:189:42"
+            },
+            "returnParameters": {
+              "id": 8417,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "918:0:42"
+            },
+            "scope": 8453,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 8428,
+            "nodeType": "FunctionDefinition",
+            "src": "1157:136:42",
+            "documentation": {
+              "id": 8419,
+              "nodeType": "StructuredDocumentation",
+              "src": "925:227:42",
+              "text": "@notice Updates the auction reserve price for a given NFT\n @param _tokenContract The address of the ERC-721 token\n @param _tokenId The id of the ERC-721 token\n @param _reservePrice The new reserve price"
+            },
+            "functionSelector": "cbe98dba",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setAuctionReservePrice",
+            "nameLocation": "1166:22:42",
+            "parameters": {
+              "id": 8426,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8421,
+                  "mutability": "mutable",
+                  "name": "_tokenContract",
+                  "nameLocation": "1206:14:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8428,
+                  "src": "1198:22:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8420,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1198:7:42",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 8423,
+                  "mutability": "mutable",
+                  "name": "_tokenId",
+                  "nameLocation": "1238:8:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8428,
+                  "src": "1230:16:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8422,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1230:7:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 8425,
+                  "mutability": "mutable",
+                  "name": "_reservePrice",
+                  "nameLocation": "1264:13:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8428,
+                  "src": "1256:21:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8424,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1256:7:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1188:95:42"
+            },
+            "returnParameters": {
+              "id": 8427,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1292:0:42"
+            },
+            "scope": 8453,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 8436,
+            "nodeType": "FunctionDefinition",
+            "src": "1466:74:42",
+            "documentation": {
+              "id": 8429,
+              "nodeType": "StructuredDocumentation",
+              "src": "1299:162:42",
+              "text": "@notice Cancels the auction for a given NFT\n @param _tokenContract The address of the ERC-721 token\n @param _tokenId The id of the ERC-721 token"
+            },
+            "functionSelector": "859b97fe",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "cancelAuction",
+            "nameLocation": "1475:13:42",
+            "parameters": {
+              "id": 8434,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8431,
+                  "mutability": "mutable",
+                  "name": "_tokenContract",
+                  "nameLocation": "1497:14:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8436,
+                  "src": "1489:22:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8430,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1489:7:42",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 8433,
+                  "mutability": "mutable",
+                  "name": "_tokenId",
+                  "nameLocation": "1521:8:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8436,
+                  "src": "1513:16:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8432,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1513:7:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1488:42:42"
+            },
+            "returnParameters": {
+              "id": 8435,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1539:0:42"
+            },
+            "scope": 8453,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 8444,
+            "nodeType": "FunctionDefinition",
+            "src": "1721:78:42",
+            "documentation": {
+              "id": 8437,
+              "nodeType": "StructuredDocumentation",
+              "src": "1546:170:42",
+              "text": "@notice Places a bid on the auction for a given NFT\n @param _tokenContract The address of the ERC-721 token\n @param _tokenId The id of the ERC-721 token"
+            },
+            "functionSelector": "70a7eba9",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "createBid",
+            "nameLocation": "1730:9:42",
+            "parameters": {
+              "id": 8442,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8439,
+                  "mutability": "mutable",
+                  "name": "_tokenContract",
+                  "nameLocation": "1748:14:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8444,
+                  "src": "1740:22:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8438,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1740:7:42",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 8441,
+                  "mutability": "mutable",
+                  "name": "_tokenId",
+                  "nameLocation": "1772:8:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8444,
+                  "src": "1764:16:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8440,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1764:7:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1739:42:42"
+            },
+            "returnParameters": {
+              "id": 8443,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1798:0:42"
+            },
+            "scope": 8453,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 8452,
+            "nodeType": "FunctionDefinition",
+            "src": "1969:74:42",
+            "documentation": {
+              "id": 8445,
+              "nodeType": "StructuredDocumentation",
+              "src": "1805:159:42",
+              "text": "@notice Ends the auction for a given NFT\n @param _tokenContract The address of the ERC-721 token\n @param _tokenId The id of the ERC-721 token"
+            },
+            "functionSelector": "5138b08c",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "settleAuction",
+            "nameLocation": "1978:13:42",
+            "parameters": {
+              "id": 8450,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8447,
+                  "mutability": "mutable",
+                  "name": "_tokenContract",
+                  "nameLocation": "2000:14:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8452,
+                  "src": "1992:22:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8446,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1992:7:42",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 8449,
+                  "mutability": "mutable",
+                  "name": "_tokenId",
+                  "nameLocation": "2024:8:42",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8452,
+                  "src": "2016:16:42",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 8448,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2016:7:42",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1991:42:42"
+            },
+            "returnParameters": {
+              "id": 8451,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2042:0:42"
+            },
+            "scope": 8453,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IReserveAuctionCoreEth",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 8402,
+          "nodeType": "StructuredDocumentation",
+          "src": "61:108:42",
+          "text": "@title IReserveAuctionCoreEth\n @author kulkarohan\n @notice Interface for Reserve Auction Core ETH"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          8453
+        ],
+        "name": "IReserveAuctionCoreEth",
+        "nameLocation": "179:22:42",
+        "scope": 8454,
+        "usedErrors": []
+      }
+    ],
+    "license": "GPL-3.0"
+  },
+  "id": 42
+}

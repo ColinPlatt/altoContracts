@@ -1,0 +1,327 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "royaltyInfo",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "royaltyInfo(uint256,uint256)": "2a55205a"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"}],\"name\":\"royaltyInfo\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{\"royaltyInfo(uint256,uint256)\":{\"notice\":\"bytes4(keccak256(\\\"royaltyInfo(uint256,uint256)\\\")) == 0x2a55205a => 0x2a55205a = 0x2a55205a\"}},\"notice\":\"EIP-2981\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/manifold/specs/IEIP2981.sol\":\"IEIP2981\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@manifoldxyz/=node_modules/@manifoldxyz/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/manifold/specs/IEIP2981.sol\":{\"keccak256\":\"0xa150218faf74c7d01e3d9aa712845a2bb519e7fc2ec854e2241c53e4cce163ae\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0ff1b82e48fee1aece0fda4b3c0ce248cca13f3bc1e023035a172a467ad3be07\",\"dweb:/ipfs/QmTBtTg12Qq7AkY34srF1sLbLwvBQKohaTeB1KkyGx7KYk\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "value",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "royaltyInfo",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {
+          "royaltyInfo(uint256,uint256)": {
+            "notice": "bytes4(keccak256(\"royaltyInfo(uint256,uint256)\")) == 0x2a55205a => 0x2a55205a = 0x2a55205a"
+          }
+        },
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@manifoldxyz/=node_modules/@manifoldxyz/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/manifold/specs/IEIP2981.sol": "IEIP2981"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/manifold/specs/IEIP2981.sol": {
+        "keccak256": "0xa150218faf74c7d01e3d9aa712845a2bb519e7fc2ec854e2241c53e4cce163ae",
+        "urls": [
+          "bzz-raw://0ff1b82e48fee1aece0fda4b3c0ce248cca13f3bc1e023035a172a467ad3be07",
+          "dweb:/ipfs/QmTBtTg12Qq7AkY34srF1sLbLwvBQKohaTeB1KkyGx7KYk"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/manifold/specs/IEIP2981.sol",
+    "id": 3092,
+    "exportedSymbols": {
+      "IEIP2981": [
+        3091
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:294:22",
+    "nodes": [
+      {
+        "id": 3077,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:22",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 3091,
+        "nodeType": "ContractDefinition",
+        "src": "78:249:22",
+        "nodes": [
+          {
+            "id": 3090,
+            "nodeType": "FunctionDefinition",
+            "src": "231:94:22",
+            "documentation": {
+              "id": 3079,
+              "nodeType": "StructuredDocumentation",
+              "src": "103:123:22",
+              "text": " bytes4(keccak256(\"royaltyInfo(uint256,uint256)\")) == 0x2a55205a\n => 0x2a55205a = 0x2a55205a"
+            },
+            "functionSelector": "2a55205a",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "royaltyInfo",
+            "nameLocation": "240:11:22",
+            "parameters": {
+              "id": 3084,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3081,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nameLocation": "260:7:22",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3090,
+                  "src": "252:15:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 3080,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "252:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3083,
+                  "mutability": "mutable",
+                  "name": "value",
+                  "nameLocation": "277:5:22",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3090,
+                  "src": "269:13:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 3082,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "269:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "251:32:22"
+            },
+            "returnParameters": {
+              "id": 3089,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3086,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3090,
+                  "src": "307:7:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3085,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "307:7:22",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3088,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3090,
+                  "src": "316:7:22",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 3087,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "316:7:22",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "306:18:22"
+            },
+            "scope": 3091,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IEIP2981",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 3078,
+          "nodeType": "StructuredDocumentation",
+          "src": "58:19:22",
+          "text": " EIP-2981"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          3091
+        ],
+        "name": "IEIP2981",
+        "nameLocation": "88:8:22",
+        "scope": 3092,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 22
+}

@@ -1,0 +1,346 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "tokenAddress",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getRoyalties",
+      "outputs": [
+        {
+          "internalType": "address payable[]",
+          "name": "",
+          "type": "address[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getRoyalties(address,uint256)": "9ca7dc7a"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"tokenAddress\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"getRoyalties\",\"outputs\":[{\"internalType\":\"address payable[]\",\"name\":\"\",\"type\":\"address[]\"},{\"internalType\":\"uint256[]\",\"name\":\"\",\"type\":\"uint256[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"getRoyalties(address,uint256)\":{\"details\":\"Get royalites of a token at a given tokenAddress.      Returns array of receivers and basisPoints.  bytes4(keccak256('getRoyalties(address,uint256)')) == 0x9ca7dc7a  => 0x9ca7dc7a = 0x9ca7dc7a\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Interface for an Art Blocks override\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/manifold/specs/IArtBlocksOverride.sol\":\"IArtBlocksOverride\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@manifoldxyz/=node_modules/@manifoldxyz/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/manifold/specs/IArtBlocksOverride.sol\":{\"keccak256\":\"0x1663f3dfb8c396881d94f1a79fcc41d375ca975cb8e9669be6b1a8da20bdab56\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ae9411e2f043a5a7a594a21ae13e6388a1313cca2a26590ea49e9da966ff94db\",\"dweb:/ipfs/QmYRA2S4beQzhjmEQK1fjqUwfD7qy1HM2w5KH4sbsQ3oPP\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "tokenAddress",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getRoyalties",
+          "outputs": [
+            {
+              "internalType": "address payable[]",
+              "name": "",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "",
+              "type": "uint256[]"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "getRoyalties(address,uint256)": {
+            "details": "Get royalites of a token at a given tokenAddress.      Returns array of receivers and basisPoints.  bytes4(keccak256('getRoyalties(address,uint256)')) == 0x9ca7dc7a  => 0x9ca7dc7a = 0x9ca7dc7a"
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@manifoldxyz/=node_modules/@manifoldxyz/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/manifold/specs/IArtBlocksOverride.sol": "IArtBlocksOverride"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/manifold/specs/IArtBlocksOverride.sol": {
+        "keccak256": "0x1663f3dfb8c396881d94f1a79fcc41d375ca975cb8e9669be6b1a8da20bdab56",
+        "urls": [
+          "bzz-raw://ae9411e2f043a5a7a594a21ae13e6388a1313cca2a26590ea49e9da966ff94db",
+          "dweb:/ipfs/QmYRA2S4beQzhjmEQK1fjqUwfD7qy1HM2w5KH4sbsQ3oPP"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/manifold/specs/IArtBlocksOverride.sol",
+    "id": 3058,
+    "exportedSymbols": {
+      "IArtBlocksOverride": [
+        3057
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:520:20",
+    "nodes": [
+      {
+        "id": 3041,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:20",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 3057,
+        "nodeType": "ContractDefinition",
+        "src": "107:445:20",
+        "nodes": [
+          {
+            "id": 3056,
+            "nodeType": "FunctionDefinition",
+            "src": "398:152:20",
+            "documentation": {
+              "id": 3043,
+              "nodeType": "StructuredDocumentation",
+              "src": "142:251:20",
+              "text": " @dev Get royalites of a token at a given tokenAddress.\n      Returns array of receivers and basisPoints.\n  bytes4(keccak256('getRoyalties(address,uint256)')) == 0x9ca7dc7a\n  => 0x9ca7dc7a = 0x9ca7dc7a"
+            },
+            "functionSelector": "9ca7dc7a",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getRoyalties",
+            "nameLocation": "407:12:20",
+            "parameters": {
+              "id": 3048,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3045,
+                  "mutability": "mutable",
+                  "name": "tokenAddress",
+                  "nameLocation": "428:12:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3056,
+                  "src": "420:20:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3044,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "420:7:20",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3047,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nameLocation": "450:7:20",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3056,
+                  "src": "442:15:20",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 3046,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "442:7:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "419:39:20"
+            },
+            "returnParameters": {
+              "id": 3055,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3051,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3056,
+                  "src": "506:24:20",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_payable_$dyn_memory_ptr",
+                    "typeString": "address payable[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 3049,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "506:15:20",
+                      "stateMutability": "payable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "id": 3050,
+                    "nodeType": "ArrayTypeName",
+                    "src": "506:17:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_payable_$dyn_storage_ptr",
+                      "typeString": "address payable[]"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3054,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3056,
+                  "src": "532:16:20",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 3052,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "532:7:20",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 3053,
+                    "nodeType": "ArrayTypeName",
+                    "src": "532:9:20",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "505:44:20"
+            },
+            "scope": 3057,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IArtBlocksOverride",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 3042,
+          "nodeType": "StructuredDocumentation",
+          "src": "58:48:20",
+          "text": "  Interface for an Art Blocks override"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          3057
+        ],
+        "name": "IArtBlocksOverride",
+        "nameLocation": "117:18:20",
+        "scope": 3058,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 20
+}

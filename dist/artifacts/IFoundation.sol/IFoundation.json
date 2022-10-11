@@ -1,0 +1,478 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getFees",
+      "outputs": [
+        {
+          "internalType": "address payable[]",
+          "name": "",
+          "type": "address[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getFees(uint256)": "d5a06d4c"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"}],\"name\":\"getFees\",\"outputs\":[{\"internalType\":\"address payable[]\",\"name\":\"\",\"type\":\"address[]\"},{\"internalType\":\"uint256[]\",\"name\":\"\",\"type\":\"uint256[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/manifold/specs/IFoundation.sol\":\"IFoundation\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@manifoldxyz/=node_modules/@manifoldxyz/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/manifold/specs/IFoundation.sol\":{\"keccak256\":\"0x02e67fd662b5be5eb5564aa84a0d04ceada9467da5cf8f5a1f2d5c3d5781f96c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://afe3134d5a1afa0d33be1006ce00e91e67622e1c8ae358145f0b99c1bbfe6918\",\"dweb:/ipfs/QmVsKDNQ4H8FvU8sGaYquupV6WKy5CMKwVCVHrBLuKdzqA\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "tokenId",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getFees",
+          "outputs": [
+            {
+              "internalType": "address payable[]",
+              "name": "",
+              "type": "address[]"
+            },
+            {
+              "internalType": "uint256[]",
+              "name": "",
+              "type": "uint256[]"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@manifoldxyz/=node_modules/@manifoldxyz/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/manifold/specs/IFoundation.sol": "IFoundation"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/manifold/specs/IFoundation.sol": {
+        "keccak256": "0x02e67fd662b5be5eb5564aa84a0d04ceada9467da5cf8f5a1f2d5c3d5781f96c",
+        "urls": [
+          "bzz-raw://afe3134d5a1afa0d33be1006ce00e91e67622e1c8ae358145f0b99c1bbfe6918",
+          "dweb:/ipfs/QmVsKDNQ4H8FvU8sGaYquupV6WKy5CMKwVCVHrBLuKdzqA"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/manifold/specs/IFoundation.sol",
+    "id": 3120,
+    "exportedSymbols": {
+      "IFoundation": [
+        3105
+      ],
+      "IFoundationTreasury": [
+        3119
+      ],
+      "IFoundationTreasuryNode": [
+        3111
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:493:23",
+    "nodes": [
+      {
+        "id": 3093,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:23",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 3105,
+        "nodeType": "ContractDefinition",
+        "src": "58:248:23",
+        "nodes": [
+          {
+            "id": 3104,
+            "nodeType": "FunctionDefinition",
+            "src": "203:101:23",
+            "functionSelector": "d5a06d4c",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getFees",
+            "nameLocation": "212:7:23",
+            "parameters": {
+              "id": 3096,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3095,
+                  "mutability": "mutable",
+                  "name": "tokenId",
+                  "nameLocation": "228:7:23",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3104,
+                  "src": "220:15:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 3094,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "220:7:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "219:17:23"
+            },
+            "returnParameters": {
+              "id": 3103,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3099,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3104,
+                  "src": "260:24:23",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_payable_$dyn_memory_ptr",
+                    "typeString": "address payable[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 3097,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "260:15:23",
+                      "stateMutability": "payable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "id": 3098,
+                    "nodeType": "ArrayTypeName",
+                    "src": "260:17:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_payable_$dyn_storage_ptr",
+                      "typeString": "address payable[]"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 3102,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3104,
+                  "src": "286:16:23",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_uint256_$dyn_memory_ptr",
+                    "typeString": "uint256[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 3100,
+                      "name": "uint256",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "286:7:23",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "id": 3101,
+                    "nodeType": "ArrayTypeName",
+                    "src": "286:9:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_uint256_$dyn_storage_ptr",
+                      "typeString": "uint256[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "259:44:23"
+            },
+            "scope": 3105,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IFoundation",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          3105
+        ],
+        "name": "IFoundation",
+        "nameLocation": "68:11:23",
+        "scope": 3120,
+        "usedErrors": []
+      },
+      {
+        "id": 3111,
+        "nodeType": "ContractDefinition",
+        "src": "308:115:23",
+        "nodes": [
+          {
+            "id": 3110,
+            "nodeType": "FunctionDefinition",
+            "src": "348:73:23",
+            "functionSelector": "f7a2da23",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getFoundationTreasury",
+            "nameLocation": "357:21:23",
+            "parameters": {
+              "id": 3106,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "378:2:23"
+            },
+            "returnParameters": {
+              "id": 3109,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3108,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3110,
+                  "src": "404:15:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address_payable",
+                    "typeString": "address payable"
+                  },
+                  "typeName": {
+                    "id": 3107,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "404:15:23",
+                    "stateMutability": "payable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address_payable",
+                      "typeString": "address payable"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "403:17:23"
+            },
+            "scope": 3111,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IFoundationTreasuryNode",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          3111
+        ],
+        "name": "IFoundationTreasuryNode",
+        "nameLocation": "318:23:23",
+        "scope": 3120,
+        "usedErrors": []
+      },
+      {
+        "id": 3119,
+        "nodeType": "ContractDefinition",
+        "src": "425:101:23",
+        "nodes": [
+          {
+            "id": 3118,
+            "nodeType": "FunctionDefinition",
+            "src": "461:63:23",
+            "functionSelector": "24d7806c",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isAdmin",
+            "nameLocation": "470:7:23",
+            "parameters": {
+              "id": 3114,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3113,
+                  "mutability": "mutable",
+                  "name": "account",
+                  "nameLocation": "486:7:23",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3118,
+                  "src": "478:15:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3112,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "478:7:23",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "477:17:23"
+            },
+            "returnParameters": {
+              "id": 3117,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3116,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3118,
+                  "src": "518:4:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 3115,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "518:4:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "517:6:23"
+            },
+            "scope": 3119,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IFoundationTreasury",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          3119
+        ],
+        "name": "IFoundationTreasury",
+        "nameLocation": "435:19:23",
+        "scope": 3120,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 23
+}

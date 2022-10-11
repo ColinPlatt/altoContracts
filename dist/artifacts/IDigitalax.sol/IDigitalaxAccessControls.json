@@ -1,0 +1,328 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_account",
+          "type": "address"
+        }
+      ],
+      "name": "hasAdminRole",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "hasAdminRole(address)": "c395fcb3"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_account\",\"type\":\"address\"}],\"name\":\"hasAdminRole\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Digitalax Access Controls Simple\",\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/manifold/specs/IDigitalax.sol\":\"IDigitalaxAccessControls\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@manifoldxyz/=node_modules/@manifoldxyz/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"contracts/manifold/specs/IDigitalax.sol\":{\"keccak256\":\"0x8cd6ac838a93ec2d6ea48557b4f52e4c72bb4cc6ec2fc22880b2e076980eec4f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d054da53d327b02fa55a401425dbed0fb025238f6d4315f7e728cf459712b0c8\",\"dweb:/ipfs/QmRdFgU6FLnRYdWK15ixuQXgkh756wzaFimZTddxS4ATus\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_account",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "hasAdminRole",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@manifoldxyz/=node_modules/@manifoldxyz/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/manifold/specs/IDigitalax.sol": "IDigitalaxAccessControls"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/manifold/specs/IDigitalax.sol": {
+        "keccak256": "0x8cd6ac838a93ec2d6ea48557b4f52e4c72bb4cc6ec2fc22880b2e076980eec4f",
+        "urls": [
+          "bzz-raw://d054da53d327b02fa55a401425dbed0fb025238f6d4315f7e728cf459712b0c8",
+          "dweb:/ipfs/QmRdFgU6FLnRYdWK15ixuQXgkh756wzaFimZTddxS4ATus"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/manifold/specs/IDigitalax.sol",
+    "id": 3076,
+    "exportedSymbols": {
+      "IDigitalax": [
+        3066
+      ],
+      "IDigitalaxAccessControls": [
+        3075
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:305:21",
+    "nodes": [
+      {
+        "id": 3059,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:21",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 3066,
+        "nodeType": "ContractDefinition",
+        "src": "89:86:21",
+        "nodes": [
+          {
+            "id": 3065,
+            "nodeType": "FunctionDefinition",
+            "src": "115:58:21",
+            "functionSelector": "748365ef",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "accessControls",
+            "nameLocation": "124:14:21",
+            "parameters": {
+              "id": 3061,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "138:2:21"
+            },
+            "returnParameters": {
+              "id": 3064,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3063,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3065,
+                  "src": "164:7:21",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3062,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "164:7:21",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "163:9:21"
+            },
+            "scope": 3066,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IDigitalax",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 3060,
+          "nodeType": "StructuredDocumentation",
+          "src": "58:30:21",
+          "text": " @dev Digitalax nfts"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          3066
+        ],
+        "name": "IDigitalax",
+        "nameLocation": "99:10:21",
+        "scope": 3076,
+        "usedErrors": []
+      },
+      {
+        "id": 3075,
+        "nodeType": "ContractDefinition",
+        "src": "226:111:21",
+        "nodes": [
+          {
+            "id": 3074,
+            "nodeType": "FunctionDefinition",
+            "src": "266:69:21",
+            "functionSelector": "c395fcb3",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "hasAdminRole",
+            "nameLocation": "275:12:21",
+            "parameters": {
+              "id": 3070,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3069,
+                  "mutability": "mutable",
+                  "name": "_account",
+                  "nameLocation": "296:8:21",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3074,
+                  "src": "288:16:21",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 3068,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "288:7:21",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "287:18:21"
+            },
+            "returnParameters": {
+              "id": 3073,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3072,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3074,
+                  "src": "329:4:21",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 3071,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "329:4:21",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "328:6:21"
+            },
+            "scope": 3075,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IDigitalaxAccessControls",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 3067,
+          "nodeType": "StructuredDocumentation",
+          "src": "177:48:21",
+          "text": " @dev Digitalax Access Controls Simple"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          3075
+        ],
+        "name": "IDigitalaxAccessControls",
+        "nameLocation": "236:24:21",
+        "scope": 3076,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 21
+}

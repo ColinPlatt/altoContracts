@@ -1,0 +1,837 @@
+{
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        }
+      ],
+      "name": "AdminApproved",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        }
+      ],
+      "name": "AdminRevoked",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "admin",
+          "type": "address"
+        }
+      ],
+      "name": "approveAdmin",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getAdmins",
+      "outputs": [
+        {
+          "internalType": "address[]",
+          "name": "",
+          "type": "address[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "admin",
+          "type": "address"
+        }
+      ],
+      "name": "isAdmin",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "admin",
+          "type": "address"
+        }
+      ],
+      "name": "revokeAdmin",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes4",
+          "name": "interfaceId",
+          "type": "bytes4"
+        }
+      ],
+      "name": "supportsInterface",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "approveAdmin(address)": "6d73e669",
+    "getAdmins()": "31ae450b",
+    "isAdmin(address)": "24d7806c",
+    "revokeAdmin(address)": "2d345670",
+    "supportsInterface(bytes4)": "01ffc9a7"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"}],\"name\":\"AdminApproved\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":true,\"internalType\":\"address\",\"name\":\"account\",\"type\":\"address\"},{\"indexed\":true,\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"}],\"name\":\"AdminRevoked\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"admin\",\"type\":\"address\"}],\"name\":\"approveAdmin\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getAdmins\",\"outputs\":[{\"internalType\":\"address[]\",\"name\":\"\",\"type\":\"address[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"admin\",\"type\":\"address\"}],\"name\":\"isAdmin\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"admin\",\"type\":\"address\"}],\"name\":\"revokeAdmin\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes4\",\"name\":\"interfaceId\",\"type\":\"bytes4\"}],\"name\":\"supportsInterface\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"details\":\"Interface for admin control\",\"kind\":\"dev\",\"methods\":{\"approveAdmin(address)\":{\"details\":\"add an admin.  Can only be called by contract owner.\"},\"getAdmins()\":{\"details\":\"gets address of all admins\"},\"isAdmin(address)\":{\"details\":\"checks whether or not given address is an admin Returns True if they are\"},\"revokeAdmin(address)\":{\"details\":\"remove an admin.  Can only be called by contract owner.\"},\"supportsInterface(bytes4)\":{\"details\":\"Returns true if this contract implements the interface defined by `interfaceId`. See the corresponding https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[EIP section] to learn more about how these ids are created. This function call must use less than 30 000 gas.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"node_modules/@manifoldxyz/libraries-solidity/contracts/access/IAdminControl.sol\":\"IAdminControl\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":500000},\"remappings\":[\":@manifoldxyz/=node_modules/@manifoldxyz/\",\":@openzeppelin/=node_modules/@openzeppelin/\",\":@rari-capital/=node_modules/@rari-capital/\",\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"node_modules/@manifoldxyz/libraries-solidity/contracts/access/IAdminControl.sol\":{\"keccak256\":\"0x7cc2e4e7d9052532f445e62ec1fa2f05cc0f5d1d8ee1fea913b43a132277bf2f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://266618317d0654fe209b5450b8b5afa3a4a8d41294a2b37ddbae540099859887\",\"dweb:/ipfs/QmYksDqoxhachoqZquXGtjfiuAWJ1rxAKLtUYPL3YboBkE\"]},\"node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol\":{\"keccak256\":\"0x447a5f3ddc18419d41ff92b3773fb86471b1db25773e07f877f548918a185bf1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://be161e54f24e5c6fae81a12db1a8ae87bc5ae1b0ddc805d82a1440a68455088f\",\"dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.10+commit.fc410830"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "internalType": "address",
+              "name": "sender",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "type": "event",
+          "name": "AdminApproved",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "account",
+              "type": "address",
+              "indexed": true
+            },
+            {
+              "internalType": "address",
+              "name": "sender",
+              "type": "address",
+              "indexed": true
+            }
+          ],
+          "type": "event",
+          "name": "AdminRevoked",
+          "anonymous": false
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "admin",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "approveAdmin"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "getAdmins",
+          "outputs": [
+            {
+              "internalType": "address[]",
+              "name": "",
+              "type": "address[]"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "admin",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "isAdmin",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "admin",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "revokeAdmin"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "bytes4",
+              "name": "interfaceId",
+              "type": "bytes4"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "supportsInterface",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {
+          "approveAdmin(address)": {
+            "details": "add an admin.  Can only be called by contract owner."
+          },
+          "getAdmins()": {
+            "details": "gets address of all admins"
+          },
+          "isAdmin(address)": {
+            "details": "checks whether or not given address is an admin Returns True if they are"
+          },
+          "revokeAdmin(address)": {
+            "details": "remove an admin.  Can only be called by contract owner."
+          },
+          "supportsInterface(bytes4)": {
+            "details": "Returns true if this contract implements the interface defined by `interfaceId`. See the corresponding https://eips.ethereum.org/EIPS/eip-165#how-interfaces-are-identified[EIP section] to learn more about how these ids are created. This function call must use less than 30 000 gas."
+          }
+        },
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@manifoldxyz/=node_modules/@manifoldxyz/",
+        ":@openzeppelin/=node_modules/@openzeppelin/",
+        ":@rari-capital/=node_modules/@rari-capital/",
+        ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 500000
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "node_modules/@manifoldxyz/libraries-solidity/contracts/access/IAdminControl.sol": "IAdminControl"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "node_modules/@manifoldxyz/libraries-solidity/contracts/access/IAdminControl.sol": {
+        "keccak256": "0x7cc2e4e7d9052532f445e62ec1fa2f05cc0f5d1d8ee1fea913b43a132277bf2f",
+        "urls": [
+          "bzz-raw://266618317d0654fe209b5450b8b5afa3a4a8d41294a2b37ddbae540099859887",
+          "dweb:/ipfs/QmYksDqoxhachoqZquXGtjfiuAWJ1rxAKLtUYPL3YboBkE"
+        ],
+        "license": "MIT"
+      },
+      "node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+        "keccak256": "0x447a5f3ddc18419d41ff92b3773fb86471b1db25773e07f877f548918a185bf1",
+        "urls": [
+          "bzz-raw://be161e54f24e5c6fae81a12db1a8ae87bc5ae1b0ddc805d82a1440a68455088f",
+          "dweb:/ipfs/QmP7C3CHdY9urF4dEMb9wmsp1wMxHF6nhA2yQE5SKiPAdy"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "node_modules/@manifoldxyz/libraries-solidity/contracts/access/IAdminControl.sol",
+    "id": 52622,
+    "exportedSymbols": {
+      "IAdminControl": [
+        52621
+      ],
+      "IERC165": [
+        57618
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:916:96",
+    "nodes": [
+      {
+        "id": 52577,
+        "nodeType": "PragmaDirective",
+        "src": "33:23:96",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 52578,
+        "nodeType": "ImportDirective",
+        "src": "85:65:96",
+        "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "file": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 52622,
+        "sourceUnit": 57619,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 52621,
+        "nodeType": "ContractDefinition",
+        "src": "196:753:96",
+        "nodes": [
+          {
+            "id": 52587,
+            "nodeType": "EventDefinition",
+            "src": "238:69:96",
+            "anonymous": false,
+            "name": "AdminApproved",
+            "nameLocation": "244:13:96",
+            "parameters": {
+              "id": 52586,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 52583,
+                  "indexed": true,
+                  "mutability": "mutable",
+                  "name": "account",
+                  "nameLocation": "274:7:96",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 52587,
+                  "src": "258:23:96",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 52582,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "258:7:96",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 52585,
+                  "indexed": true,
+                  "mutability": "mutable",
+                  "name": "sender",
+                  "nameLocation": "299:6:96",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 52587,
+                  "src": "283:22:96",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 52584,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "283:7:96",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "257:49:96"
+            }
+          },
+          {
+            "id": 52593,
+            "nodeType": "EventDefinition",
+            "src": "312:68:96",
+            "anonymous": false,
+            "name": "AdminRevoked",
+            "nameLocation": "318:12:96",
+            "parameters": {
+              "id": 52592,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 52589,
+                  "indexed": true,
+                  "mutability": "mutable",
+                  "name": "account",
+                  "nameLocation": "347:7:96",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 52593,
+                  "src": "331:23:96",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 52588,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "331:7:96",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 52591,
+                  "indexed": true,
+                  "mutability": "mutable",
+                  "name": "sender",
+                  "nameLocation": "372:6:96",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 52593,
+                  "src": "356:22:96",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 52590,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "356:7:96",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "330:49:96"
+            }
+          },
+          {
+            "id": 52600,
+            "nodeType": "FunctionDefinition",
+            "src": "441:62:96",
+            "documentation": {
+              "id": 52594,
+              "nodeType": "StructuredDocumentation",
+              "src": "386:50:96",
+              "text": " @dev gets address of all admins"
+            },
+            "functionSelector": "31ae450b",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getAdmins",
+            "nameLocation": "450:9:96",
+            "parameters": {
+              "id": 52595,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "459:2:96"
+            },
+            "returnParameters": {
+              "id": 52599,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 52598,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 52600,
+                  "src": "485:16:96",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_array$_t_address_$dyn_memory_ptr",
+                    "typeString": "address[]"
+                  },
+                  "typeName": {
+                    "baseType": {
+                      "id": 52596,
+                      "name": "address",
+                      "nodeType": "ElementaryTypeName",
+                      "src": "485:7:96",
+                      "stateMutability": "nonpayable",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "id": 52597,
+                    "nodeType": "ArrayTypeName",
+                    "src": "485:9:96",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_array$_t_address_$dyn_storage_ptr",
+                      "typeString": "address[]"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "484:18:96"
+            },
+            "scope": 52621,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 52606,
+            "nodeType": "FunctionDefinition",
+            "src": "590:46:96",
+            "documentation": {
+              "id": 52601,
+              "nodeType": "StructuredDocumentation",
+              "src": "509:76:96",
+              "text": " @dev add an admin.  Can only be called by contract owner."
+            },
+            "functionSelector": "6d73e669",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "approveAdmin",
+            "nameLocation": "599:12:96",
+            "parameters": {
+              "id": 52604,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 52603,
+                  "mutability": "mutable",
+                  "name": "admin",
+                  "nameLocation": "620:5:96",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 52606,
+                  "src": "612:13:96",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 52602,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "612:7:96",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "611:15:96"
+            },
+            "returnParameters": {
+              "id": 52605,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "635:0:96"
+            },
+            "scope": 52621,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 52612,
+            "nodeType": "FunctionDefinition",
+            "src": "726:45:96",
+            "documentation": {
+              "id": 52607,
+              "nodeType": "StructuredDocumentation",
+              "src": "642:79:96",
+              "text": " @dev remove an admin.  Can only be called by contract owner."
+            },
+            "functionSelector": "2d345670",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "revokeAdmin",
+            "nameLocation": "735:11:96",
+            "parameters": {
+              "id": 52610,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 52609,
+                  "mutability": "mutable",
+                  "name": "admin",
+                  "nameLocation": "755:5:96",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 52612,
+                  "src": "747:13:96",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 52608,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "747:7:96",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "746:15:96"
+            },
+            "returnParameters": {
+              "id": 52611,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "770:0:96"
+            },
+            "scope": 52621,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 52620,
+            "nodeType": "FunctionDefinition",
+            "src": "885:61:96",
+            "documentation": {
+              "id": 52613,
+              "nodeType": "StructuredDocumentation",
+              "src": "777:103:96",
+              "text": " @dev checks whether or not given address is an admin\n Returns True if they are"
+            },
+            "functionSelector": "24d7806c",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isAdmin",
+            "nameLocation": "894:7:96",
+            "parameters": {
+              "id": 52616,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 52615,
+                  "mutability": "mutable",
+                  "name": "admin",
+                  "nameLocation": "910:5:96",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 52620,
+                  "src": "902:13:96",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 52614,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "902:7:96",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "901:15:96"
+            },
+            "returnParameters": {
+              "id": 52619,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 52618,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 52620,
+                  "src": "940:4:96",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 52617,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "940:4:96",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "939:6:96"
+            },
+            "scope": 52621,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 52580,
+              "name": "IERC165",
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 57618,
+              "src": "223:7:96"
+            },
+            "id": 52581,
+            "nodeType": "InheritanceSpecifier",
+            "src": "223:7:96"
+          }
+        ],
+        "canonicalName": "IAdminControl",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": {
+          "id": 52579,
+          "nodeType": "StructuredDocumentation",
+          "src": "152:43:96",
+          "text": " @dev Interface for admin control"
+        },
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          52621,
+          57618
+        ],
+        "name": "IAdminControl",
+        "nameLocation": "206:13:96",
+        "scope": 52622,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 96
+}
