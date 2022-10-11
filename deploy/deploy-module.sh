@@ -21,11 +21,11 @@
 # ArbitrumTestnet
 # Cronos
 
-if [ "$ETHERSCAN_API_KEY" = "" ]
-then
-    echo "Missing ETHERSCAN_API_KEY. Exiting."
-    exit 1
-fi
+#if [ "$ETHERSCAN_API_KEY" = "" ]
+#then
+#    echo "Missing ETHERSCAN_API_KEY. Exiting."
+#    exit 1
+#fi
 
 if [ "$CHAIN_ID" = "" ]
 then
@@ -83,11 +83,11 @@ then
     echo "Missing constructor abi argument. Exiting."
     exit 1
 fi
-if [ "$4" != "noargs" ] && [[ $4 != f* ]]
-then
-    echo "Invalid constructor abi argument. Exiting."
-    exit 1
-fi
+#if [ "$4" != "noargs" ] && [[ $4 != f* ]]
+#then
+#    echo "Invalid constructor abi argument. Exiting."
+#    exit 1
+#fi
 if [[ $4 = f* ]]
 then
     CONSTRUCTOR_ABI="$4"
@@ -131,6 +131,7 @@ then
 fi
 for arg in "$@"
 do
+    echo "arguments $arg"
     MODULE_DEPLOY_CMD="${MODULE_DEPLOY_CMD} $arg"
 done
 MODULE_DEPLOY_OUTPUT=$(${MODULE_DEPLOY_CMD})
@@ -143,34 +144,34 @@ else
     exit 1
 fi
 MODULE_ADDR=$(cast --to-checksum-address $MODULE_ADDR)
-echo "Submitting contract to etherscan for verification..."
-MODULE_VERIFY_CMD="forge verify-contract --chain-id $CHAIN_ID --num-of-optimizations 500000"
-if [[ $CONSTRUCTOR_ABI = f* ]]
-then
-    MODULE_ENCODED_ARGS=$(cast abi-encode $CONSTRUCTOR_ABI "$@")
-    MODULE_VERIFY_CMD="${MODULE_VERIFY_CMD} --constructor-args $MODULE_ENCODED_ARGS"
-fi
-MODULE_VERIFY_CMD="${MODULE_VERIFY_CMD} --compiler-version v0.8.10+commit.fc410830 $MODULE_ADDR contracts/modules/$MODULE_PATH:$MODULE_NAME $ETHERSCAN_API_KEY"
-for I in 0 1 2 3 4
-do
-    {
-        if MODULE_VERIFY_OUTPUT=$(${MODULE_VERIFY_CMD})
-        then
-            echo "Submitted contract for verification."
-            echo "Output:"
-            echo "$MODULE_VERIFY_OUTPUT"
-            break
-        else
-            if (( 4 > $I ))
-            then
-                sleep 20
-            else
-                echo "Unable to submit contract verification. Exiting."
-                exit 1
-            fi
-        fi
-    }
-done
+#echo "Submitting contract to etherscan for verification..."
+#MODULE_VERIFY_CMD="forge verify-contract --chain-id $CHAIN_ID --num-of-optimizations 500000"
+#if [[ $CONSTRUCTOR_ABI = f* ]]
+#then
+#    MODULE_ENCODED_ARGS=$(cast abi-encode $CONSTRUCTOR_ABI "$@")
+#    MODULE_VERIFY_CMD="${MODULE_VERIFY_CMD} --constructor-args $MODULE_ENCODED_ARGS"
+#fi
+#MODULE_VERIFY_CMD="${MODULE_VERIFY_CMD} --compiler-version v0.8.10+commit.fc410830 $MODULE_ADDR contracts/modules/$MODULE_PATH:$MODULE_NAME $ETHERSCAN_API_KEY"
+#for I in 0 1 2 3 4
+#do
+#    {
+#        if MODULE_VERIFY_OUTPUT=$(${MODULE_VERIFY_CMD})
+#        then
+#            echo "Submitted contract for verification."
+#            echo "Output:"
+#            echo "$MODULE_VERIFY_OUTPUT"
+#            break
+#        else
+#            if (( 4 > $I ))
+#            then
+#                sleep 20
+#            else
+#                echo "Unable to submit contract verification. Exiting."
+#                exit 1
+#            fi
+#        fi
+#    }
+#done
 
 python3 ./deploy/update-addresses.py $CHAIN_ID $MODULE_NAME $MODULE_ADDR
 

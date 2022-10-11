@@ -65,7 +65,7 @@ contract AsksV1_1 is ReentrancyGuard, UniversalExchangeEventV1, IncomingTransfer
 
     /// @param _erc20TransferHelper The ZORA ERC-20 Transfer Helper address
     /// @param _erc721TransferHelper The ZORA ERC-721 Transfer Helper address
-    /// @param _royaltyEngine The Manifold Royalty Engine address
+    /// @param _royaltyEngine The Manifold Royalty Engine address << @note this was simplified for Canto implementation
     /// @param _protocolFeeSettings The ZoraProtocolFeeSettingsV1 address
     /// @param _wethAddress The WETH token address
     constructor(
