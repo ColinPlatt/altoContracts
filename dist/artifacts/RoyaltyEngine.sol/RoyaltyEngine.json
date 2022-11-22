@@ -248,6 +248,7 @@
         "id": 49611,
         "nodeType": "PragmaDirective",
         "src": "36:23:82",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -263,6 +264,7 @@
             "id": 49614,
             "nodeType": "VariableDeclaration",
             "src": "151:24:82",
+            "nodes": [],
             "constant": false,
             "functionSelector": "66d003ac",
             "mutability": "mutable",
@@ -292,10 +294,12 @@
             "id": 49624,
             "nodeType": "FunctionDefinition",
             "src": "182:85:82",
+            "nodes": [],
             "body": {
               "id": 49623,
               "nodeType": "Block",
               "src": "221:46:82",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -397,6 +401,7 @@
             "id": 49632,
             "nodeType": "EventDefinition",
             "src": "273:72:82",
+            "nodes": [],
             "anonymous": false,
             "name": "RoyaltyView",
             "nameLocation": "279:11:82",
@@ -497,10 +502,12 @@
             "id": 49696,
             "nodeType": "FunctionDefinition",
             "src": "351:507:82",
+            "nodes": [],
             "body": {
               "id": 49695,
               "nodeType": "Block",
               "src": "515:343:82",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [

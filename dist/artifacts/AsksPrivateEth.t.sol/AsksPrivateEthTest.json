@@ -1295,6 +1295,7 @@
         "id": 21176,
         "nodeType": "PragmaDirective",
         "src": "36:23:61",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -1305,6 +1306,7 @@
         "id": 21178,
         "nodeType": "ImportDirective",
         "src": "61:40:61",
+        "nodes": [],
         "absolutePath": "lib/ds-test/src/test.sol",
         "file": "ds-test/test.sol",
         "nameLocation": "-1:-1:-1",
@@ -1329,6 +1331,7 @@
         "id": 21180,
         "nodeType": "ImportDirective",
         "src": "103:90:61",
+        "nodes": [],
         "absolutePath": "contracts/modules/Asks/Private/ETH/AsksPrivateEth.sol",
         "file": "../../../../../modules/Asks/Private/ETH/AsksPrivateEth.sol",
         "nameLocation": "-1:-1:-1",
@@ -1353,6 +1356,7 @@
         "id": 21182,
         "nodeType": "ImportDirective",
         "src": "194:54:61",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/users/Zorb.sol",
         "file": "../../../../utils/users/Zorb.sol",
         "nameLocation": "-1:-1:-1",
@@ -1377,6 +1381,7 @@
         "id": 21184,
         "nodeType": "ImportDirective",
         "src": "249:72:61",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/users/ZoraRegistrar.sol",
         "file": "../../../../utils/users/ZoraRegistrar.sol",
         "nameLocation": "-1:-1:-1",
@@ -1401,6 +1406,7 @@
         "id": 21186,
         "nodeType": "ImportDirective",
         "src": "322:71:61",
+        "nodes": [],
         "absolutePath": "contracts/ZoraModuleManager.sol",
         "file": "../../../../../ZoraModuleManager.sol",
         "nameLocation": "-1:-1:-1",
@@ -1425,6 +1431,7 @@
         "id": 21188,
         "nodeType": "ImportDirective",
         "src": "394:117:61",
+        "nodes": [],
         "absolutePath": "contracts/auxiliary/ZoraProtocolFeeSettings/ZoraProtocolFeeSettings.sol",
         "file": "../../../../../auxiliary/ZoraProtocolFeeSettings/ZoraProtocolFeeSettings.sol",
         "nameLocation": "-1:-1:-1",
@@ -1449,6 +1456,7 @@
         "id": 21190,
         "nodeType": "ImportDirective",
         "src": "512:91:61",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC20TransferHelper.sol",
         "file": "../../../../../transferHelpers/ERC20TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1473,6 +1481,7 @@
         "id": 21192,
         "nodeType": "ImportDirective",
         "src": "604:93:61",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC721TransferHelper.sol",
         "file": "../../../../../transferHelpers/ERC721TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1497,6 +1506,7 @@
         "id": 21194,
         "nodeType": "ImportDirective",
         "src": "698:74:61",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/modules/RoyaltyEngine.sol",
         "file": "../../../../utils/modules/RoyaltyEngine.sol",
         "nameLocation": "-1:-1:-1",
@@ -1521,6 +1531,7 @@
         "id": 21196,
         "nodeType": "ImportDirective",
         "src": "773:67:61",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/tokens/TestERC721.sol",
         "file": "../../../../utils/tokens/TestERC721.sol",
         "nameLocation": "-1:-1:-1",
@@ -1545,6 +1556,7 @@
         "id": 21198,
         "nodeType": "ImportDirective",
         "src": "841:55:61",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/tokens/WETH.sol",
         "file": "../../../../utils/tokens/WETH.sol",
         "nameLocation": "-1:-1:-1",
@@ -1569,6 +1581,7 @@
         "id": 21200,
         "nodeType": "ImportDirective",
         "src": "897:44:61",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/VM.sol",
         "file": "../../../../utils/VM.sol",
         "nameLocation": "-1:-1:-1",
@@ -1598,6 +1611,7 @@
             "id": 21206,
             "nodeType": "VariableDeclaration",
             "src": "1061:14:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "vm",
@@ -1632,6 +1646,7 @@
             "id": 21209,
             "nodeType": "VariableDeclaration",
             "src": "1082:32:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "registrar",
@@ -1666,6 +1681,7 @@
             "id": 21212,
             "nodeType": "VariableDeclaration",
             "src": "1120:37:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "ZPFS",
@@ -1700,6 +1716,7 @@
             "id": 21215,
             "nodeType": "VariableDeclaration",
             "src": "1163:30:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "ZMM",
@@ -1734,6 +1751,7 @@
             "id": 21218,
             "nodeType": "VariableDeclaration",
             "src": "1199:48:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc20TransferHelper",
@@ -1768,6 +1786,7 @@
             "id": 21221,
             "nodeType": "VariableDeclaration",
             "src": "1253:50:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc721TransferHelper",
@@ -1802,6 +1821,7 @@
             "id": 21224,
             "nodeType": "VariableDeclaration",
             "src": "1309:36:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "royaltyEngine",
@@ -1836,6 +1856,7 @@
             "id": 21227,
             "nodeType": "VariableDeclaration",
             "src": "1352:28:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "asks",
@@ -1870,6 +1891,7 @@
             "id": 21230,
             "nodeType": "VariableDeclaration",
             "src": "1386:18:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "weth",
@@ -1904,6 +1926,7 @@
             "id": 21233,
             "nodeType": "VariableDeclaration",
             "src": "1410:25:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "token",
@@ -1938,6 +1961,7 @@
             "id": 21236,
             "nodeType": "VariableDeclaration",
             "src": "1442:20:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "seller",
@@ -1972,6 +1996,7 @@
             "id": 21239,
             "nodeType": "VariableDeclaration",
             "src": "1468:34:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "sellerFundsRecipient",
@@ -2006,6 +2031,7 @@
             "id": 21242,
             "nodeType": "VariableDeclaration",
             "src": "1508:22:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "operator",
@@ -2040,6 +2066,7 @@
             "id": 21245,
             "nodeType": "VariableDeclaration",
             "src": "1536:25:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "otherSeller",
@@ -2074,6 +2101,7 @@
             "id": 21248,
             "nodeType": "VariableDeclaration",
             "src": "1567:19:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "buyer",
@@ -2108,6 +2136,7 @@
             "id": 21251,
             "nodeType": "VariableDeclaration",
             "src": "1592:24:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "otherBuyer",
@@ -2142,6 +2171,7 @@
             "id": 21254,
             "nodeType": "VariableDeclaration",
             "src": "1622:20:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "finder",
@@ -2176,6 +2206,7 @@
             "id": 21257,
             "nodeType": "VariableDeclaration",
             "src": "1648:30:61",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "royaltyRecipient",
@@ -2210,10 +2241,12 @@
             "id": 21551,
             "nodeType": "FunctionDefinition",
             "src": "1685:1747:61",
+            "nodes": [],
             "body": {
               "id": 21550,
               "nodeType": "Block",
               "src": "1709:1723:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -5974,10 +6007,12 @@
             "id": 21619,
             "nodeType": "FunctionDefinition",
             "src": "3646:376:61",
+            "nodes": [],
             "body": {
               "id": 21618,
               "nodeType": "Block",
               "src": "3679:343:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -6912,10 +6947,12 @@
             "id": 21715,
             "nodeType": "FunctionDefinition",
             "src": "4028:554:61",
+            "nodes": [],
             "body": {
               "id": 21714,
               "nodeType": "Block",
               "src": "4078:504:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -8220,10 +8257,12 @@
             "id": 21890,
             "nodeType": "FunctionDefinition",
             "src": "4588:995:61",
+            "nodes": [],
             "body": {
               "id": 21889,
               "nodeType": "Block",
               "src": "4640:943:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -10641,10 +10680,12 @@
             "id": 21943,
             "nodeType": "FunctionDefinition",
             "src": "5589:263:61",
+            "nodes": [],
             "body": {
               "id": 21942,
               "nodeType": "Block",
               "src": "5630:222:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -11393,10 +11434,12 @@
             "id": 21968,
             "nodeType": "FunctionDefinition",
             "src": "5858:183:61",
+            "nodes": [],
             "body": {
               "id": 21967,
               "nodeType": "Block",
               "src": "5909:132:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -11712,10 +11755,12 @@
             "id": 22030,
             "nodeType": "FunctionDefinition",
             "src": "6255:342:61",
+            "nodes": [],
             "body": {
               "id": 22029,
               "nodeType": "Block",
               "src": "6295:302:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -12539,10 +12584,12 @@
             "id": 22091,
             "nodeType": "FunctionDefinition",
             "src": "6603:346:61",
+            "nodes": [],
             "body": {
               "id": 22090,
               "nodeType": "Block",
               "src": "6643:306:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -13360,10 +13407,12 @@
             "id": 22136,
             "nodeType": "FunctionDefinition",
             "src": "6955:259:61",
+            "nodes": [],
             "body": {
               "id": 22135,
               "nodeType": "Block",
               "src": "7009:205:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -13944,10 +13993,12 @@
             "id": 22196,
             "nodeType": "FunctionDefinition",
             "src": "7220:333:61",
+            "nodes": [],
             "body": {
               "id": 22195,
               "nodeType": "Block",
               "src": "7273:280:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -14710,10 +14761,12 @@
             "id": 22271,
             "nodeType": "FunctionDefinition",
             "src": "7559:383:61",
+            "nodes": [],
             "body": {
               "id": 22270,
               "nodeType": "Block",
               "src": "7610:332:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -15695,10 +15748,12 @@
             "id": 22353,
             "nodeType": "FunctionDefinition",
             "src": "8156:458:61",
+            "nodes": [],
             "body": {
               "id": 22352,
               "nodeType": "Block",
               "src": "8195:419:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -16821,10 +16876,12 @@
             "id": 22462,
             "nodeType": "FunctionDefinition",
             "src": "8620:556:61",
+            "nodes": [],
             "body": {
               "id": 22461,
               "nodeType": "Block",
               "src": "8658:518:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -18308,10 +18365,12 @@
             "id": 22506,
             "nodeType": "FunctionDefinition",
             "src": "9182:258:61",
+            "nodes": [],
             "body": {
               "id": 22505,
               "nodeType": "Block",
               "src": "9231:209:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -18871,10 +18930,12 @@
             "id": 22568,
             "nodeType": "FunctionDefinition",
             "src": "9654:287:61",
+            "nodes": [],
             "body": {
               "id": 22567,
               "nodeType": "Block",
               "src": "9685:256:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -19710,10 +19771,12 @@
             "id": 22614,
             "nodeType": "FunctionDefinition",
             "src": "9947:246:61",
+            "nodes": [],
             "body": {
               "id": 22613,
               "nodeType": "Block",
               "src": "9986:207:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -20318,10 +20381,12 @@
             "id": 22679,
             "nodeType": "FunctionDefinition",
             "src": "10199:374:61",
+            "nodes": [],
             "body": {
               "id": 22678,
               "nodeType": "Block",
               "src": "10246:327:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -21170,10 +21235,12 @@
             "id": 22753,
             "nodeType": "FunctionDefinition",
             "src": "10579:448:61",
+            "nodes": [],
             "body": {
               "id": 22752,
               "nodeType": "Block",
               "src": "10640:387:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -22134,10 +22201,12 @@
             "id": 22820,
             "nodeType": "FunctionDefinition",
             "src": "11033:352:61",
+            "nodes": [],
             "body": {
               "id": 22819,
               "nodeType": "Block",
               "src": "11084:301:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -23031,10 +23100,12 @@
             "id": 22875,
             "nodeType": "FunctionDefinition",
             "src": "11391:291:61",
+            "nodes": [],
             "body": {
               "id": 22874,
               "nodeType": "Block",
               "src": "11434:248:61",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

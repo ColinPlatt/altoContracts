@@ -201,6 +201,7 @@
         "id": 3225,
         "nodeType": "PragmaDirective",
         "src": "33:23:28",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -217,6 +218,7 @@
             "id": 3229,
             "nodeType": "StructDefinition",
             "src": "146:49:28",
+            "nodes": [],
             "canonicalName": "IZoraMarket.ZoraDecimal",
             "members": [
               {
@@ -256,6 +258,7 @@
             "id": 3239,
             "nodeType": "StructDefinition",
             "src": "201:337:28",
+            "nodes": [],
             "canonicalName": "IZoraMarket.ZoraBidShares",
             "members": [
               {
@@ -370,6 +373,7 @@
             "id": 3247,
             "nodeType": "FunctionDefinition",
             "src": "544:89:28",
+            "nodes": [],
             "functionSelector": "f9ce0582",
             "implemented": false,
             "kind": "function",
@@ -486,6 +490,7 @@
             "id": 3255,
             "nodeType": "FunctionDefinition",
             "src": "792:57:28",
+            "nodes": [],
             "documentation": {
               "id": 3250,
               "nodeType": "StructuredDocumentation",
@@ -548,6 +553,7 @@
             "id": 3262,
             "nodeType": "FunctionDefinition",
             "src": "854:77:28",
+            "nodes": [],
             "functionSelector": "9d8e7260",
             "implemented": false,
             "kind": "function",
@@ -632,6 +638,7 @@
             "id": 3269,
             "nodeType": "FunctionDefinition",
             "src": "936:71:28",
+            "nodes": [],
             "functionSelector": "e0fd045f",
             "implemented": false,
             "kind": "function",
@@ -716,6 +723,7 @@
             "id": 3277,
             "nodeType": "FunctionDefinition",
             "src": "1052:72:28",
+            "nodes": [],
             "documentation": {
               "id": 3270,
               "nodeType": "StructuredDocumentation",
@@ -832,6 +840,7 @@
             "id": 3293,
             "nodeType": "FunctionDefinition",
             "src": "1643:125:28",
+            "nodes": [],
             "documentation": {
               "id": 3280,
               "nodeType": "StructuredDocumentation",

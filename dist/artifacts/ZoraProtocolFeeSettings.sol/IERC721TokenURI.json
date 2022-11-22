@@ -197,6 +197,7 @@
         "id": 381,
         "nodeType": "PragmaDirective",
         "src": "36:23:1",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -207,6 +208,7 @@
         "id": 383,
         "nodeType": "ImportDirective",
         "src": "61:71:1",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol",
         "file": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
         "nameLocation": "-1:-1:-1",
@@ -236,6 +238,7 @@
             "id": 390,
             "nodeType": "FunctionDefinition",
             "src": "166:73:1",
+            "nodes": [],
             "functionSelector": "c87b56dd",
             "implemented": false,
             "kind": "function",
@@ -339,6 +342,7 @@
             "id": 397,
             "nodeType": "VariableDeclaration",
             "src": "523:23:1",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 395,
@@ -374,6 +378,7 @@
             "id": 400,
             "nodeType": "VariableDeclaration",
             "src": "602:20:1",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 398,
@@ -409,6 +414,7 @@
             "id": 403,
             "nodeType": "VariableDeclaration",
             "src": "683:21:1",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 401,
@@ -444,6 +450,7 @@
             "id": 408,
             "nodeType": "StructDefinition",
             "src": "860:78:1",
+            "nodes": [],
             "canonicalName": "ZoraProtocolFeeSettings.FeeSetting",
             "members": [
               {
@@ -511,6 +518,7 @@
             "id": 414,
             "nodeType": "VariableDeclaration",
             "src": "1037:54:1",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 409,
@@ -571,10 +579,12 @@
             "id": 437,
             "nodeType": "ModifierDefinition",
             "src": "1222:180:1",
+            "nodes": [],
             "body": {
               "id": 436,
               "nodeType": "Block",
               "src": "1264:138:1",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -874,6 +884,7 @@
             "id": 446,
             "nodeType": "EventDefinition",
             "src": "1628:86:1",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 438,
@@ -981,6 +992,7 @@
             "id": 451,
             "nodeType": "EventDefinition",
             "src": "1841:51:1",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 447,
@@ -1031,6 +1043,7 @@
             "id": 456,
             "nodeType": "EventDefinition",
             "src": "2010:45:1",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 452,
@@ -1081,10 +1094,12 @@
             "id": 469,
             "nodeType": "FunctionDefinition",
             "src": "2061:93:1",
+            "nodes": [],
             "body": {
               "id": 468,
               "nodeType": "Block",
               "src": "2116:38:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1229,10 +1244,12 @@
             "id": 504,
             "nodeType": "FunctionDefinition",
             "src": "2308:247:1",
+            "nodes": [],
             "body": {
               "id": 503,
               "nodeType": "Block",
               "src": "2367:188:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1686,10 +1703,12 @@
             "id": 536,
             "nodeType": "FunctionDefinition",
             "src": "3855:242:1",
+            "nodes": [],
             "body": {
               "id": 535,
               "nodeType": "Block",
               "src": "3926:171:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2103,10 +2122,12 @@
             "id": 586,
             "nodeType": "FunctionDefinition",
             "src": "5403:498:1",
+            "nodes": [],
             "body": {
               "id": 585,
               "nodeType": "Block",
               "src": "5545:356:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2788,10 +2809,12 @@
             "id": 605,
             "nodeType": "FunctionDefinition",
             "src": "6900:137:1",
+            "nodes": [],
             "body": {
               "id": 604,
               "nodeType": "Block",
               "src": "6943:94:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3030,10 +3053,12 @@
             "id": 624,
             "nodeType": "FunctionDefinition",
             "src": "8051:152:1",
+            "nodes": [],
             "body": {
               "id": 623,
               "nodeType": "Block",
               "src": "8100:103:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3272,10 +3297,12 @@
             "id": 645,
             "nodeType": "FunctionDefinition",
             "src": "8446:164:1",
+            "nodes": [],
             "body": {
               "id": 644,
               "nodeType": "Block",
               "src": "8534:76:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3534,10 +3561,12 @@
             "id": 662,
             "nodeType": "FunctionDefinition",
             "src": "8752:123:1",
+            "nodes": [],
             "body": {
               "id": 661,
               "nodeType": "Block",
               "src": "8825:50:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3737,10 +3766,12 @@
             "id": 679,
             "nodeType": "FunctionDefinition",
             "src": "9158:121:1",
+            "nodes": [],
             "body": {
               "id": 678,
               "nodeType": "Block",
               "src": "9230:49:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3940,10 +3971,12 @@
             "id": 713,
             "nodeType": "FunctionDefinition",
             "src": "9411:317:1",
+            "nodes": [],
             "body": {
               "id": 712,
               "nodeType": "Block",
               "src": "9492:236:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -4416,10 +4449,12 @@
             "id": 728,
             "nodeType": "FunctionDefinition",
             "src": "9847:128:1",
+            "nodes": [],
             "body": {
               "id": 727,
               "nodeType": "Block",
               "src": "9896:79:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -4580,10 +4615,12 @@
             "id": 743,
             "nodeType": "FunctionDefinition",
             "src": "10082:110:1",
+            "nodes": [],
             "body": {
               "id": 742,
               "nodeType": "Block",
               "src": "10125:67:1",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

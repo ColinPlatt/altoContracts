@@ -164,6 +164,7 @@
         "id": 56835,
         "nodeType": "PragmaDirective",
         "src": "104:23:119",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -175,6 +176,7 @@
         "id": 56836,
         "nodeType": "ImportDirective",
         "src": "129:32:119",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
         "file": "../IERC721Receiver.sol",
         "nameLocation": "-1:-1:-1",
@@ -192,10 +194,12 @@
             "id": 56859,
             "nodeType": "FunctionDefinition",
             "src": "588:200:119",
+            "nodes": [],
             "body": {
               "id": 56858,
               "nodeType": "Block",
               "src": "734:54:119",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

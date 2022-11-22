@@ -77,6 +77,7 @@
         "id": 58219,
         "nodeType": "PragmaDirective",
         "src": "42:24:127",
+        "nodes": [],
         "literals": [
           "solidity",
           ">=",
@@ -93,6 +94,7 @@
             "id": 58223,
             "nodeType": "VariableDeclaration",
             "src": "426:36:127",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "reentrancyStatus",
@@ -136,10 +138,12 @@
             "id": 58242,
             "nodeType": "ModifierDefinition",
             "src": "469:159:127",
+            "nodes": [],
             "body": {
               "id": 58241,
               "nodeType": "Block",
               "src": "493:135:127",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

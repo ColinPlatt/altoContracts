@@ -324,6 +324,7 @@
         "id": 1402,
         "nodeType": "PragmaDirective",
         "src": "33:23:9",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -335,6 +336,7 @@
         "id": 1403,
         "nodeType": "ImportDirective",
         "src": "85:65:9",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol",
         "file": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
         "nameLocation": "-1:-1:-1",
@@ -352,6 +354,7 @@
             "id": 1414,
             "nodeType": "EventDefinition",
             "src": "241:83:9",
+            "nodes": [],
             "anonymous": false,
             "name": "RoyaltyOverride",
             "nameLocation": "247:15:9",
@@ -454,6 +457,7 @@
             "id": 1422,
             "nodeType": "FunctionDefinition",
             "src": "713:88:9",
+            "nodes": [],
             "documentation": {
               "id": 1415,
               "nodeType": "StructuredDocumentation",
@@ -544,6 +548,7 @@
             "id": 1430,
             "nodeType": "FunctionDefinition",
             "src": "1023:86:9",
+            "nodes": [],
             "documentation": {
               "id": 1423,
               "nodeType": "StructuredDocumentation",
@@ -635,6 +640,7 @@
             "id": 1438,
             "nodeType": "FunctionDefinition",
             "src": "1325:75:9",
+            "nodes": [],
             "documentation": {
               "id": 1431,
               "nodeType": "StructuredDocumentation",

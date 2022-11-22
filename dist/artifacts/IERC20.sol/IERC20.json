@@ -471,6 +471,7 @@
         "id": 55481,
         "nodeType": "PragmaDirective",
         "src": "106:23:112",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -487,6 +488,7 @@
             "id": 55491,
             "nodeType": "EventDefinition",
             "src": "388:72:112",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 55483,
@@ -594,6 +596,7 @@
             "id": 55500,
             "nodeType": "EventDefinition",
             "src": "619:78:112",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 55492,
@@ -701,6 +704,7 @@
             "id": 55506,
             "nodeType": "FunctionDefinition",
             "src": "774:55:112",
+            "nodes": [],
             "documentation": {
               "id": 55501,
               "nodeType": "StructuredDocumentation",
@@ -762,6 +766,7 @@
             "id": 55514,
             "nodeType": "FunctionDefinition",
             "src": "912:68:112",
+            "nodes": [],
             "documentation": {
               "id": 55507,
               "nodeType": "StructuredDocumentation",
@@ -852,6 +857,7 @@
             "id": 55524,
             "nodeType": "FunctionDefinition",
             "src": "1193:70:112",
+            "nodes": [],
             "documentation": {
               "id": 55515,
               "nodeType": "StructuredDocumentation",
@@ -969,6 +975,7 @@
             "id": 55534,
             "nodeType": "FunctionDefinition",
             "src": "1538:83:112",
+            "nodes": [],
             "documentation": {
               "id": 55525,
               "nodeType": "StructuredDocumentation",
@@ -1087,6 +1094,7 @@
             "id": 55544,
             "nodeType": "FunctionDefinition",
             "src": "2274:74:112",
+            "nodes": [],
             "documentation": {
               "id": 55535,
               "nodeType": "StructuredDocumentation",
@@ -1204,6 +1212,7 @@
             "id": 55556,
             "nodeType": "FunctionDefinition",
             "src": "2646:118:112",
+            "nodes": [],
             "documentation": {
               "id": 55545,
               "nodeType": "StructuredDocumentation",

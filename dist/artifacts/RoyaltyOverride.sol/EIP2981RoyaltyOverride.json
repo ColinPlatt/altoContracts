@@ -757,6 +757,7 @@
         "id": 2587,
         "nodeType": "PragmaDirective",
         "src": "33:23:15",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -768,6 +769,7 @@
         "id": 2588,
         "nodeType": "ImportDirective",
         "src": "85:52:15",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/access/Ownable.sol",
         "file": "@openzeppelin/contracts/access/Ownable.sol",
         "nameLocation": "-1:-1:-1",
@@ -780,6 +782,7 @@
         "id": 2589,
         "nodeType": "ImportDirective",
         "src": "139:35:15",
+        "nodes": [],
         "absolutePath": "contracts/manifold/overrides/RoyaltyOverrideCore.sol",
         "file": "./RoyaltyOverrideCore.sol",
         "nameLocation": "-1:-1:-1",
@@ -797,10 +800,12 @@
             "id": 2610,
             "nodeType": "FunctionDefinition",
             "src": "391:152:15",
+            "nodes": [],
             "body": {
               "id": 2609,
               "nodeType": "Block",
               "src": "492:51:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -957,10 +962,12 @@
             "id": 2625,
             "nodeType": "FunctionDefinition",
             "src": "626:130:15",
+            "nodes": [],
             "body": {
               "id": 2624,
               "nodeType": "Block",
               "src": "712:44:15",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

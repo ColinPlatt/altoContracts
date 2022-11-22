@@ -270,6 +270,7 @@
         "id": 1070,
         "nodeType": "PragmaDirective",
         "src": "36:23:3",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -280,6 +281,7 @@
         "id": 1072,
         "nodeType": "ImportDirective",
         "src": "61:70:3",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol",
         "file": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
         "nameLocation": "-1:-1:-1",
@@ -304,6 +306,7 @@
         "id": 1074,
         "nodeType": "ImportDirective",
         "src": "132:82:3",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
         "file": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
         "nameLocation": "-1:-1:-1",
@@ -328,6 +331,7 @@
         "id": 1076,
         "nodeType": "ImportDirective",
         "src": "215:85:3",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC20TransferHelper.sol",
         "file": "../../../transferHelpers/ERC20TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -357,6 +361,7 @@
             "id": 1081,
             "nodeType": "UsingForDirective",
             "src": "494:27:3",
+            "nodes": [],
             "libraryName": {
               "id": 1078,
               "name": "SafeERC20",
@@ -386,6 +391,7 @@
             "id": 1085,
             "nodeType": "VariableDeclaration",
             "src": "575:56:3",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 1082,
@@ -427,10 +433,12 @@
             "id": 1097,
             "nodeType": "FunctionDefinition",
             "src": "638:122:3",
+            "nodes": [],
             "body": {
               "id": 1096,
               "nodeType": "Block",
               "src": "680:80:3",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -568,10 +576,12 @@
             "id": 1172,
             "nodeType": "FunctionDefinition",
             "src": "1007:933:3",
+            "nodes": [],
             "body": {
               "id": 1171,
               "nodeType": "Block",
               "src": "1085:855:3",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {

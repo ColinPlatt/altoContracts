@@ -77,6 +77,7 @@
         "id": 57157,
         "nodeType": "PragmaDirective",
         "src": "86:23:121",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -93,10 +94,12 @@
             "id": 57167,
             "nodeType": "FunctionDefinition",
             "src": "640:96:121",
+            "nodes": [],
             "body": {
               "id": 57166,
               "nodeType": "Block",
               "src": "702:34:121",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -187,10 +190,12 @@
             "id": 57176,
             "nodeType": "FunctionDefinition",
             "src": "742:99:121",
+            "nodes": [],
             "body": {
               "id": 57175,
               "nodeType": "Block",
               "src": "809:32:121",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

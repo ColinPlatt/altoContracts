@@ -284,6 +284,7 @@
         "id": 4247,
         "nodeType": "PragmaDirective",
         "src": "36:23:32",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -299,6 +300,7 @@
             "id": 4258,
             "nodeType": "FunctionDefinition",
             "src": "387:116:32",
+            "nodes": [],
             "documentation": {
               "id": 4249,
               "nodeType": "StructuredDocumentation",
@@ -415,6 +417,7 @@
             "id": 4268,
             "nodeType": "FunctionDefinition",
             "src": "721:118:32",
+            "nodes": [],
             "documentation": {
               "id": 4259,
               "nodeType": "StructuredDocumentation",
@@ -531,6 +534,7 @@
             "id": 4276,
             "nodeType": "FunctionDefinition",
             "src": "1008:70:32",
+            "nodes": [],
             "documentation": {
               "id": 4269,
               "nodeType": "StructuredDocumentation",
@@ -620,6 +624,7 @@
             "id": 4284,
             "nodeType": "FunctionDefinition",
             "src": "1245:76:32",
+            "nodes": [],
             "documentation": {
               "id": 4277,
               "nodeType": "StructuredDocumentation",

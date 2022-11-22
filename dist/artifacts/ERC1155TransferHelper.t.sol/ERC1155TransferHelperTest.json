@@ -1041,6 +1041,7 @@
         "id": 48173,
         "nodeType": "PragmaDirective",
         "src": "36:23:78",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -1051,6 +1052,7 @@
         "id": 48175,
         "nodeType": "ImportDirective",
         "src": "61:40:78",
+        "nodes": [],
         "absolutePath": "lib/ds-test/src/test.sol",
         "file": "ds-test/test.sol",
         "nameLocation": "-1:-1:-1",
@@ -1075,6 +1077,7 @@
         "id": 48177,
         "nodeType": "ImportDirective",
         "src": "103:62:78",
+        "nodes": [],
         "absolutePath": "contracts/ZoraModuleManager.sol",
         "file": "../../ZoraModuleManager.sol",
         "nameLocation": "-1:-1:-1",
@@ -1099,6 +1102,7 @@
         "id": 48179,
         "nodeType": "ImportDirective",
         "src": "166:108:78",
+        "nodes": [],
         "absolutePath": "contracts/auxiliary/ZoraProtocolFeeSettings/ZoraProtocolFeeSettings.sol",
         "file": "../../auxiliary/ZoraProtocolFeeSettings/ZoraProtocolFeeSettings.sol",
         "nameLocation": "-1:-1:-1",
@@ -1123,6 +1127,7 @@
         "id": 48181,
         "nodeType": "ImportDirective",
         "src": "275:63:78",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/users/ZoraRegistrar.sol",
         "file": "../utils/users/ZoraRegistrar.sol",
         "nameLocation": "-1:-1:-1",
@@ -1147,6 +1152,7 @@
         "id": 48183,
         "nodeType": "ImportDirective",
         "src": "339:45:78",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/users/Zorb.sol",
         "file": "../utils/users/Zorb.sol",
         "nameLocation": "-1:-1:-1",
@@ -1171,6 +1177,7 @@
         "id": 48185,
         "nodeType": "ImportDirective",
         "src": "385:82:78",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC20TransferHelper.sol",
         "file": "../../transferHelpers/ERC20TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1195,6 +1202,7 @@
         "id": 48187,
         "nodeType": "ImportDirective",
         "src": "468:84:78",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC721TransferHelper.sol",
         "file": "../../transferHelpers/ERC721TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1219,6 +1227,7 @@
         "id": 48189,
         "nodeType": "ImportDirective",
         "src": "553:86:78",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC1155TransferHelper.sol",
         "file": "../../transferHelpers/ERC1155TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1243,6 +1252,7 @@
         "id": 48191,
         "nodeType": "ImportDirective",
         "src": "641:67:78",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/modules/TransferModule.sol",
         "file": "../utils/modules/TransferModule.sol",
         "nameLocation": "-1:-1:-1",
@@ -1267,6 +1277,7 @@
         "id": 48193,
         "nodeType": "ImportDirective",
         "src": "709:60:78",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/tokens/TestERC1155.sol",
         "file": "../utils/tokens/TestERC1155.sol",
         "nameLocation": "-1:-1:-1",
@@ -1291,6 +1302,7 @@
         "id": 48195,
         "nodeType": "ImportDirective",
         "src": "770:36:78",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/VM.sol",
         "file": "../utils//VM.sol",
         "nameLocation": "-1:-1:-1",
@@ -1320,6 +1332,7 @@
             "id": 48201,
             "nodeType": "VariableDeclaration",
             "src": "957:14:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "vm",
@@ -1354,6 +1367,7 @@
             "id": 48204,
             "nodeType": "VariableDeclaration",
             "src": "978:19:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "alice",
@@ -1388,6 +1402,7 @@
             "id": 48207,
             "nodeType": "VariableDeclaration",
             "src": "1003:30:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "module",
@@ -1422,6 +1437,7 @@
             "id": 48210,
             "nodeType": "VariableDeclaration",
             "src": "1039:26:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "token",
@@ -1456,6 +1472,7 @@
             "id": 48213,
             "nodeType": "VariableDeclaration",
             "src": "1072:32:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "registrar",
@@ -1490,6 +1507,7 @@
             "id": 48216,
             "nodeType": "VariableDeclaration",
             "src": "1110:37:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "ZPFS",
@@ -1524,6 +1542,7 @@
             "id": 48219,
             "nodeType": "VariableDeclaration",
             "src": "1153:30:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "ZMM",
@@ -1558,6 +1577,7 @@
             "id": 48222,
             "nodeType": "VariableDeclaration",
             "src": "1190:48:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc20TransferHelper",
@@ -1592,6 +1612,7 @@
             "id": 48225,
             "nodeType": "VariableDeclaration",
             "src": "1244:50:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc721TransferHelper",
@@ -1626,6 +1647,7 @@
             "id": 48228,
             "nodeType": "VariableDeclaration",
             "src": "1300:52:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc1155TransferHelper",
@@ -1660,6 +1682,7 @@
             "id": 48231,
             "nodeType": "VariableDeclaration",
             "src": "1359:27:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "batchIds",
@@ -1696,6 +1719,7 @@
             "id": 48234,
             "nodeType": "VariableDeclaration",
             "src": "1392:31:78",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "batchAmounts",
@@ -1732,10 +1756,12 @@
             "id": 48405,
             "nodeType": "FunctionDefinition",
             "src": "1430:1113:78",
+            "nodes": [],
             "body": {
               "id": 48404,
               "nodeType": "Block",
               "src": "1454:1089:78",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3922,10 +3948,12 @@
             "id": 48471,
             "nodeType": "FunctionDefinition",
             "src": "2549:502:78",
+            "nodes": [],
             "body": {
               "id": 48470,
               "nodeType": "Block",
               "src": "2594:457:78",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -4799,10 +4827,12 @@
             "id": 48558,
             "nodeType": "FunctionDefinition",
             "src": "3057:638:78",
+            "nodes": [],
             "body": {
               "id": 48557,
               "nodeType": "Block",
               "src": "3101:594:78",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -5973,10 +6003,12 @@
             "id": 48607,
             "nodeType": "FunctionDefinition",
             "src": "3701:456:78",
+            "nodes": [],
             "body": {
               "id": 48606,
               "nodeType": "Block",
               "src": "3768:389:78",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -6585,10 +6617,12 @@
             "id": 48656,
             "nodeType": "FunctionDefinition",
             "src": "4163:499:78",
+            "nodes": [],
             "body": {
               "id": 48655,
               "nodeType": "Block",
               "src": "4229:433:78",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -7189,10 +7223,12 @@
             "id": 48694,
             "nodeType": "FunctionDefinition",
             "src": "4668:352:78",
+            "nodes": [],
             "body": {
               "id": 48693,
               "nodeType": "Block",
               "src": "4741:279:78",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -7679,10 +7715,12 @@
             "id": 48732,
             "nodeType": "FunctionDefinition",
             "src": "5026:380:78",
+            "nodes": [],
             "body": {
               "id": 48731,
               "nodeType": "Block",
               "src": "5098:308:78",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

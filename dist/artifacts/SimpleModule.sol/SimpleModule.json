@@ -107,6 +107,7 @@
         "id": 49699,
         "nodeType": "PragmaDirective",
         "src": "36:23:83",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -122,10 +123,12 @@
             "id": 49708,
             "nodeType": "FunctionDefinition",
             "src": "149:69:83",
+            "nodes": [],
             "body": {
               "id": 49707,
               "nodeType": "Block",
               "src": "193:25:83",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

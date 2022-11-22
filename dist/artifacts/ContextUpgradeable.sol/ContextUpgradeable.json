@@ -99,6 +99,7 @@
         "id": 53180,
         "nodeType": "PragmaDirective",
         "src": "86:23:102",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -110,6 +111,7 @@
         "id": 53181,
         "nodeType": "ImportDirective",
         "src": "110:42:102",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol",
         "file": "../proxy/utils/Initializable.sol",
         "nameLocation": "-1:-1:-1",
@@ -127,10 +129,12 @@
             "id": 53193,
             "nodeType": "FunctionDefinition",
             "src": "711:95:102",
+            "nodes": [],
             "body": {
               "id": 53192,
               "nodeType": "Block",
               "src": "763:43:102",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -209,10 +213,12 @@
             "id": 53199,
             "nodeType": "FunctionDefinition",
             "src": "812:69:102",
+            "nodes": [],
             "body": {
               "id": 53198,
               "nodeType": "Block",
               "src": "874:7:102",
+              "nodes": [],
               "statements": []
             },
             "implemented": true,
@@ -255,10 +261,12 @@
             "id": 53208,
             "nodeType": "FunctionDefinition",
             "src": "886:96:102",
+            "nodes": [],
             "body": {
               "id": 53207,
               "nodeType": "Block",
               "src": "948:34:102",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -349,10 +357,12 @@
             "id": 53217,
             "nodeType": "FunctionDefinition",
             "src": "988:99:102",
+            "nodes": [],
             "body": {
               "id": 53216,
               "nodeType": "Block",
               "src": "1055:32:102",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -442,6 +452,7 @@
             "id": 53221,
             "nodeType": "VariableDeclaration",
             "src": "1092:25:102",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "__gap",

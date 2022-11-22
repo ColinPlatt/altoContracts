@@ -161,6 +161,7 @@
         "id": 3156,
         "nodeType": "PragmaDirective",
         "src": "33:23:26",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -177,6 +178,7 @@
             "id": 3164,
             "nodeType": "FunctionDefinition",
             "src": "284:69:26",
+            "nodes": [],
             "functionSelector": "0ebd4c7f",
             "implemented": false,
             "kind": "function",
@@ -269,6 +271,7 @@
             "id": 3172,
             "nodeType": "FunctionDefinition",
             "src": "358:87:26",
+            "nodes": [],
             "functionSelector": "b9c4d9fb",
             "implemented": false,
             "kind": "function",
@@ -382,6 +385,7 @@
             "id": 3178,
             "nodeType": "StructDefinition",
             "src": "566:74:26",
+            "nodes": [],
             "canonicalName": "IRaribleV2.Part",
             "members": [
               {
@@ -449,6 +453,7 @@
             "id": 3187,
             "nodeType": "FunctionDefinition",
             "src": "645:81:26",
+            "nodes": [],
             "functionSelector": "cad96cca",
             "implemented": false,
             "kind": "function",

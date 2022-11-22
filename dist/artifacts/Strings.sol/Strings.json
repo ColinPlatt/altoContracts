@@ -77,6 +77,7 @@
         "id": 57179,
         "nodeType": "PragmaDirective",
         "src": "86:23:122",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -93,6 +94,7 @@
             "id": 57183,
             "nodeType": "VariableDeclaration",
             "src": "168:58:122",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "_HEX_SYMBOLS",
@@ -136,10 +138,12 @@
             "id": 57262,
             "nodeType": "FunctionDefinition",
             "src": "328:703:122",
+            "nodes": [],
             "body": {
               "id": 57261,
               "nodeType": "Block",
               "src": "399:632:122",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -1112,10 +1116,12 @@
             "id": 57303,
             "nodeType": "FunctionDefinition",
             "src": "1136:329:122",
+            "nodes": [],
             "body": {
               "id": 57302,
               "nodeType": "Block",
               "src": "1210:255:122",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -1599,10 +1605,12 @@
             "id": 57379,
             "nodeType": "FunctionDefinition",
             "src": "1588:441:122",
+            "nodes": [],
             "body": {
               "id": 57378,
               "nodeType": "Block",
               "src": "1678:351:122",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [

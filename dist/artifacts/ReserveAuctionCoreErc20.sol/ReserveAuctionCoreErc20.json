@@ -1956,6 +1956,7 @@
         "id": 7683,
         "nodeType": "PragmaDirective",
         "src": "36:23:41",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -1966,6 +1967,7 @@
         "id": 7685,
         "nodeType": "ImportDirective",
         "src": "61:84:41",
+        "nodes": [],
         "absolutePath": "node_modules/@rari-capital/solmate/src/utils/ReentrancyGuard.sol",
         "file": "@rari-capital/solmate/src/utils/ReentrancyGuard.sol",
         "nameLocation": "-1:-1:-1",
@@ -1990,6 +1992,7 @@
         "id": 7687,
         "nodeType": "ImportDirective",
         "src": "146:73:41",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol",
         "file": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
         "nameLocation": "-1:-1:-1",
@@ -2014,6 +2017,7 @@
         "id": 7689,
         "nodeType": "ImportDirective",
         "src": "221:90:41",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC721TransferHelper.sol",
         "file": "../../../../transferHelpers/ERC721TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -2038,6 +2042,7 @@
         "id": 7691,
         "nodeType": "ImportDirective",
         "src": "312:118:41",
+        "nodes": [],
         "absolutePath": "contracts/common/IncomingTransferSupport/V1/IncomingTransferSupportV1.sol",
         "file": "../../../../common/IncomingTransferSupport/V1/IncomingTransferSupportV1.sol",
         "nameLocation": "-1:-1:-1",
@@ -2062,6 +2067,7 @@
         "id": 7693,
         "nodeType": "ImportDirective",
         "src": "431:94:41",
+        "nodes": [],
         "absolutePath": "contracts/common/FeePayoutSupport/FeePayoutSupportV1.sol",
         "file": "../../../../common/FeePayoutSupport/FeePayoutSupportV1.sol",
         "nameLocation": "-1:-1:-1",
@@ -2086,6 +2092,7 @@
         "id": 7695,
         "nodeType": "ImportDirective",
         "src": "526:103:41",
+        "nodes": [],
         "absolutePath": "contracts/common/ModuleNamingSupport/ModuleNamingSupportV1.sol",
         "file": "../../../../common/ModuleNamingSupport/ModuleNamingSupportV1.sol",
         "nameLocation": "-1:-1:-1",
@@ -2110,6 +2117,7 @@
         "id": 7697,
         "nodeType": "ImportDirective",
         "src": "630:72:41",
+        "nodes": [],
         "absolutePath": "contracts/modules/ReserveAuction/Core/ERC20/IReserveAuctionCoreErc20.sol",
         "file": "./IReserveAuctionCoreErc20.sol",
         "nameLocation": "-1:-1:-1",
@@ -2139,6 +2147,7 @@
             "id": 7712,
             "nodeType": "VariableDeclaration",
             "src": "1297:40:41",
+            "nodes": [],
             "constant": true,
             "documentation": {
               "id": 7709,
@@ -2189,6 +2198,7 @@
             "id": 7716,
             "nodeType": "VariableDeclaration",
             "src": "1411:48:41",
+            "nodes": [],
             "constant": true,
             "documentation": {
               "id": 7713,
@@ -2238,6 +2248,7 @@
             "id": 7720,
             "nodeType": "VariableDeclaration",
             "src": "1723:58:41",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 7717,
@@ -2279,10 +2290,12 @@
             "id": 7759,
             "nodeType": "FunctionDefinition",
             "src": "2335:527:41",
+            "nodes": [],
             "body": {
               "id": 7758,
               "nodeType": "Block",
               "src": "2779:83:41",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2762,10 +2775,12 @@
             "id": 7779,
             "nodeType": "FunctionDefinition",
             "src": "3314:189:41",
+            "nodes": [],
             "body": {
               "id": 7778,
               "nodeType": "Block",
               "src": "3391:112:41",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3020,6 +3035,7 @@
             "id": 7798,
             "nodeType": "StructDefinition",
             "src": "4420:279:41",
+            "nodes": [],
             "canonicalName": "ReserveAuctionCoreErc20.Auction",
             "members": [
               {
@@ -3279,6 +3295,7 @@
             "id": 7806,
             "nodeType": "VariableDeclaration",
             "src": "4831:68:41",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 7799,
@@ -3358,6 +3375,7 @@
             "id": 7816,
             "nodeType": "EventDefinition",
             "src": "6240:94:41",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 7807,
@@ -3471,10 +3489,12 @@
             "id": 7930,
             "nodeType": "FunctionDefinition",
             "src": "6939:1242:41",
+            "nodes": [],
             "body": {
               "id": 7929,
               "nodeType": "Block",
               "src": "7203:978:41",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -4906,6 +4926,7 @@
             "id": 7940,
             "nodeType": "EventDefinition",
             "src": "9536:106:41",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 7931,
@@ -5019,10 +5040,12 @@
             "id": 7991,
             "nodeType": "FunctionDefinition",
             "src": "9876:658:41",
+            "nodes": [],
             "body": {
               "id": 7990,
               "nodeType": "Block",
               "src": "10025:509:41",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -5668,6 +5691,7 @@
             "id": 8001,
             "nodeType": "EventDefinition",
             "src": "11871:95:41",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 7992,
@@ -5781,10 +5805,12 @@
             "id": 8061,
             "nodeType": "FunctionDefinition",
             "src": "12139:703:41",
+            "nodes": [],
             "body": {
               "id": 8060,
               "nodeType": "Block",
               "src": "12226:616:41",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -6588,6 +6614,7 @@
             "id": 8075,
             "nodeType": "EventDefinition",
             "src": "20363:120:41",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 8062,
@@ -6757,10 +6784,12 @@
             "id": 8287,
             "nodeType": "FunctionDefinition",
             "src": "20705:3937:41",
+            "nodes": [],
             "body": {
               "id": 8286,
               "nodeType": "Block",
               "src": "20843:3799:41",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -9496,6 +9525,7 @@
             "id": 8297,
             "nodeType": "EventDefinition",
             "src": "26783:92:41",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 8288,
@@ -9609,10 +9639,12 @@
             "id": 8398,
             "nodeType": "FunctionDefinition",
             "src": "27045:1423:41",
+            "nodes": [],
             "body": {
               "id": 8397,
               "nodeType": "Block",
               "src": "27132:1336:41",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [

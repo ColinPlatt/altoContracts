@@ -924,6 +924,7 @@
         "id": 50003,
         "nodeType": "PragmaDirective",
         "src": "36:23:85",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -934,6 +935,7 @@
         "id": 50004,
         "nodeType": "ImportDirective",
         "src": "61:59:85",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC1155/ERC1155.sol",
         "file": "@openzeppelin/contracts/token/ERC1155/ERC1155.sol",
         "nameLocation": "-1:-1:-1",
@@ -951,10 +953,12 @@
             "id": 50014,
             "nodeType": "FunctionDefinition",
             "src": "219:28:85",
+            "nodes": [],
             "body": {
               "id": 50013,
               "nodeType": "Block",
               "src": "245:2:85",
+              "nodes": [],
               "statements": []
             },
             "implemented": true,
@@ -1015,10 +1019,12 @@
             "id": 50031,
             "nodeType": "FunctionDefinition",
             "src": "253:149:85",
+            "nodes": [],
             "body": {
               "id": 50030,
               "nodeType": "Block",
               "src": "352:50:85",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1237,10 +1243,12 @@
             "id": 50050,
             "nodeType": "FunctionDefinition",
             "src": "408:181:85",
+            "nodes": [],
             "body": {
               "id": 50049,
               "nodeType": "Block",
               "src": "532:57:85",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

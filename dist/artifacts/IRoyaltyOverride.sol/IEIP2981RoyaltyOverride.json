@@ -470,6 +470,7 @@
         "id": 2520,
         "nodeType": "PragmaDirective",
         "src": "33:23:14",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -481,6 +482,7 @@
         "id": 2521,
         "nodeType": "ImportDirective",
         "src": "85:65:14",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol",
         "file": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
         "nameLocation": "-1:-1:-1",
@@ -498,6 +500,7 @@
             "id": 2528,
             "nodeType": "EventDefinition",
             "src": "264:43:14",
+            "nodes": [],
             "anonymous": false,
             "name": "TokenRoyaltyRemoved",
             "nameLocation": "270:19:14",
@@ -541,6 +544,7 @@
             "id": 2536,
             "nodeType": "EventDefinition",
             "src": "312:70:14",
+            "nodes": [],
             "anonymous": false,
             "name": "TokenRoyaltySet",
             "nameLocation": "318:15:14",
@@ -641,6 +645,7 @@
             "id": 2542,
             "nodeType": "EventDefinition",
             "src": "387:55:14",
+            "nodes": [],
             "anonymous": false,
             "name": "DefaultRoyaltySet",
             "nameLocation": "393:17:14",
@@ -713,6 +718,7 @@
             "id": 2547,
             "nodeType": "StructDefinition",
             "src": "448:74:14",
+            "nodes": [],
             "canonicalName": "IEIP2981RoyaltyOverride.TokenRoyalty",
             "members": [
               {
@@ -780,6 +786,7 @@
             "id": 2554,
             "nodeType": "StructDefinition",
             "src": "528:105:14",
+            "nodes": [],
             "canonicalName": "IEIP2981RoyaltyOverride.TokenRoyaltyConfig",
             "members": [
               {
@@ -874,6 +881,7 @@
             "id": 2562,
             "nodeType": "FunctionDefinition",
             "src": "766:77:14",
+            "nodes": [],
             "documentation": {
               "id": 2555,
               "nodeType": "StructuredDocumentation",
@@ -951,6 +959,7 @@
             "id": 2568,
             "nodeType": "FunctionDefinition",
             "src": "964:65:14",
+            "nodes": [],
             "documentation": {
               "id": 2563,
               "nodeType": "StructuredDocumentation",
@@ -1012,6 +1021,7 @@
             "id": 2577,
             "nodeType": "FunctionDefinition",
             "src": "1191:96:14",
+            "nodes": [],
             "documentation": {
               "id": 2569,
               "nodeType": "StructuredDocumentation",
@@ -1108,6 +1118,7 @@
             "id": 2584,
             "nodeType": "FunctionDefinition",
             "src": "1414:67:14",
+            "nodes": [],
             "documentation": {
               "id": 2578,
               "nodeType": "StructuredDocumentation",

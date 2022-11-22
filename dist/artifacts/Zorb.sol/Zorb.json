@@ -725,6 +725,7 @@
         "id": 50414,
         "nodeType": "PragmaDirective",
         "src": "36:23:90",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -735,6 +736,7 @@
         "id": 50416,
         "nodeType": "ImportDirective",
         "src": "61:89:90",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol",
         "file": "@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol",
         "nameLocation": "-1:-1:-1",
@@ -759,6 +761,7 @@
         "id": 50418,
         "nodeType": "ImportDirective",
         "src": "151:92:90",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC1155/utils/ERC1155Holder.sol",
         "file": "@openzeppelin/contracts/token/ERC1155/utils/ERC1155Holder.sol",
         "nameLocation": "-1:-1:-1",
@@ -783,6 +786,7 @@
         "id": 50420,
         "nodeType": "ImportDirective",
         "src": "245:65:90",
+        "nodes": [],
         "absolutePath": "contracts/ZoraModuleManager.sol",
         "file": "../../../ZoraModuleManager.sol",
         "nameLocation": "-1:-1:-1",
@@ -812,6 +816,7 @@
             "id": 50428,
             "nodeType": "VariableDeclaration",
             "src": "409:30:90",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "ZMM",
@@ -846,10 +851,12 @@
             "id": 50440,
             "nodeType": "FunctionDefinition",
             "src": "446:72:90",
+            "nodes": [],
             "body": {
               "id": 50439,
               "nodeType": "Block",
               "src": "472:46:90",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -987,10 +994,12 @@
             "id": 50456,
             "nodeType": "FunctionDefinition",
             "src": "581:131:90",
+            "nodes": [],
             "body": {
               "id": 50455,
               "nodeType": "Block",
               "src": "651:61:90",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1167,10 +1176,12 @@
             "id": 50472,
             "nodeType": "FunctionDefinition",
             "src": "718:154:90",
+            "nodes": [],
             "body": {
               "id": 50471,
               "nodeType": "Block",
               "src": "804:68:90",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1350,10 +1361,12 @@
             "id": 50502,
             "nodeType": "FunctionDefinition",
             "src": "878:295:90",
+            "nodes": [],
             "body": {
               "id": 50501,
               "nodeType": "Block",
               "src": "1080:93:90",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1740,6 +1753,7 @@
             "id": 50511,
             "nodeType": "EventDefinition",
             "src": "1229:64:90",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 50503,
@@ -1846,10 +1860,12 @@
             "id": 50527,
             "nodeType": "FunctionDefinition",
             "src": "1299:103:90",
+            "nodes": [],
             "body": {
               "id": 50526,
               "nodeType": "Block",
               "src": "1326:76:90",
+              "nodes": [],
               "statements": [
                 {
                   "eventCall": {

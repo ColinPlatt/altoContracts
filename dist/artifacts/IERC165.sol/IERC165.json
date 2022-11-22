@@ -123,6 +123,7 @@
         "id": 57608,
         "nodeType": "PragmaDirective",
         "src": "100:23:125",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -139,6 +140,7 @@
             "id": 57617,
             "nodeType": "FunctionDefinition",
             "src": "774:76:125",
+            "nodes": [],
             "documentation": {
               "id": 57610,
               "nodeType": "StructuredDocumentation",

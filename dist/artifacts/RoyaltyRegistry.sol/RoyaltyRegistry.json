@@ -590,6 +590,7 @@
         "id": 2045,
         "nodeType": "PragmaDirective",
         "src": "33:23:11",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -601,6 +602,7 @@
         "id": 2046,
         "nodeType": "ImportDirective",
         "src": "85:64:11",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol",
         "file": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
         "nameLocation": "-1:-1:-1",
@@ -613,6 +615,7 @@
         "id": 2047,
         "nodeType": "ImportDirective",
         "src": "150:71:11",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
         "file": "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
         "nameLocation": "-1:-1:-1",
@@ -625,6 +628,7 @@
         "id": 2048,
         "nodeType": "ImportDirective",
         "src": "222:75:11",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
         "file": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
         "nameLocation": "-1:-1:-1",
@@ -637,6 +641,7 @@
         "id": 2049,
         "nodeType": "ImportDirective",
         "src": "298:82:11",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts-upgradeable/access/IAccessControlUpgradeable.sol",
         "file": "@openzeppelin/contracts-upgradeable/access/IAccessControlUpgradeable.sol",
         "nameLocation": "-1:-1:-1",
@@ -649,6 +654,7 @@
         "id": 2050,
         "nodeType": "ImportDirective",
         "src": "381:74:11",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
         "file": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
         "nameLocation": "-1:-1:-1",
@@ -661,6 +667,7 @@
         "id": 2051,
         "nodeType": "ImportDirective",
         "src": "456:76:11",
+        "nodes": [],
         "absolutePath": "node_modules/@manifoldxyz/libraries-solidity/contracts/access/IAdminControl.sol",
         "file": "@manifoldxyz/libraries-solidity/contracts/access/IAdminControl.sol",
         "nameLocation": "-1:-1:-1",
@@ -673,6 +680,7 @@
         "id": 2052,
         "nodeType": "ImportDirective",
         "src": "534:32:11",
+        "nodes": [],
         "absolutePath": "contracts/manifold/IRoyaltyRegistry.sol",
         "file": "./IRoyaltyRegistry.sol",
         "nameLocation": "-1:-1:-1",
@@ -685,6 +693,7 @@
         "id": 2053,
         "nodeType": "ImportDirective",
         "src": "567:35:11",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/INiftyGateway.sol",
         "file": "./specs/INiftyGateway.sol",
         "nameLocation": "-1:-1:-1",
@@ -697,6 +706,7 @@
         "id": 2054,
         "nodeType": "ImportDirective",
         "src": "603:33:11",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IFoundation.sol",
         "file": "./specs/IFoundation.sol",
         "nameLocation": "-1:-1:-1",
@@ -709,6 +719,7 @@
         "id": 2055,
         "nodeType": "ImportDirective",
         "src": "637:32:11",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IDigitalax.sol",
         "file": "./specs/IDigitalax.sol",
         "nameLocation": "-1:-1:-1",
@@ -721,6 +732,7 @@
         "id": 2056,
         "nodeType": "ImportDirective",
         "src": "670:32:11",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IArtBlocks.sol",
         "file": "./specs/IArtBlocks.sol",
         "nameLocation": "-1:-1:-1",
@@ -738,6 +750,7 @@
             "id": 2066,
             "nodeType": "UsingForDirective",
             "src": "841:37:11",
+            "nodes": [],
             "libraryName": {
               "id": 2064,
               "name": "AddressUpgradeable",
@@ -761,6 +774,7 @@
             "id": 2070,
             "nodeType": "VariableDeclaration",
             "src": "910:47:11",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "_overrides",
@@ -808,10 +822,12 @@
             "id": 2079,
             "nodeType": "FunctionDefinition",
             "src": "964:84:11",
+            "nodes": [],
             "body": {
               "id": 2078,
               "nodeType": "Block",
               "src": "1005:43:11",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -891,10 +907,12 @@
             "id": 2103,
             "nodeType": "FunctionDefinition",
             "src": "1115:221:11",
+            "nodes": [],
             "body": {
               "id": 2102,
               "nodeType": "Block",
               "src": "1223:113:11",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1191,10 +1209,12 @@
             "id": 2130,
             "nodeType": "FunctionDefinition",
             "src": "1411:240:11",
+            "nodes": [],
             "body": {
               "id": 2129,
               "nodeType": "Block",
               "src": "1506:145:11",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -1504,10 +1524,12 @@
             "id": 2179,
             "nodeType": "FunctionDefinition",
             "src": "1726:452:11",
+            "nodes": [],
             "body": {
               "id": 2178,
               "nodeType": "Block",
               "src": "1827:351:11",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2189,10 +2211,12 @@
             "id": 2371,
             "nodeType": "FunctionDefinition",
             "src": "2245:2053:11",
+            "nodes": [],
             "body": {
               "id": 2370,
               "nodeType": "Block",
               "src": "2327:1971:11",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {

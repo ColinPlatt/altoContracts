@@ -518,6 +518,7 @@
         "id": 746,
         "nodeType": "PragmaDirective",
         "src": "36:23:2",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -528,6 +529,7 @@
         "id": 748,
         "nodeType": "ImportDirective",
         "src": "61:103:2",
+        "nodes": [],
         "absolutePath": "node_modules/@manifoldxyz/royalty-registry-solidity/contracts/IRoyaltyEngineV1.sol",
         "file": "@manifoldxyz/royalty-registry-solidity/contracts/IRoyaltyEngineV1.sol",
         "nameLocation": "-1:-1:-1",
@@ -552,6 +554,7 @@
         "id": 750,
         "nodeType": "ImportDirective",
         "src": "165:70:2",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol",
         "file": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
         "nameLocation": "-1:-1:-1",
@@ -576,6 +579,7 @@
         "id": 752,
         "nodeType": "ImportDirective",
         "src": "236:92:2",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
         "file": "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
         "nameLocation": "-1:-1:-1",
@@ -600,6 +604,7 @@
         "id": 754,
         "nodeType": "ImportDirective",
         "src": "329:108:2",
+        "nodes": [],
         "absolutePath": "contracts/auxiliary/ZoraProtocolFeeSettings/ZoraProtocolFeeSettings.sol",
         "file": "../../auxiliary/ZoraProtocolFeeSettings/ZoraProtocolFeeSettings.sol",
         "nameLocation": "-1:-1:-1",
@@ -624,6 +629,7 @@
         "id": 756,
         "nodeType": "ImportDirective",
         "src": "438:102:2",
+        "nodes": [],
         "absolutePath": "contracts/common/OutgoingTransferSupport/V1/OutgoingTransferSupportV1.sol",
         "file": "../OutgoingTransferSupport/V1/OutgoingTransferSupportV1.sol",
         "nameLocation": "-1:-1:-1",
@@ -653,6 +659,7 @@
             "id": 762,
             "nodeType": "VariableDeclaration",
             "src": "792:34:2",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 760,
@@ -688,6 +695,7 @@
             "id": 766,
             "nodeType": "VariableDeclaration",
             "src": "880:53:2",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 763,
@@ -728,6 +736,7 @@
             "id": 770,
             "nodeType": "VariableDeclaration",
             "src": "984:30:2",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 767,
@@ -768,6 +777,7 @@
             "id": 781,
             "nodeType": "EventDefinition",
             "src": "1329:111:2",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 771,
@@ -903,10 +913,12 @@
             "id": 813,
             "nodeType": "FunctionDefinition",
             "src": "1728:374:2",
+            "nodes": [],
             "body": {
               "id": 812,
               "nodeType": "Block",
               "src": "1921:181:2",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1284,10 +1296,12 @@
             "id": 846,
             "nodeType": "FunctionDefinition",
             "src": "2472:414:2",
+            "nodes": [],
             "body": {
               "id": 845,
               "nodeType": "Block",
               "src": "2536:350:2",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1745,10 +1759,12 @@
             "id": 895,
             "nodeType": "FunctionDefinition",
             "src": "3119:632:2",
+            "nodes": [],
             "body": {
               "id": 894,
               "nodeType": "Block",
               "src": "3222:529:2",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -2397,10 +2413,12 @@
             "id": 955,
             "nodeType": "FunctionDefinition",
             "src": "4289:888:2",
+            "nodes": [],
             "body": {
               "id": 954,
               "nodeType": "Block",
               "src": "4501:676:2",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -3187,10 +3205,12 @@
             "id": 1067,
             "nodeType": "FunctionDefinition",
             "src": "5751:1742:2",
+            "nodes": [],
             "body": {
               "id": 1066,
               "nodeType": "Block",
               "src": "5944:1549:2",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

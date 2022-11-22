@@ -670,6 +670,7 @@
         "id": 50790,
         "nodeType": "PragmaDirective",
         "src": "689:24:95",
+        "nodes": [],
         "literals": [
           "solidity",
           ">=",
@@ -686,6 +687,7 @@
             "id": 50794,
             "nodeType": "EventDefinition",
             "src": "737:38:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log",
             "nameLocation": "743:3:95",
@@ -729,6 +731,7 @@
             "id": 50798,
             "nodeType": "EventDefinition",
             "src": "780:37:95",
+            "nodes": [],
             "anonymous": false,
             "name": "logs",
             "nameLocation": "786:4:95",
@@ -772,6 +775,7 @@
             "id": 50802,
             "nodeType": "EventDefinition",
             "src": "823:39:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_address",
             "nameLocation": "829:11:95",
@@ -816,6 +820,7 @@
             "id": 50806,
             "nodeType": "EventDefinition",
             "src": "867:39:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_bytes32",
             "nameLocation": "873:11:95",
@@ -859,6 +864,7 @@
             "id": 50810,
             "nodeType": "EventDefinition",
             "src": "911:35:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_int",
             "nameLocation": "917:7:95",
@@ -902,6 +908,7 @@
             "id": 50814,
             "nodeType": "EventDefinition",
             "src": "951:36:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_uint",
             "nameLocation": "957:8:95",
@@ -945,6 +952,7 @@
             "id": 50818,
             "nodeType": "EventDefinition",
             "src": "992:37:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_bytes",
             "nameLocation": "998:9:95",
@@ -988,6 +996,7 @@
             "id": 50822,
             "nodeType": "EventDefinition",
             "src": "1034:38:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_string",
             "nameLocation": "1040:10:95",
@@ -1031,6 +1040,7 @@
             "id": 50828,
             "nodeType": "EventDefinition",
             "src": "1078:55:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_named_address",
             "nameLocation": "1084:17:95",
@@ -1103,6 +1113,7 @@
             "id": 50834,
             "nodeType": "EventDefinition",
             "src": "1138:55:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_named_bytes32",
             "nameLocation": "1144:17:95",
@@ -1174,6 +1185,7 @@
             "id": 50842,
             "nodeType": "EventDefinition",
             "src": "1198:66:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_named_decimal_int",
             "nameLocation": "1204:21:95",
@@ -1273,6 +1285,7 @@
             "id": 50850,
             "nodeType": "EventDefinition",
             "src": "1269:67:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_named_decimal_uint",
             "nameLocation": "1275:22:95",
@@ -1372,6 +1385,7 @@
             "id": 50856,
             "nodeType": "EventDefinition",
             "src": "1341:51:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_named_int",
             "nameLocation": "1347:13:95",
@@ -1443,6 +1457,7 @@
             "id": 50862,
             "nodeType": "EventDefinition",
             "src": "1397:52:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_named_uint",
             "nameLocation": "1403:14:95",
@@ -1514,6 +1529,7 @@
             "id": 50868,
             "nodeType": "EventDefinition",
             "src": "1454:53:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_named_bytes",
             "nameLocation": "1460:15:95",
@@ -1585,6 +1601,7 @@
             "id": 50874,
             "nodeType": "EventDefinition",
             "src": "1512:54:95",
+            "nodes": [],
             "anonymous": false,
             "name": "log_named_string",
             "nameLocation": "1518:16:95",
@@ -1656,6 +1673,7 @@
             "id": 50877,
             "nodeType": "VariableDeclaration",
             "src": "1572:26:95",
+            "nodes": [],
             "constant": false,
             "functionSelector": "fa7626d4",
             "mutability": "mutable",
@@ -1700,6 +1718,7 @@
             "id": 50879,
             "nodeType": "VariableDeclaration",
             "src": "1604:20:95",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "_failed",
@@ -1727,6 +1746,7 @@
             "id": 50896,
             "nodeType": "VariableDeclaration",
             "src": "1631:104:95",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "HEVM_ADDRESS",
@@ -1983,10 +2003,12 @@
             "id": 50900,
             "nodeType": "ModifierDefinition",
             "src": "1742:27:95",
+            "nodes": [],
             "body": {
               "id": 50899,
               "nodeType": "Block",
               "src": "1763:6:95",
+              "nodes": [],
               "statements": [
                 {
                   "id": 50898,
@@ -2010,10 +2032,12 @@
             "id": 50906,
             "nodeType": "ModifierDefinition",
             "src": "1774:39:95",
+            "nodes": [],
             "body": {
               "id": 50905,
               "nodeType": "Block",
               "src": "1807:6:95",
+              "nodes": [],
               "statements": [
                 {
                   "id": 50904,
@@ -2065,10 +2089,12 @@
             "id": 50961,
             "nodeType": "FunctionDefinition",
             "src": "1819:584:95",
+            "nodes": [],
             "body": {
               "id": 50960,
               "nodeType": "Block",
               "src": "1859:544:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -2787,10 +2813,12 @@
             "id": 51005,
             "nodeType": "FunctionDefinition",
             "src": "2410:424:95",
+            "nodes": [],
             "body": {
               "id": 51004,
               "nodeType": "Block",
               "src": "2435:399:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -3399,10 +3427,12 @@
             "id": 51020,
             "nodeType": "FunctionDefinition",
             "src": "2840:242:95",
+            "nodes": [],
             "body": {
               "id": 51019,
               "nodeType": "Block",
               "src": "2895:187:95",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -3615,10 +3645,12 @@
             "id": 51041,
             "nodeType": "ModifierDefinition",
             "src": "3088:161:95",
+            "nodes": [],
             "body": {
               "id": 51040,
               "nodeType": "Block",
               "src": "3108:141:95",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -3879,10 +3911,12 @@
             "id": 51058,
             "nodeType": "FunctionDefinition",
             "src": "3255:157:95",
+            "nodes": [],
             "body": {
               "id": 51057,
               "nodeType": "Block",
               "src": "3300:112:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -4071,10 +4105,12 @@
             "id": 51079,
             "nodeType": "FunctionDefinition",
             "src": "3418:191:95",
+            "nodes": [],
             "body": {
               "id": 51078,
               "nodeType": "Block",
               "src": "3482:127:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -4327,10 +4363,12 @@
             "id": 51109,
             "nodeType": "FunctionDefinition",
             "src": "3615:277:95",
+            "nodes": [],
             "body": {
               "id": 51108,
               "nodeType": "Block",
               "src": "3664:228:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -4709,10 +4747,12 @@
             "id": 51134,
             "nodeType": "FunctionDefinition",
             "src": "3897:185:95",
+            "nodes": [],
             "body": {
               "id": 51133,
               "nodeType": "Block",
               "src": "3965:117:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -5033,10 +5073,12 @@
             "id": 51164,
             "nodeType": "FunctionDefinition",
             "src": "4088:277:95",
+            "nodes": [],
             "body": {
               "id": 51163,
               "nodeType": "Block",
               "src": "4137:228:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -5413,10 +5455,12 @@
             "id": 51189,
             "nodeType": "FunctionDefinition",
             "src": "4370:185:95",
+            "nodes": [],
             "body": {
               "id": 51188,
               "nodeType": "Block",
               "src": "4438:117:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -5735,10 +5779,12 @@
             "id": 51202,
             "nodeType": "FunctionDefinition",
             "src": "4560:82:95",
+            "nodes": [],
             "body": {
               "id": 51201,
               "nodeType": "Block",
               "src": "4611:31:95",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -5903,10 +5949,12 @@
             "id": 51218,
             "nodeType": "FunctionDefinition",
             "src": "4647:106:95",
+            "nodes": [],
             "body": {
               "id": 51217,
               "nodeType": "Block",
               "src": "4717:36:95",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -6114,10 +6162,12 @@
             "id": 51248,
             "nodeType": "FunctionDefinition",
             "src": "4759:257:95",
+            "nodes": [],
             "body": {
               "id": 51247,
               "nodeType": "Block",
               "src": "4800:216:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -6494,10 +6544,12 @@
             "id": 51273,
             "nodeType": "FunctionDefinition",
             "src": "5021:176:95",
+            "nodes": [],
             "body": {
               "id": 51272,
               "nodeType": "Block",
               "src": "5081:116:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -6816,10 +6868,12 @@
             "id": 51303,
             "nodeType": "FunctionDefinition",
             "src": "5202:262:95",
+            "nodes": [],
             "body": {
               "id": 51302,
               "nodeType": "Block",
               "src": "5245:219:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -7196,10 +7250,12 @@
             "id": 51328,
             "nodeType": "FunctionDefinition",
             "src": "5469:178:95",
+            "nodes": [],
             "body": {
               "id": 51327,
               "nodeType": "Block",
               "src": "5531:116:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -7518,10 +7574,12 @@
             "id": 51362,
             "nodeType": "FunctionDefinition",
             "src": "5652:323:95",
+            "nodes": [],
             "body": {
               "id": 51361,
               "nodeType": "Block",
               "src": "5715:260:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -7957,10 +8015,12 @@
             "id": 51390,
             "nodeType": "FunctionDefinition",
             "src": "5980:215:95",
+            "nodes": [],
             "body": {
               "id": 51389,
               "nodeType": "Block",
               "src": "6062:133:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -8316,10 +8376,12 @@
             "id": 51424,
             "nodeType": "FunctionDefinition",
             "src": "6200:328:95",
+            "nodes": [],
             "body": {
               "id": 51423,
               "nodeType": "Block",
               "src": "6265:263:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -8755,10 +8817,12 @@
             "id": 51452,
             "nodeType": "FunctionDefinition",
             "src": "6533:217:95",
+            "nodes": [],
             "body": {
               "id": 51451,
               "nodeType": "Block",
               "src": "6617:133:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -9114,10 +9178,12 @@
             "id": 51482,
             "nodeType": "FunctionDefinition",
             "src": "6756:259:95",
+            "nodes": [],
             "body": {
               "id": 51481,
               "nodeType": "Block",
               "src": "6799:216:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -9494,10 +9560,12 @@
             "id": 51507,
             "nodeType": "FunctionDefinition",
             "src": "7020:178:95",
+            "nodes": [],
             "body": {
               "id": 51506,
               "nodeType": "Block",
               "src": "7082:116:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -9810,10 +9878,12 @@
             "id": 51537,
             "nodeType": "FunctionDefinition",
             "src": "7203:254:95",
+            "nodes": [],
             "body": {
               "id": 51536,
               "nodeType": "Block",
               "src": "7244:213:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -10190,10 +10260,12 @@
             "id": 51562,
             "nodeType": "FunctionDefinition",
             "src": "7462:176:95",
+            "nodes": [],
             "body": {
               "id": 51561,
               "nodeType": "Block",
               "src": "7522:116:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -10506,10 +10578,12 @@
             "id": 51596,
             "nodeType": "FunctionDefinition",
             "src": "7643:320:95",
+            "nodes": [],
             "body": {
               "id": 51595,
               "nodeType": "Block",
               "src": "7706:257:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -10945,10 +11019,12 @@
             "id": 51624,
             "nodeType": "FunctionDefinition",
             "src": "7968:215:95",
+            "nodes": [],
             "body": {
               "id": 51623,
               "nodeType": "Block",
               "src": "8050:133:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -11304,10 +11380,12 @@
             "id": 51658,
             "nodeType": "FunctionDefinition",
             "src": "8188:325:95",
+            "nodes": [],
             "body": {
               "id": 51657,
               "nodeType": "Block",
               "src": "8253:260:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -11743,10 +11821,12 @@
             "id": 51686,
             "nodeType": "FunctionDefinition",
             "src": "8518:217:95",
+            "nodes": [],
             "body": {
               "id": 51685,
               "nodeType": "Block",
               "src": "8602:133:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -12102,10 +12182,12 @@
             "id": 51716,
             "nodeType": "FunctionDefinition",
             "src": "8741:259:95",
+            "nodes": [],
             "body": {
               "id": 51715,
               "nodeType": "Block",
               "src": "8784:216:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -12482,10 +12564,12 @@
             "id": 51741,
             "nodeType": "FunctionDefinition",
             "src": "9005:177:95",
+            "nodes": [],
             "body": {
               "id": 51740,
               "nodeType": "Block",
               "src": "9067:115:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -12798,10 +12882,12 @@
             "id": 51771,
             "nodeType": "FunctionDefinition",
             "src": "9187:254:95",
+            "nodes": [],
             "body": {
               "id": 51770,
               "nodeType": "Block",
               "src": "9228:213:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -13178,10 +13264,12 @@
             "id": 51796,
             "nodeType": "FunctionDefinition",
             "src": "9446:175:95",
+            "nodes": [],
             "body": {
               "id": 51795,
               "nodeType": "Block",
               "src": "9506:115:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -13494,10 +13582,12 @@
             "id": 51830,
             "nodeType": "FunctionDefinition",
             "src": "9626:320:95",
+            "nodes": [],
             "body": {
               "id": 51829,
               "nodeType": "Block",
               "src": "9689:257:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -13933,10 +14023,12 @@
             "id": 51858,
             "nodeType": "FunctionDefinition",
             "src": "9951:214:95",
+            "nodes": [],
             "body": {
               "id": 51857,
               "nodeType": "Block",
               "src": "10033:132:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -14292,10 +14384,12 @@
             "id": 51892,
             "nodeType": "FunctionDefinition",
             "src": "10170:325:95",
+            "nodes": [],
             "body": {
               "id": 51891,
               "nodeType": "Block",
               "src": "10235:260:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -14731,10 +14825,12 @@
             "id": 51920,
             "nodeType": "FunctionDefinition",
             "src": "10500:216:95",
+            "nodes": [],
             "body": {
               "id": 51919,
               "nodeType": "Block",
               "src": "10584:132:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -15090,10 +15186,12 @@
             "id": 51950,
             "nodeType": "FunctionDefinition",
             "src": "10722:259:95",
+            "nodes": [],
             "body": {
               "id": 51949,
               "nodeType": "Block",
               "src": "10765:216:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -15470,10 +15568,12 @@
             "id": 51975,
             "nodeType": "FunctionDefinition",
             "src": "10986:178:95",
+            "nodes": [],
             "body": {
               "id": 51974,
               "nodeType": "Block",
               "src": "11048:116:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -15786,10 +15886,12 @@
             "id": 52005,
             "nodeType": "FunctionDefinition",
             "src": "11169:254:95",
+            "nodes": [],
             "body": {
               "id": 52004,
               "nodeType": "Block",
               "src": "11210:213:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -16166,10 +16268,12 @@
             "id": 52030,
             "nodeType": "FunctionDefinition",
             "src": "11428:176:95",
+            "nodes": [],
             "body": {
               "id": 52029,
               "nodeType": "Block",
               "src": "11488:116:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -16482,10 +16586,12 @@
             "id": 52064,
             "nodeType": "FunctionDefinition",
             "src": "11609:320:95",
+            "nodes": [],
             "body": {
               "id": 52063,
               "nodeType": "Block",
               "src": "11672:257:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -16921,10 +17027,12 @@
             "id": 52092,
             "nodeType": "FunctionDefinition",
             "src": "11934:215:95",
+            "nodes": [],
             "body": {
               "id": 52091,
               "nodeType": "Block",
               "src": "12016:133:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -17280,10 +17388,12 @@
             "id": 52126,
             "nodeType": "FunctionDefinition",
             "src": "12154:325:95",
+            "nodes": [],
             "body": {
               "id": 52125,
               "nodeType": "Block",
               "src": "12219:260:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -17719,10 +17829,12 @@
             "id": 52154,
             "nodeType": "FunctionDefinition",
             "src": "12484:217:95",
+            "nodes": [],
             "body": {
               "id": 52153,
               "nodeType": "Block",
               "src": "12568:133:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -18078,10 +18190,12 @@
             "id": 52184,
             "nodeType": "FunctionDefinition",
             "src": "12707:259:95",
+            "nodes": [],
             "body": {
               "id": 52183,
               "nodeType": "Block",
               "src": "12750:216:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -18458,10 +18572,12 @@
             "id": 52209,
             "nodeType": "FunctionDefinition",
             "src": "12971:177:95",
+            "nodes": [],
             "body": {
               "id": 52208,
               "nodeType": "Block",
               "src": "13033:115:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -18774,10 +18890,12 @@
             "id": 52239,
             "nodeType": "FunctionDefinition",
             "src": "13153:254:95",
+            "nodes": [],
             "body": {
               "id": 52238,
               "nodeType": "Block",
               "src": "13194:213:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -19154,10 +19272,12 @@
             "id": 52264,
             "nodeType": "FunctionDefinition",
             "src": "13412:175:95",
+            "nodes": [],
             "body": {
               "id": 52263,
               "nodeType": "Block",
               "src": "13472:115:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -19470,10 +19590,12 @@
             "id": 52298,
             "nodeType": "FunctionDefinition",
             "src": "13592:320:95",
+            "nodes": [],
             "body": {
               "id": 52297,
               "nodeType": "Block",
               "src": "13655:257:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -19909,10 +20031,12 @@
             "id": 52326,
             "nodeType": "FunctionDefinition",
             "src": "13917:214:95",
+            "nodes": [],
             "body": {
               "id": 52325,
               "nodeType": "Block",
               "src": "13999:132:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -20268,10 +20392,12 @@
             "id": 52360,
             "nodeType": "FunctionDefinition",
             "src": "14136:325:95",
+            "nodes": [],
             "body": {
               "id": 52359,
               "nodeType": "Block",
               "src": "14201:260:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -20707,10 +20833,12 @@
             "id": 52388,
             "nodeType": "FunctionDefinition",
             "src": "14466:216:95",
+            "nodes": [],
             "body": {
               "id": 52387,
               "nodeType": "Block",
               "src": "14550:132:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -21066,10 +21194,12 @@
             "id": 52428,
             "nodeType": "FunctionDefinition",
             "src": "14688:344:95",
+            "nodes": [],
             "body": {
               "id": 52427,
               "nodeType": "Block",
               "src": "14749:283:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -21618,10 +21748,12 @@
             "id": 52463,
             "nodeType": "FunctionDefinition",
             "src": "15037:254:95",
+            "nodes": [],
             "body": {
               "id": 52462,
               "nodeType": "Block",
               "src": "15117:174:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -22112,10 +22244,12 @@
             "id": 52515,
             "nodeType": "FunctionDefinition",
             "src": "15297:345:95",
+            "nodes": [],
             "body": {
               "id": 52514,
               "nodeType": "Block",
               "src": "15379:263:95",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -22715,10 +22849,12 @@
             "id": 52547,
             "nodeType": "FunctionDefinition",
             "src": "15647:291:95",
+            "nodes": [],
             "body": {
               "id": 52546,
               "nodeType": "Block",
               "src": "15707:231:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {
@@ -23132,10 +23268,12 @@
             "id": 52574,
             "nodeType": "FunctionDefinition",
             "src": "15943:205:95",
+            "nodes": [],
             "body": {
               "id": 52573,
               "nodeType": "Block",
               "src": "16022:126:95",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {

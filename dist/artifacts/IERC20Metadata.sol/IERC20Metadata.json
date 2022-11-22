@@ -572,6 +572,7 @@
         "id": 55559,
         "nodeType": "PragmaDirective",
         "src": "110:23:113",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -583,6 +584,7 @@
         "id": 55560,
         "nodeType": "ImportDirective",
         "src": "135:23:113",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol",
         "file": "../IERC20.sol",
         "nameLocation": "-1:-1:-1",
@@ -600,6 +602,7 @@
             "id": 55569,
             "nodeType": "FunctionDefinition",
             "src": "377:54:113",
+            "nodes": [],
             "documentation": {
               "id": 55564,
               "nodeType": "StructuredDocumentation",
@@ -661,6 +664,7 @@
             "id": 55575,
             "nodeType": "FunctionDefinition",
             "src": "498:56:113",
+            "nodes": [],
             "documentation": {
               "id": 55570,
               "nodeType": "StructuredDocumentation",
@@ -722,6 +726,7 @@
             "id": 55581,
             "nodeType": "FunctionDefinition",
             "src": "630:50:113",
+            "nodes": [],
             "documentation": {
               "id": 55576,
               "nodeType": "StructuredDocumentation",

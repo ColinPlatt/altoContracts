@@ -793,6 +793,7 @@
         "id": 2628,
         "nodeType": "PragmaDirective",
         "src": "33:23:16",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -804,6 +805,7 @@
         "id": 2629,
         "nodeType": "ImportDirective",
         "src": "85:75:16",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
         "file": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
         "nameLocation": "-1:-1:-1",
@@ -816,6 +818,7 @@
         "id": 2630,
         "nodeType": "ImportDirective",
         "src": "162:35:16",
+        "nodes": [],
         "absolutePath": "contracts/manifold/overrides/RoyaltyOverrideCore.sol",
         "file": "./RoyaltyOverrideCore.sol",
         "nameLocation": "-1:-1:-1",
@@ -833,10 +836,12 @@
             "id": 2644,
             "nodeType": "FunctionDefinition",
             "src": "357:74:16",
+            "nodes": [],
             "body": {
               "id": 2643,
               "nodeType": "Block",
               "src": "398:33:16",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -916,10 +921,12 @@
             "id": 2660,
             "nodeType": "FunctionDefinition",
             "src": "514:152:16",
+            "nodes": [],
             "body": {
               "id": 2659,
               "nodeType": "Block",
               "src": "615:51:16",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1076,10 +1083,12 @@
             "id": 2675,
             "nodeType": "FunctionDefinition",
             "src": "749:130:16",
+            "nodes": [],
             "body": {
               "id": 2674,
               "nodeType": "Block",
               "src": "835:44:16",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

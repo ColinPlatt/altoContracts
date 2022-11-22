@@ -1232,6 +1232,7 @@
         "id": 3828,
         "nodeType": "PragmaDirective",
         "src": "36:23:31",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -1242,6 +1243,7 @@
         "id": 3830,
         "nodeType": "ImportDirective",
         "src": "61:84:31",
+        "nodes": [],
         "absolutePath": "node_modules/@rari-capital/solmate/src/utils/ReentrancyGuard.sol",
         "file": "@rari-capital/solmate/src/utils/ReentrancyGuard.sol",
         "nameLocation": "-1:-1:-1",
@@ -1266,6 +1268,7 @@
         "id": 3832,
         "nodeType": "ImportDirective",
         "src": "146:73:31",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol",
         "file": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
         "nameLocation": "-1:-1:-1",
@@ -1290,6 +1293,7 @@
         "id": 3834,
         "nodeType": "ImportDirective",
         "src": "221:90:31",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC721TransferHelper.sol",
         "file": "../../../../transferHelpers/ERC721TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1314,6 +1318,7 @@
         "id": 3836,
         "nodeType": "ImportDirective",
         "src": "312:94:31",
+        "nodes": [],
         "absolutePath": "contracts/common/FeePayoutSupport/FeePayoutSupportV1.sol",
         "file": "../../../../common/FeePayoutSupport/FeePayoutSupportV1.sol",
         "nameLocation": "-1:-1:-1",
@@ -1338,6 +1343,7 @@
         "id": 3838,
         "nodeType": "ImportDirective",
         "src": "407:103:31",
+        "nodes": [],
         "absolutePath": "contracts/common/ModuleNamingSupport/ModuleNamingSupportV1.sol",
         "file": "../../../../common/ModuleNamingSupport/ModuleNamingSupportV1.sol",
         "nameLocation": "-1:-1:-1",
@@ -1362,6 +1368,7 @@
         "id": 3840,
         "nodeType": "ImportDirective",
         "src": "511:48:31",
+        "nodes": [],
         "absolutePath": "contracts/modules/Asks/Core/ETH/IAsksCoreEth.sol",
         "file": "./IAsksCoreEth.sol",
         "nameLocation": "-1:-1:-1",
@@ -1391,6 +1398,7 @@
             "id": 3851,
             "nodeType": "VariableDeclaration",
             "src": "1014:58:31",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 3848,
@@ -1432,10 +1440,12 @@
             "id": 3885,
             "nodeType": "FunctionDefinition",
             "src": "1342:419:31",
+            "nodes": [],
             "body": {
               "id": 3884,
               "nodeType": "Block",
               "src": "1678:83:31",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1860,10 +1870,12 @@
             "id": 3905,
             "nodeType": "FunctionDefinition",
             "src": "2005:177:31",
+            "nodes": [],
             "body": {
               "id": 3904,
               "nodeType": "Block",
               "src": "2082:100:31",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2118,6 +2130,7 @@
             "id": 3910,
             "nodeType": "StructDefinition",
             "src": "2536:64:31",
+            "nodes": [],
             "canonicalName": "AsksCoreEth.Ask",
             "members": [
               {
@@ -2185,6 +2198,7 @@
             "id": 3918,
             "nodeType": "VariableDeclaration",
             "src": "2709:60:31",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 3911,
@@ -2264,6 +2278,7 @@
             "id": 3929,
             "nodeType": "EventDefinition",
             "src": "4009:104:31",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 3919,
@@ -2399,10 +2414,12 @@
             "id": 3996,
             "nodeType": "FunctionDefinition",
             "src": "4329:855:31",
+            "nodes": [],
             "body": {
               "id": 3995,
               "nodeType": "Block",
               "src": "4458:726:31",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -3301,6 +3318,7 @@
             "id": 4007,
             "nodeType": "EventDefinition",
             "src": "6418:109:31",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 3997,
@@ -3436,10 +3454,12 @@
             "id": 4055,
             "nodeType": "FunctionDefinition",
             "src": "6745:602:31",
+            "nodes": [],
             "body": {
               "id": 4054,
               "nodeType": "Block",
               "src": "6876:471:31",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -4031,6 +4051,7 @@
             "id": 4066,
             "nodeType": "EventDefinition",
             "src": "8576:105:31",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 4056,
@@ -4166,10 +4187,12 @@
             "id": 4124,
             "nodeType": "FunctionDefinition",
             "src": "8850:630:31",
+            "nodes": [],
             "body": {
               "id": 4123,
               "nodeType": "Block",
               "src": "8933:547:31",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -4926,6 +4949,7 @@
             "id": 4137,
             "nodeType": "EventDefinition",
             "src": "12400:118:31",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 4125,
@@ -5090,10 +5114,12 @@
             "id": 4244,
             "nodeType": "FunctionDefinition",
             "src": "12685:1370:31",
+            "nodes": [],
             "body": {
               "id": 4243,
               "nodeType": "Block",
               "src": "12774:1281:31",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [

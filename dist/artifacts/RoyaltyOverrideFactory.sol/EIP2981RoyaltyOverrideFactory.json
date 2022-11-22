@@ -314,6 +314,7 @@
         "id": 2977,
         "nodeType": "PragmaDirective",
         "src": "33:23:18",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -325,6 +326,7 @@
         "id": 2978,
         "nodeType": "ImportDirective",
         "src": "85:50:18",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/proxy/Clones.sol",
         "file": "@openzeppelin/contracts/proxy/Clones.sol",
         "nameLocation": "-1:-1:-1",
@@ -337,6 +339,7 @@
         "id": 2979,
         "nodeType": "ImportDirective",
         "src": "136:40:18",
+        "nodes": [],
         "absolutePath": "contracts/manifold/overrides/RoyaltyOverrideCloneable.sol",
         "file": "./RoyaltyOverrideCloneable.sol",
         "nameLocation": "-1:-1:-1",
@@ -354,6 +357,7 @@
             "id": 2982,
             "nodeType": "VariableDeclaration",
             "src": "293:28:18",
+            "nodes": [],
             "constant": false,
             "functionSelector": "e517fedd",
             "mutability": "mutable",
@@ -383,6 +387,7 @@
             "id": 2986,
             "nodeType": "EventDefinition",
             "src": "326:71:18",
+            "nodes": [],
             "anonymous": false,
             "name": "EIP2981RoyaltyOverrideCreated",
             "nameLocation": "332:29:18",
@@ -427,10 +432,12 @@
             "id": 2996,
             "nodeType": "FunctionDefinition",
             "src": "401:63:18",
+            "nodes": [],
             "body": {
               "id": 2995,
               "nodeType": "Block",
               "src": "429:35:18",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -532,10 +539,12 @@
             "id": 3029,
             "nodeType": "FunctionDefinition",
             "src": "468:311:18",
+            "nodes": [],
             "body": {
               "id": 3028,
               "nodeType": "Block",
               "src": "519:260:18",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [

@@ -224,6 +224,7 @@
         "id": 2374,
         "nodeType": "PragmaDirective",
         "src": "33:23:12",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -235,6 +236,7 @@
         "id": 2375,
         "nodeType": "ImportDirective",
         "src": "85:64:12",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol",
         "file": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
         "nameLocation": "-1:-1:-1",
@@ -247,6 +249,7 @@
         "id": 2376,
         "nodeType": "ImportDirective",
         "src": "150:36:12",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IZoraOverride.sol",
         "file": "../specs/IZoraOverride.sol",
         "nameLocation": "-1:-1:-1",
@@ -264,10 +267,12 @@
             "id": 2403,
             "nodeType": "FunctionDefinition",
             "src": "290:209:12",
+            "nodes": [],
             "body": {
               "id": 2402,
               "nodeType": "Block",
               "src": "389:110:12",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -550,10 +555,12 @@
             "id": 2505,
             "nodeType": "FunctionDefinition",
             "src": "571:1200:12",
+            "nodes": [],
             "body": {
               "id": 2504,
               "nodeType": "Block",
               "src": "717:1054:12",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [

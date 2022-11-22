@@ -667,6 +667,7 @@
         "id": 50113,
         "nodeType": "PragmaDirective",
         "src": "36:23:88",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -682,6 +683,7 @@
             "id": 50117,
             "nodeType": "VariableDeclaration",
             "src": "248:36:88",
+            "nodes": [],
             "constant": false,
             "functionSelector": "06fdde03",
             "mutability": "mutable",
@@ -726,6 +728,7 @@
             "id": 50120,
             "nodeType": "VariableDeclaration",
             "src": "290:29:88",
+            "nodes": [],
             "constant": false,
             "functionSelector": "95d89b41",
             "mutability": "mutable",
@@ -770,6 +773,7 @@
             "id": 50123,
             "nodeType": "VariableDeclaration",
             "src": "325:26:88",
+            "nodes": [],
             "constant": false,
             "functionSelector": "313ce567",
             "mutability": "mutable",
@@ -814,6 +818,7 @@
             "id": 50131,
             "nodeType": "EventDefinition",
             "src": "358:70:88",
+            "nodes": [],
             "anonymous": false,
             "name": "Approval",
             "nameLocation": "364:8:88",
@@ -915,6 +920,7 @@
             "id": 50139,
             "nodeType": "EventDefinition",
             "src": "433:70:88",
+            "nodes": [],
             "anonymous": false,
             "name": "Transfer",
             "nameLocation": "439:8:88",
@@ -1016,6 +1022,7 @@
             "id": 50145,
             "nodeType": "EventDefinition",
             "src": "508:48:88",
+            "nodes": [],
             "anonymous": false,
             "name": "Deposit",
             "nameLocation": "514:7:88",
@@ -1088,6 +1095,7 @@
             "id": 50151,
             "nodeType": "EventDefinition",
             "src": "561:51:88",
+            "nodes": [],
             "anonymous": false,
             "name": "Withdrawal",
             "nameLocation": "567:10:88",
@@ -1160,6 +1168,7 @@
             "id": 50155,
             "nodeType": "VariableDeclaration",
             "src": "618:44:88",
+            "nodes": [],
             "constant": false,
             "functionSelector": "70a08231",
             "mutability": "mutable",
@@ -1207,6 +1216,7 @@
             "id": 50161,
             "nodeType": "VariableDeclaration",
             "src": "668:64:88",
+            "nodes": [],
             "constant": false,
             "functionSelector": "dd62ed3e",
             "mutability": "mutable",
@@ -1273,10 +1283,12 @@
             "id": 50168,
             "nodeType": "FunctionDefinition",
             "src": "739:54:88",
+            "nodes": [],
             "body": {
               "id": 50167,
               "nodeType": "Block",
               "src": "767:26:88",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1341,10 +1353,12 @@
             "id": 50175,
             "nodeType": "FunctionDefinition",
             "src": "799:53:88",
+            "nodes": [],
             "body": {
               "id": 50174,
               "nodeType": "Block",
               "src": "826:26:88",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1409,10 +1423,12 @@
             "id": 50194,
             "nodeType": "FunctionDefinition",
             "src": "858:130:88",
+            "nodes": [],
             "body": {
               "id": 50193,
               "nodeType": "Block",
               "src": "892:96:88",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1636,10 +1652,12 @@
             "id": 50231,
             "nodeType": "FunctionDefinition",
             "src": "994:215:88",
+            "nodes": [],
             "body": {
               "id": 50230,
               "nodeType": "Block",
               "src": "1032:177:88",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2114,10 +2132,12 @@
             "id": 50243,
             "nodeType": "FunctionDefinition",
             "src": "1215:98:88",
+            "nodes": [],
             "body": {
               "id": 50242,
               "nodeType": "Block",
               "src": "1268:45:88",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2252,10 +2272,12 @@
             "id": 50271,
             "nodeType": "FunctionDefinition",
             "src": "1319:180:88",
+            "nodes": [],
             "body": {
               "id": 50270,
               "nodeType": "Block",
               "src": "1384:115:88",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2598,10 +2620,12 @@
             "id": 50288,
             "nodeType": "FunctionDefinition",
             "src": "1505:124:88",
+            "nodes": [],
             "body": {
               "id": 50287,
               "nodeType": "Block",
               "src": "1571:58:88",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2816,10 +2840,12 @@
             "id": 50367,
             "nodeType": "FunctionDefinition",
             "src": "1635:482:88",
+            "nodes": [],
             "body": {
               "id": 50366,
               "nodeType": "Block",
               "src": "1748:369:88",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

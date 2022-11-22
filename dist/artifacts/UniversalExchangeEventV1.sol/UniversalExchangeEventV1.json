@@ -209,6 +209,7 @@
         "id": 1339,
         "nodeType": "PragmaDirective",
         "src": "36:23:7",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -224,6 +225,7 @@
             "id": 1347,
             "nodeType": "StructDefinition",
             "src": "458:110:7",
+            "nodes": [],
             "canonicalName": "UniversalExchangeEventV1.ExchangeDetails",
             "members": [
               {
@@ -318,6 +320,7 @@
             "id": 1360,
             "nodeType": "EventDefinition",
             "src": "822:107:7",
+            "nodes": [],
             "anonymous": false,
             "documentation": {
               "id": 1348,

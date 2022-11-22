@@ -610,6 +610,7 @@
         "id": 2678,
         "nodeType": "PragmaDirective",
         "src": "33:23:17",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -621,6 +622,7 @@
         "id": 2679,
         "nodeType": "ImportDirective",
         "src": "85:64:17",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol",
         "file": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
         "nameLocation": "-1:-1:-1",
@@ -633,6 +635,7 @@
         "id": 2680,
         "nodeType": "ImportDirective",
         "src": "150:65:17",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/structs/EnumerableSet.sol",
         "file": "@openzeppelin/contracts/utils/structs/EnumerableSet.sol",
         "nameLocation": "-1:-1:-1",
@@ -645,6 +648,7 @@
         "id": 2681,
         "nodeType": "ImportDirective",
         "src": "217:32:17",
+        "nodes": [],
         "absolutePath": "contracts/manifold/overrides/IRoyaltyOverride.sol",
         "file": "./IRoyaltyOverride.sol",
         "nameLocation": "-1:-1:-1",
@@ -657,6 +661,7 @@
         "id": 2682,
         "nodeType": "ImportDirective",
         "src": "250:31:17",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IEIP2981.sol",
         "file": "../specs/IEIP2981.sol",
         "nameLocation": "-1:-1:-1",
@@ -674,6 +679,7 @@
             "id": 2693,
             "nodeType": "UsingForDirective",
             "src": "439:46:17",
+            "nodes": [],
             "libraryName": {
               "id": 2690,
               "name": "EnumerableSet",
@@ -703,6 +709,7 @@
             "id": 2696,
             "nodeType": "VariableDeclaration",
             "src": "491:34:17",
+            "nodes": [],
             "constant": false,
             "functionSelector": "7885fdc7",
             "mutability": "mutable",
@@ -738,6 +745,7 @@
             "id": 2701,
             "nodeType": "VariableDeclaration",
             "src": "531:56:17",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "_tokenRoyalties",
@@ -791,6 +799,7 @@
             "id": 2704,
             "nodeType": "VariableDeclaration",
             "src": "593:50:17",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "_tokensWithRoyalties",
@@ -825,10 +834,12 @@
             "id": 2734,
             "nodeType": "FunctionDefinition",
             "src": "650:273:17",
+            "nodes": [],
             "body": {
               "id": 2733,
               "nodeType": "Block",
               "src": "758:165:17",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1229,10 +1240,12 @@
             "id": 2827,
             "nodeType": "FunctionDefinition",
             "src": "1106:866:17",
+            "nodes": [],
             "body": {
               "id": 2826,
               "nodeType": "Block",
               "src": "1187:785:17",
+              "nodes": [],
               "statements": [
                 {
                   "body": {
@@ -2396,10 +2409,12 @@
             "id": 2859,
             "nodeType": "FunctionDefinition",
             "src": "2155:261:17",
+            "nodes": [],
             "body": {
               "id": 2858,
               "nodeType": "Block",
               "src": "2221:195:17",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2819,10 +2834,12 @@
             "id": 2871,
             "nodeType": "FunctionDefinition",
             "src": "2504:127:17",
+            "nodes": [],
             "body": {
               "id": 2870,
               "nodeType": "Block",
               "src": "2578:53:17",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2947,10 +2964,12 @@
             "id": 2904,
             "nodeType": "FunctionDefinition",
             "src": "2719:310:17",
+            "nodes": [],
             "body": {
               "id": 2903,
               "nodeType": "Block",
               "src": "2824:205:17",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -3356,10 +3375,12 @@
             "id": 2974,
             "nodeType": "FunctionDefinition",
             "src": "3106:483:17",
+            "nodes": [],
             "body": {
               "id": 2973,
               "nodeType": "Block",
               "src": "3207:382:17",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {

@@ -1473,6 +1473,7 @@
         "id": 42085,
         "nodeType": "PragmaDirective",
         "src": "36:23:75",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -1483,6 +1484,7 @@
         "id": 42087,
         "nodeType": "ImportDirective",
         "src": "61:40:75",
+        "nodes": [],
         "absolutePath": "lib/ds-test/src/test.sol",
         "file": "ds-test/test.sol",
         "nameLocation": "-1:-1:-1",
@@ -1507,6 +1509,7 @@
         "id": 42089,
         "nodeType": "ImportDirective",
         "src": "103:126:75",
+        "nodes": [],
         "absolutePath": "contracts/modules/ReserveAuction/Listing/ERC20/ReserveAuctionListingErc20.sol",
         "file": "../../../../../modules/ReserveAuction/Listing/ERC20/ReserveAuctionListingErc20.sol",
         "nameLocation": "-1:-1:-1",
@@ -1531,6 +1534,7 @@
         "id": 42091,
         "nodeType": "ImportDirective",
         "src": "230:54:75",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/users/Zorb.sol",
         "file": "../../../../utils/users/Zorb.sol",
         "nameLocation": "-1:-1:-1",
@@ -1555,6 +1559,7 @@
         "id": 42093,
         "nodeType": "ImportDirective",
         "src": "285:72:75",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/users/ZoraRegistrar.sol",
         "file": "../../../../utils/users/ZoraRegistrar.sol",
         "nameLocation": "-1:-1:-1",
@@ -1579,6 +1584,7 @@
         "id": 42095,
         "nodeType": "ImportDirective",
         "src": "358:71:75",
+        "nodes": [],
         "absolutePath": "contracts/ZoraModuleManager.sol",
         "file": "../../../../../ZoraModuleManager.sol",
         "nameLocation": "-1:-1:-1",
@@ -1603,6 +1609,7 @@
         "id": 42097,
         "nodeType": "ImportDirective",
         "src": "430:117:75",
+        "nodes": [],
         "absolutePath": "contracts/auxiliary/ZoraProtocolFeeSettings/ZoraProtocolFeeSettings.sol",
         "file": "../../../../../auxiliary/ZoraProtocolFeeSettings/ZoraProtocolFeeSettings.sol",
         "nameLocation": "-1:-1:-1",
@@ -1627,6 +1634,7 @@
         "id": 42099,
         "nodeType": "ImportDirective",
         "src": "548:91:75",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC20TransferHelper.sol",
         "file": "../../../../../transferHelpers/ERC20TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1651,6 +1659,7 @@
         "id": 42101,
         "nodeType": "ImportDirective",
         "src": "640:93:75",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC721TransferHelper.sol",
         "file": "../../../../../transferHelpers/ERC721TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1675,6 +1684,7 @@
         "id": 42103,
         "nodeType": "ImportDirective",
         "src": "734:74:75",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/modules/RoyaltyEngine.sol",
         "file": "../../../../utils/modules/RoyaltyEngine.sol",
         "nameLocation": "-1:-1:-1",
@@ -1699,6 +1709,7 @@
         "id": 42105,
         "nodeType": "ImportDirective",
         "src": "809:65:75",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/tokens/TestERC20.sol",
         "file": "../../../../utils/tokens/TestERC20.sol",
         "nameLocation": "-1:-1:-1",
@@ -1723,6 +1734,7 @@
         "id": 42107,
         "nodeType": "ImportDirective",
         "src": "875:67:75",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/tokens/TestERC721.sol",
         "file": "../../../../utils/tokens/TestERC721.sol",
         "nameLocation": "-1:-1:-1",
@@ -1747,6 +1759,7 @@
         "id": 42109,
         "nodeType": "ImportDirective",
         "src": "943:55:75",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/tokens/WETH.sol",
         "file": "../../../../utils/tokens/WETH.sol",
         "nameLocation": "-1:-1:-1",
@@ -1771,6 +1784,7 @@
         "id": 42111,
         "nodeType": "ImportDirective",
         "src": "999:44:75",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/VM.sol",
         "file": "../../../../utils/VM.sol",
         "nameLocation": "-1:-1:-1",
@@ -1800,6 +1814,7 @@
             "id": 42117,
             "nodeType": "VariableDeclaration",
             "src": "1201:14:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "vm",
@@ -1834,6 +1849,7 @@
             "id": 42120,
             "nodeType": "VariableDeclaration",
             "src": "1222:32:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "registrar",
@@ -1868,6 +1884,7 @@
             "id": 42123,
             "nodeType": "VariableDeclaration",
             "src": "1260:37:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "ZPFS",
@@ -1902,6 +1919,7 @@
             "id": 42126,
             "nodeType": "VariableDeclaration",
             "src": "1303:30:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "ZMM",
@@ -1936,6 +1954,7 @@
             "id": 42129,
             "nodeType": "VariableDeclaration",
             "src": "1339:48:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc20TransferHelper",
@@ -1970,6 +1989,7 @@
             "id": 42132,
             "nodeType": "VariableDeclaration",
             "src": "1393:50:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc721TransferHelper",
@@ -2004,6 +2024,7 @@
             "id": 42135,
             "nodeType": "VariableDeclaration",
             "src": "1449:36:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "royaltyEngine",
@@ -2038,6 +2059,7 @@
             "id": 42138,
             "nodeType": "VariableDeclaration",
             "src": "1492:44:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "auctions",
@@ -2072,6 +2094,7 @@
             "id": 42141,
             "nodeType": "VariableDeclaration",
             "src": "1542:24:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc20",
@@ -2106,6 +2129,7 @@
             "id": 42144,
             "nodeType": "VariableDeclaration",
             "src": "1572:25:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "token",
@@ -2140,6 +2164,7 @@
             "id": 42147,
             "nodeType": "VariableDeclaration",
             "src": "1603:18:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "weth",
@@ -2174,6 +2199,7 @@
             "id": 42150,
             "nodeType": "VariableDeclaration",
             "src": "1628:20:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "seller",
@@ -2208,6 +2234,7 @@
             "id": 42153,
             "nodeType": "VariableDeclaration",
             "src": "1654:34:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "sellerFundsRecipient",
@@ -2242,6 +2269,7 @@
             "id": 42156,
             "nodeType": "VariableDeclaration",
             "src": "1694:33:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "listingFeeRecipient",
@@ -2276,6 +2304,7 @@
             "id": 42159,
             "nodeType": "VariableDeclaration",
             "src": "1733:30:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "royaltyRecipient",
@@ -2310,6 +2339,7 @@
             "id": 42162,
             "nodeType": "VariableDeclaration",
             "src": "1769:20:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "bidder",
@@ -2344,6 +2374,7 @@
             "id": 42165,
             "nodeType": "VariableDeclaration",
             "src": "1795:25:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "otherBidder",
@@ -2378,6 +2409,7 @@
             "id": 42168,
             "nodeType": "VariableDeclaration",
             "src": "1826:34:75",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "protocolFeeRecipient",
@@ -2412,10 +2444,12 @@
             "id": 42608,
             "nodeType": "FunctionDefinition",
             "src": "1867:2948:75",
+            "nodes": [],
             "body": {
               "id": 42607,
               "nodeType": "Block",
               "src": "1891:2924:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -8073,10 +8107,12 @@
             "id": 42760,
             "nodeType": "FunctionDefinition",
             "src": "5029:1256:75",
+            "nodes": [],
             "body": {
               "id": 42759,
               "nodeType": "Block",
               "src": "5066:1219:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -10265,10 +10301,12 @@
             "id": 42816,
             "nodeType": "FunctionDefinition",
             "src": "6291:494:75",
+            "nodes": [],
             "body": {
               "id": 42815,
               "nodeType": "Block",
               "src": "6334:451:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -11081,10 +11119,12 @@
             "id": 42974,
             "nodeType": "FunctionDefinition",
             "src": "6791:1247:75",
+            "nodes": [],
             "body": {
               "id": 42973,
               "nodeType": "Block",
               "src": "6845:1193:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -13294,10 +13334,12 @@
             "id": 43010,
             "nodeType": "FunctionDefinition",
             "src": "8044:391:75",
+            "nodes": [],
             "body": {
               "id": 43009,
               "nodeType": "Block",
               "src": "8100:335:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -13794,10 +13836,12 @@
             "id": 43055,
             "nodeType": "FunctionDefinition",
             "src": "8441:422:75",
+            "nodes": [],
             "body": {
               "id": 43054,
               "nodeType": "Block",
               "src": "8501:362:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -14406,10 +14450,12 @@
             "id": 43100,
             "nodeType": "FunctionDefinition",
             "src": "8869:289:75",
+            "nodes": [],
             "body": {
               "id": 43099,
               "nodeType": "Block",
               "src": "8930:228:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -15022,10 +15068,12 @@
             "id": 43177,
             "nodeType": "FunctionDefinition",
             "src": "9372:596:75",
+            "nodes": [],
             "body": {
               "id": 43176,
               "nodeType": "Block",
               "src": "9411:557:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -16108,10 +16156,12 @@
             "id": 43233,
             "nodeType": "FunctionDefinition",
             "src": "9974:471:75",
+            "nodes": [],
             "body": {
               "id": 43232,
               "nodeType": "Block",
               "src": "10022:423:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -16873,10 +16923,12 @@
             "id": 43254,
             "nodeType": "FunctionDefinition",
             "src": "10451:177:75",
+            "nodes": [],
             "body": {
               "id": 43253,
               "nodeType": "Block",
               "src": "10512:116:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -17132,10 +17184,12 @@
             "id": 43345,
             "nodeType": "FunctionDefinition",
             "src": "10634:637:75",
+            "nodes": [],
             "body": {
               "id": 43344,
               "nodeType": "Block",
               "src": "10689:582:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -18347,10 +18401,12 @@
             "id": 43426,
             "nodeType": "FunctionDefinition",
             "src": "11485:592:75",
+            "nodes": [],
             "body": {
               "id": 43425,
               "nodeType": "Block",
               "src": "11522:555:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -19467,10 +19523,12 @@
             "id": 43481,
             "nodeType": "FunctionDefinition",
             "src": "12083:476:75",
+            "nodes": [],
             "body": {
               "id": 43480,
               "nodeType": "Block",
               "src": "12139:420:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -20211,10 +20269,12 @@
             "id": 43571,
             "nodeType": "FunctionDefinition",
             "src": "12565:618:75",
+            "nodes": [],
             "body": {
               "id": 43570,
               "nodeType": "Block",
               "src": "12620:563:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -21405,10 +21465,12 @@
             "id": 43631,
             "nodeType": "FunctionDefinition",
             "src": "13397:442:75",
+            "nodes": [],
             "body": {
               "id": 43630,
               "nodeType": "Block",
               "src": "13435:404:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -22216,10 +22278,12 @@
             "id": 43713,
             "nodeType": "FunctionDefinition",
             "src": "13845:614:75",
+            "nodes": [],
             "body": {
               "id": 43712,
               "nodeType": "Block",
               "src": "13888:571:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -23369,10 +23433,12 @@
             "id": 43826,
             "nodeType": "FunctionDefinition",
             "src": "14465:762:75",
+            "nodes": [],
             "body": {
               "id": 43825,
               "nodeType": "Block",
               "src": "14509:718:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -24921,10 +24987,12 @@
             "id": 43897,
             "nodeType": "FunctionDefinition",
             "src": "15233:506:75",
+            "nodes": [],
             "body": {
               "id": 43896,
               "nodeType": "Block",
               "src": "15278:461:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -25911,10 +25979,12 @@
             "id": 44007,
             "nodeType": "FunctionDefinition",
             "src": "15745:747:75",
+            "nodes": [],
             "body": {
               "id": 44006,
               "nodeType": "Block",
               "src": "15782:710:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -27437,10 +27507,12 @@
             "id": 44082,
             "nodeType": "FunctionDefinition",
             "src": "16498:582:75",
+            "nodes": [],
             "body": {
               "id": 44081,
               "nodeType": "Block",
               "src": "16545:535:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -28446,10 +28518,12 @@
             "id": 44166,
             "nodeType": "FunctionDefinition",
             "src": "17086:658:75",
+            "nodes": [],
             "body": {
               "id": 44165,
               "nodeType": "Block",
               "src": "17153:591:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -29567,10 +29641,12 @@
             "id": 44254,
             "nodeType": "FunctionDefinition",
             "src": "17750:649:75",
+            "nodes": [],
             "body": {
               "id": 44253,
               "nodeType": "Block",
               "src": "17809:590:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -30748,10 +30824,12 @@
             "id": 44351,
             "nodeType": "FunctionDefinition",
             "src": "18405:655:75",
+            "nodes": [],
             "body": {
               "id": 44350,
               "nodeType": "Block",
               "src": "18460:600:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -32036,10 +32114,12 @@
             "id": 44416,
             "nodeType": "FunctionDefinition",
             "src": "19066:516:75",
+            "nodes": [],
             "body": {
               "id": 44415,
               "nodeType": "Block",
               "src": "19124:458:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -32914,10 +32994,12 @@
             "id": 44437,
             "nodeType": "FunctionDefinition",
             "src": "19588:173:75",
+            "nodes": [],
             "body": {
               "id": 44436,
               "nodeType": "Block",
               "src": "19647:114:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -33173,10 +33255,12 @@
             "id": 44502,
             "nodeType": "FunctionDefinition",
             "src": "19767:510:75",
+            "nodes": [],
             "body": {
               "id": 44501,
               "nodeType": "Block",
               "src": "19820:457:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -34050,10 +34134,12 @@
             "id": 44601,
             "nodeType": "FunctionDefinition",
             "src": "20283:686:75",
+            "nodes": [],
             "body": {
               "id": 44600,
               "nodeType": "Block",
               "src": "20350:619:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -35373,10 +35459,12 @@
             "id": 44723,
             "nodeType": "FunctionDefinition",
             "src": "21183:741:75",
+            "nodes": [],
             "body": {
               "id": 44722,
               "nodeType": "Block",
               "src": "21220:704:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -37020,10 +37108,12 @@
             "id": 44778,
             "nodeType": "FunctionDefinition",
             "src": "21930:460:75",
+            "nodes": [],
             "body": {
               "id": 44777,
               "nodeType": "Block",
               "src": "21977:413:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -37764,10 +37854,12 @@
             "id": 44865,
             "nodeType": "FunctionDefinition",
             "src": "22396:601:75",
+            "nodes": [],
             "body": {
               "id": 44864,
               "nodeType": "Block",
               "src": "22440:557:75",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

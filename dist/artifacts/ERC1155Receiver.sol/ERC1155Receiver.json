@@ -340,6 +340,7 @@
         "id": 54861,
         "nodeType": "PragmaDirective",
         "src": "108:23:110",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -351,6 +352,7 @@
         "id": 54862,
         "nodeType": "ImportDirective",
         "src": "133:33:110",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
         "file": "../IERC1155Receiver.sol",
         "nameLocation": "-1:-1:-1",
@@ -363,6 +365,7 @@
         "id": 54863,
         "nodeType": "ImportDirective",
         "src": "167:49:110",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol",
         "file": "../../../utils/introspection/ERC165.sol",
         "nameLocation": "-1:-1:-1",
@@ -380,10 +383,12 @@
             "id": 54892,
             "nodeType": "FunctionDefinition",
             "src": "387:221:110",
+            "nodes": [],
             "body": {
               "id": 54891,
               "nodeType": "Block",
               "src": "495:113:110",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

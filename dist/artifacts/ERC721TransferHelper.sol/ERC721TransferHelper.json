@@ -407,6 +407,7 @@
         "id": 50723,
         "nodeType": "PragmaDirective",
         "src": "36:23:94",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -417,6 +418,7 @@
         "id": 50725,
         "nodeType": "ImportDirective",
         "src": "61:73:94",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol",
         "file": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
         "nameLocation": "-1:-1:-1",
@@ -441,6 +443,7 @@
         "id": 50727,
         "nodeType": "ImportDirective",
         "src": "135:60:94",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/BaseTransferHelper.sol",
         "file": "./BaseTransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -470,10 +473,12 @@
             "id": 50739,
             "nodeType": "FunctionDefinition",
             "src": "429:79:94",
+            "nodes": [],
             "body": {
               "id": 50738,
               "nodeType": "Block",
               "src": "506:2:94",
+              "nodes": [],
               "statements": []
             },
             "implemented": true,
@@ -559,10 +564,12 @@
             "id": 50763,
             "nodeType": "FunctionDefinition",
             "src": "514:230:94",
+            "nodes": [],
             "body": {
               "id": 50762,
               "nodeType": "Block",
               "src": "673:71:94",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -869,10 +876,12 @@
             "id": 50787,
             "nodeType": "FunctionDefinition",
             "src": "750:222:94",
+            "nodes": [],
             "body": {
               "id": 50786,
               "nodeType": "Block",
               "src": "905:67:94",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

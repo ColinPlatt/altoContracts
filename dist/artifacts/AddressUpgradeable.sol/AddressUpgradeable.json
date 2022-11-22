@@ -77,6 +77,7 @@
         "id": 52935,
         "nodeType": "PragmaDirective",
         "src": "86:23:101",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -93,10 +94,12 @@
             "id": 52953,
             "nodeType": "FunctionDefinition",
             "src": "782:377:101",
+            "nodes": [],
             "body": {
               "id": 52952,
               "nodeType": "Block",
               "src": "848:311:101",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -333,10 +336,12 @@
             "id": 52987,
             "nodeType": "FunctionDefinition",
             "src": "2076:312:101",
+            "nodes": [],
             "body": {
               "id": 52986,
               "nodeType": "Block",
               "src": "2147:241:101",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -809,10 +814,12 @@
             "id": 53004,
             "nodeType": "FunctionDefinition",
             "src": "3130:173:101",
+            "nodes": [],
             "body": {
               "id": 53003,
               "nodeType": "Block",
               "src": "3219:84:101",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1025,10 +1032,12 @@
             "id": 53024,
             "nodeType": "FunctionDefinition",
             "src": "3525:223:101",
+            "nodes": [],
             "body": {
               "id": 53023,
               "nodeType": "Block",
               "src": "3672:76:101",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1284,10 +1293,12 @@
             "id": 53044,
             "nodeType": "FunctionDefinition",
             "src": "4110:254:101",
+            "nodes": [],
             "body": {
               "id": 53043,
               "nodeType": "Block",
               "src": "4253:111:101",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1543,10 +1554,12 @@
             "id": 53094,
             "nodeType": "FunctionDefinition",
             "src": "4612:499:101",
+            "nodes": [],
             "body": {
               "id": 53093,
               "nodeType": "Block",
               "src": "4791:320:101",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2245,10 +2258,12 @@
             "id": 53111,
             "nodeType": "FunctionDefinition",
             "src": "5288:197:101",
+            "nodes": [],
             "body": {
               "id": 53110,
               "nodeType": "Block",
               "src": "5388:97:101",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2461,10 +2476,12 @@
             "id": 53146,
             "nodeType": "FunctionDefinition",
             "src": "5669:386:101",
+            "nodes": [],
             "body": {
               "id": 53145,
               "nodeType": "Block",
               "src": "5827:228:101",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2936,10 +2953,12 @@
             "id": 53177,
             "nodeType": "FunctionDefinition",
             "src": "6275:692:101",
+            "nodes": [],
             "body": {
               "id": 53176,
               "nodeType": "Block",
               "src": "6435:532:101",
+              "nodes": [],
               "statements": [
                 {
                   "condition": {

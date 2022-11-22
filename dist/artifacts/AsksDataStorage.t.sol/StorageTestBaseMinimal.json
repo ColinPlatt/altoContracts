@@ -501,6 +501,7 @@
         "id": 18235,
         "nodeType": "PragmaDirective",
         "src": "36:23:58",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -511,6 +512,7 @@
         "id": 18237,
         "nodeType": "ImportDirective",
         "src": "61:40:58",
+        "nodes": [],
         "absolutePath": "lib/ds-test/src/test.sol",
         "file": "ds-test/test.sol",
         "nameLocation": "-1:-1:-1",
@@ -535,6 +537,7 @@
         "id": 18239,
         "nodeType": "ImportDirective",
         "src": "103:85:58",
+        "nodes": [],
         "absolutePath": "contracts/modules/Asks/Omnibus/AsksDataStorage.sol",
         "file": "../../../../modules/Asks/Omnibus/AsksDataStorage.sol",
         "nameLocation": "-1:-1:-1",
@@ -559,6 +562,7 @@
         "id": 18241,
         "nodeType": "ImportDirective",
         "src": "189:41:58",
+        "nodes": [],
         "absolutePath": "contracts/test/utils/VM.sol",
         "file": "../../../utils/VM.sol",
         "nameLocation": "-1:-1:-1",
@@ -588,10 +592,12 @@
             "id": 18329,
             "nodeType": "FunctionDefinition",
             "src": "286:519:58",
+            "nodes": [],
             "body": {
               "id": 18328,
               "nodeType": "Block",
               "src": "349:456:58",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -1760,10 +1766,12 @@
             "id": 18347,
             "nodeType": "FunctionDefinition",
             "src": "811:325:58",
+            "nodes": [],
             "body": {
               "id": 18346,
               "nodeType": "Block",
               "src": "877:259:58",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1990,10 +1998,12 @@
             "id": 18374,
             "nodeType": "FunctionDefinition",
             "src": "1142:258:58",
+            "nodes": [],
             "body": {
               "id": 18373,
               "nodeType": "Block",
               "src": "1275:125:58",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -2326,10 +2336,12 @@
             "id": 18393,
             "nodeType": "FunctionDefinition",
             "src": "1406:167:58",
+            "nodes": [],
             "body": {
               "id": 18392,
               "nodeType": "Block",
               "src": "1503:70:58",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2555,10 +2567,12 @@
             "id": 18425,
             "nodeType": "FunctionDefinition",
             "src": "1579:287:58",
+            "nodes": [],
             "body": {
               "id": 18424,
               "nodeType": "Block",
               "src": "1718:148:58",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -2967,10 +2981,12 @@
             "id": 18466,
             "nodeType": "FunctionDefinition",
             "src": "1927:231:58",
+            "nodes": [],
             "body": {
               "id": 18465,
               "nodeType": "Block",
               "src": "1990:168:58",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -3394,10 +3410,12 @@
             "id": 18474,
             "nodeType": "FunctionDefinition",
             "src": "2164:91:58",
+            "nodes": [],
             "body": {
               "id": 18473,
               "nodeType": "Block",
               "src": "2230:25:58",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3478,10 +3496,12 @@
             "id": 18501,
             "nodeType": "FunctionDefinition",
             "src": "2261:258:58",
+            "nodes": [],
             "body": {
               "id": 18500,
               "nodeType": "Block",
               "src": "2394:125:58",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -3814,10 +3834,12 @@
             "id": 18520,
             "nodeType": "FunctionDefinition",
             "src": "2525:167:58",
+            "nodes": [],
             "body": {
               "id": 18519,
               "nodeType": "Block",
               "src": "2622:70:58",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -4077,6 +4099,7 @@
             "id": 18527,
             "nodeType": "VariableDeclaration",
             "src": "2764:14:58",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "vm",
@@ -4111,6 +4134,7 @@
             "id": 18532,
             "nodeType": "VariableDeclaration",
             "src": "2785:49:58",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "FEATURE_MASK_LISTING_FEE",
@@ -4188,6 +4212,7 @@
             "id": 18537,
             "nodeType": "VariableDeclaration",
             "src": "2840:49:58",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "FEATURE_MASK_FINDERS_FEE",
@@ -4265,6 +4290,7 @@
             "id": 18542,
             "nodeType": "VariableDeclaration",
             "src": "2895:52:58",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "FEATURE_MASK_ERC20_CURRENCY",
@@ -4342,6 +4368,7 @@
             "id": 18547,
             "nodeType": "VariableDeclaration",
             "src": "2953:48:58",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "FEATURE_MASK_TOKEN_GATE",
@@ -4419,6 +4446,7 @@
             "id": 18552,
             "nodeType": "VariableDeclaration",
             "src": "3007:57:58",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "FEATURE_MASK_RECIPIENT_OR_EXPIRY",
@@ -4496,6 +4524,7 @@
             "id": 18557,
             "nodeType": "VariableDeclaration",
             "src": "3070:43:58",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "FEATURE_MASK_BUYER",
@@ -4573,10 +4602,12 @@
             "id": 18692,
             "nodeType": "FunctionDefinition",
             "src": "3120:1025:58",
+            "nodes": [],
             "body": {
               "id": 18691,
               "nodeType": "Block",
               "src": "3165:980:58",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -6644,10 +6675,12 @@
             "id": 18830,
             "nodeType": "FunctionDefinition",
             "src": "4151:1062:58",
+            "nodes": [],
             "body": {
               "id": 18829,
               "nodeType": "Block",
               "src": "4189:1024:58",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -8760,10 +8793,12 @@
             "id": 18939,
             "nodeType": "FunctionDefinition",
             "src": "5219:728:58",
+            "nodes": [],
             "body": {
               "id": 18938,
               "nodeType": "Block",
               "src": "5264:683:58",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [

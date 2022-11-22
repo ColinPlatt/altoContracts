@@ -756,6 +756,7 @@
         "id": 54795,
         "nodeType": "PragmaDirective",
         "src": "117:23:108",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -767,6 +768,7 @@
         "id": 54796,
         "nodeType": "ImportDirective",
         "src": "142:25:108",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC1155/IERC1155.sol",
         "file": "../IERC1155.sol",
         "nameLocation": "-1:-1:-1",
@@ -784,6 +786,7 @@
             "id": 54807,
             "nodeType": "FunctionDefinition",
             "src": "609:63:108",
+            "nodes": [],
             "documentation": {
               "id": 54800,
               "nodeType": "StructuredDocumentation",

@@ -370,6 +370,7 @@
         "id": 50674,
         "nodeType": "PragmaDirective",
         "src": "36:23:93",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -380,6 +381,7 @@
         "id": 50676,
         "nodeType": "ImportDirective",
         "src": "61:70:93",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol",
         "file": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
         "nameLocation": "-1:-1:-1",
@@ -404,6 +406,7 @@
         "id": 50678,
         "nodeType": "ImportDirective",
         "src": "132:82:93",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
         "file": "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol",
         "nameLocation": "-1:-1:-1",
@@ -428,6 +431,7 @@
         "id": 50680,
         "nodeType": "ImportDirective",
         "src": "215:60:93",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/BaseTransferHelper.sol",
         "file": "./BaseTransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -457,6 +461,7 @@
             "id": 50687,
             "nodeType": "UsingForDirective",
             "src": "506:27:93",
+            "nodes": [],
             "libraryName": {
               "id": 50684,
               "name": "SafeERC20",
@@ -486,10 +491,12 @@
             "id": 50696,
             "nodeType": "FunctionDefinition",
             "src": "539:79:93",
+            "nodes": [],
             "body": {
               "id": 50695,
               "nodeType": "Block",
               "src": "616:2:93",
+              "nodes": [],
               "statements": []
             },
             "implemented": true,
@@ -575,10 +582,12 @@
             "id": 50720,
             "nodeType": "FunctionDefinition",
             "src": "624:225:93",
+            "nodes": [],
             "body": {
               "id": 50719,
               "nodeType": "Block",
               "src": "781:68:93",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

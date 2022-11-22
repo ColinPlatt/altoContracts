@@ -809,6 +809,7 @@
         "id": 1441,
         "nodeType": "PragmaDirective",
         "src": "33:23:10",
+        "nodes": [],
         "literals": [
           "solidity",
           "^",
@@ -820,6 +821,7 @@
         "id": 1442,
         "nodeType": "ImportDirective",
         "src": "85:64:10",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol",
         "file": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
         "nameLocation": "-1:-1:-1",
@@ -832,6 +834,7 @@
         "id": 1443,
         "nodeType": "ImportDirective",
         "src": "150:71:10",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
         "file": "@openzeppelin/contracts/utils/introspection/ERC165Checker.sol",
         "nameLocation": "-1:-1:-1",
@@ -844,6 +847,7 @@
         "id": 1444,
         "nodeType": "ImportDirective",
         "src": "222:75:10",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
         "file": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
         "nameLocation": "-1:-1:-1",
@@ -856,6 +860,7 @@
         "id": 1445,
         "nodeType": "ImportDirective",
         "src": "298:74:10",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
         "file": "@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol",
         "nameLocation": "-1:-1:-1",
@@ -868,6 +873,7 @@
         "id": 1446,
         "nodeType": "ImportDirective",
         "src": "374:44:10",
+        "nodes": [],
         "absolutePath": "contracts/manifold/libraries/SuperRareContracts.sol",
         "file": "./libraries/SuperRareContracts.sol",
         "nameLocation": "-1:-1:-1",
@@ -880,6 +886,7 @@
         "id": 1447,
         "nodeType": "ImportDirective",
         "src": "420:31:10",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IManifold.sol",
         "file": "./specs/IManifold.sol",
         "nameLocation": "-1:-1:-1",
@@ -892,6 +899,7 @@
         "id": 1448,
         "nodeType": "ImportDirective",
         "src": "452:30:10",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IRarible.sol",
         "file": "./specs/IRarible.sol",
         "nameLocation": "-1:-1:-1",
@@ -904,6 +912,7 @@
         "id": 1449,
         "nodeType": "ImportDirective",
         "src": "483:33:10",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IFoundation.sol",
         "file": "./specs/IFoundation.sol",
         "nameLocation": "-1:-1:-1",
@@ -916,6 +925,7 @@
         "id": 1450,
         "nodeType": "ImportDirective",
         "src": "517:32:10",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/ISuperRare.sol",
         "file": "./specs/ISuperRare.sol",
         "nameLocation": "-1:-1:-1",
@@ -928,6 +938,7 @@
         "id": 1451,
         "nodeType": "ImportDirective",
         "src": "550:30:10",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IEIP2981.sol",
         "file": "./specs/IEIP2981.sol",
         "nameLocation": "-1:-1:-1",
@@ -940,6 +951,7 @@
         "id": 1452,
         "nodeType": "ImportDirective",
         "src": "581:35:10",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IZoraOverride.sol",
         "file": "./specs/IZoraOverride.sol",
         "nameLocation": "-1:-1:-1",
@@ -952,6 +964,7 @@
         "id": 1453,
         "nodeType": "ImportDirective",
         "src": "617:40:10",
+        "nodes": [],
         "absolutePath": "contracts/manifold/specs/IArtBlocksOverride.sol",
         "file": "./specs/IArtBlocksOverride.sol",
         "nameLocation": "-1:-1:-1",
@@ -964,6 +977,7 @@
         "id": 1454,
         "nodeType": "ImportDirective",
         "src": "658:32:10",
+        "nodes": [],
         "absolutePath": "contracts/manifold/IRoyaltyEngineV1.sol",
         "file": "./IRoyaltyEngineV1.sol",
         "nameLocation": "-1:-1:-1",
@@ -976,6 +990,7 @@
         "id": 1455,
         "nodeType": "ImportDirective",
         "src": "691:32:10",
+        "nodes": [],
         "absolutePath": "contracts/manifold/IRoyaltyRegistry.sol",
         "file": "./IRoyaltyRegistry.sol",
         "nameLocation": "-1:-1:-1",
@@ -993,6 +1008,7 @@
             "id": 1465,
             "nodeType": "UsingForDirective",
             "src": "860:37:10",
+            "nodes": [],
             "libraryName": {
               "id": 1463,
               "name": "AddressUpgradeable",
@@ -1016,6 +1032,7 @@
             "id": 1469,
             "nodeType": "VariableDeclaration",
             "src": "1097:32:10",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "NONE",
@@ -1074,6 +1091,7 @@
             "id": 1472,
             "nodeType": "VariableDeclaration",
             "src": "1135:41:10",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "NOT_CONFIGURED",
@@ -1117,6 +1135,7 @@
             "id": 1475,
             "nodeType": "VariableDeclaration",
             "src": "1182:34:10",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "EIP2981",
@@ -1160,6 +1179,7 @@
             "id": 1478,
             "nodeType": "VariableDeclaration",
             "src": "1222:31:10",
+            "nodes": [],
             "constant": true,
             "mutability": "constant",
             "name": "ZORA",
@@ -1203,6 +1223,7 @@
             "id": 1482,
             "nodeType": "VariableDeclaration",
             "src": "1260:37:10",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "_specCache",
@@ -1249,6 +1270,7 @@
             "id": 1484,
             "nodeType": "VariableDeclaration",
             "src": "1304:30:10",
+            "nodes": [],
             "constant": false,
             "functionSelector": "a11b0712",
             "mutability": "mutable",
@@ -1278,10 +1300,12 @@
             "id": 1510,
             "nodeType": "FunctionDefinition",
             "src": "1341:256:10",
+            "nodes": [],
             "body": {
               "id": 1509,
               "nodeType": "Block",
               "src": "1406:191:10",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1606,10 +1630,12 @@
             "id": 1534,
             "nodeType": "FunctionDefinition",
             "src": "1664:221:10",
+            "nodes": [],
             "body": {
               "id": 1533,
               "nodeType": "Block",
               "src": "1772:113:10",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1906,10 +1932,12 @@
             "id": 1555,
             "nodeType": "FunctionDefinition",
             "src": "2034:222:10",
+            "nodes": [],
             "body": {
               "id": 1554,
               "nodeType": "Block",
               "src": "2100:156:10",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -2169,10 +2197,12 @@
             "id": 1577,
             "nodeType": "FunctionDefinition",
             "src": "2338:239:10",
+            "nodes": [],
             "body": {
               "id": 1576,
               "nodeType": "Block",
               "src": "2417:160:10",
+              "nodes": [],
               "statements": [
                 {
                   "assignments": [
@@ -2446,10 +2476,12 @@
             "id": 1637,
             "nodeType": "FunctionDefinition",
             "src": "2645:596:10",
+            "nodes": [],
             "body": {
               "id": 1636,
               "nodeType": "Block",
               "src": "2806:435:10",
+              "nodes": [],
               "statements": [
                 {
                   "clauses": [
@@ -3181,10 +3213,12 @@
             "id": 1689,
             "nodeType": "FunctionDefinition",
             "src": "3314:512:10",
+            "nodes": [],
             "body": {
               "id": 1688,
               "nodeType": "Block",
               "src": "3484:342:10",
+              "nodes": [],
               "statements": [
                 {
                   "clauses": [
@@ -3831,10 +3865,12 @@
             "id": 1977,
             "nodeType": "FunctionDefinition",
             "src": "4030:2762:10",
+            "nodes": [],
             "body": {
               "id": 1976,
               "nodeType": "Block",
               "src": "4250:2542:10",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -7514,10 +7550,12 @@
             "id": 2042,
             "nodeType": "FunctionDefinition",
             "src": "6845:420:10",
+            "nodes": [],
             "body": {
               "id": 2041,
               "nodeType": "Block",
               "src": "6954:311:10",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

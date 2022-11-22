@@ -1003,6 +1003,7 @@
         "id": 49711,
         "nodeType": "PragmaDirective",
         "src": "36:23:84",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -1013,6 +1014,7 @@
         "id": 49713,
         "nodeType": "ImportDirective",
         "src": "61:92:84",
+        "nodes": [],
         "absolutePath": "node_modules/@openzeppelin/contracts/token/ERC1155/utils/ERC1155Holder.sol",
         "file": "@openzeppelin/contracts/token/ERC1155/utils/ERC1155Holder.sol",
         "nameLocation": "-1:-1:-1",
@@ -1037,6 +1039,7 @@
         "id": 49715,
         "nodeType": "ImportDirective",
         "src": "154:85:84",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC20TransferHelper.sol",
         "file": "../../../transferHelpers/ERC20TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1061,6 +1064,7 @@
         "id": 49717,
         "nodeType": "ImportDirective",
         "src": "240:87:84",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC721TransferHelper.sol",
         "file": "../../../transferHelpers/ERC721TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1085,6 +1089,7 @@
         "id": 49719,
         "nodeType": "ImportDirective",
         "src": "328:89:84",
+        "nodes": [],
         "absolutePath": "contracts/transferHelpers/ERC1155TransferHelper.sol",
         "file": "../../../transferHelpers/ERC1155TransferHelper.sol",
         "nameLocation": "-1:-1:-1",
@@ -1114,6 +1119,7 @@
             "id": 49724,
             "nodeType": "VariableDeclaration",
             "src": "528:27:84",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc20TransferHelper",
@@ -1142,6 +1148,7 @@
             "id": 49726,
             "nodeType": "VariableDeclaration",
             "src": "561:28:84",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc721TransferHelper",
@@ -1170,6 +1177,7 @@
             "id": 49728,
             "nodeType": "VariableDeclaration",
             "src": "595:29:84",
+            "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "erc1155TransferHelper",
@@ -1198,10 +1206,12 @@
             "id": 49750,
             "nodeType": "FunctionDefinition",
             "src": "631:304:84",
+            "nodes": [],
             "body": {
               "id": 49749,
               "nodeType": "Block",
               "src": "766:169:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1445,10 +1455,12 @@
             "id": 49773,
             "nodeType": "FunctionDefinition",
             "src": "941:236:84",
+            "nodes": [],
             "body": {
               "id": 49772,
               "nodeType": "Block",
               "src": "1056:121:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -1759,10 +1771,12 @@
             "id": 49796,
             "nodeType": "FunctionDefinition",
             "src": "1183:237:84",
+            "nodes": [],
             "body": {
               "id": 49795,
               "nodeType": "Block",
               "src": "1300:120:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2073,10 +2087,12 @@
             "id": 49819,
             "nodeType": "FunctionDefinition",
             "src": "1426:245:84",
+            "nodes": [],
             "body": {
               "id": 49818,
               "nodeType": "Block",
               "src": "1547:124:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2387,10 +2403,12 @@
             "id": 49846,
             "nodeType": "FunctionDefinition",
             "src": "1677:368:84",
+            "nodes": [],
             "body": {
               "id": 49845,
               "nodeType": "Block",
               "src": "1824:221:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -2764,10 +2782,12 @@
             "id": 49875,
             "nodeType": "FunctionDefinition",
             "src": "2051:400:84",
+            "nodes": [],
             "body": {
               "id": 49874,
               "nodeType": "Block",
               "src": "2223:228:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3159,10 +3179,12 @@
             "id": 49898,
             "nodeType": "FunctionDefinition",
             "src": "2457:233:84",
+            "nodes": [],
             "body": {
               "id": 49897,
               "nodeType": "Block",
               "src": "2571:119:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3473,10 +3495,12 @@
             "id": 49921,
             "nodeType": "FunctionDefinition",
             "src": "2696:234:84",
+            "nodes": [],
             "body": {
               "id": 49920,
               "nodeType": "Block",
               "src": "2812:118:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -3787,10 +3811,12 @@
             "id": 49944,
             "nodeType": "FunctionDefinition",
             "src": "2936:242:84",
+            "nodes": [],
             "body": {
               "id": 49943,
               "nodeType": "Block",
               "src": "3056:122:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -4101,10 +4127,12 @@
             "id": 49971,
             "nodeType": "FunctionDefinition",
             "src": "3184:365:84",
+            "nodes": [],
             "body": {
               "id": 49970,
               "nodeType": "Block",
               "src": "3330:219:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -4478,10 +4506,12 @@
             "id": 50000,
             "nodeType": "FunctionDefinition",
             "src": "3555:397:84",
+            "nodes": [],
             "body": {
               "id": 49999,
               "nodeType": "Block",
               "src": "3726:226:84",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {

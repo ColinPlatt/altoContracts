@@ -289,6 +289,7 @@
         "id": 50530,
         "nodeType": "PragmaDirective",
         "src": "36:23:91",
+        "nodes": [],
         "literals": [
           "solidity",
           "0.8",
@@ -299,6 +300,7 @@
         "id": 50532,
         "nodeType": "ImportDirective",
         "src": "61:59:91",
+        "nodes": [],
         "absolutePath": "contracts/ZoraModuleManager.sol",
         "file": "../ZoraModuleManager.sol",
         "nameLocation": "-1:-1:-1",
@@ -328,6 +330,7 @@
             "id": 50537,
             "nodeType": "VariableDeclaration",
             "src": "335:38:91",
+            "nodes": [],
             "constant": false,
             "documentation": {
               "id": 50534,
@@ -369,10 +372,12 @@
             "id": 50560,
             "nodeType": "FunctionDefinition",
             "src": "471:187:91",
+            "nodes": [],
             "body": {
               "id": 50559,
               "nodeType": "Block",
               "src": "507:151:91",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -670,10 +675,12 @@
             "id": 50574,
             "nodeType": "ModifierDefinition",
             "src": "780:143:91",
+            "nodes": [],
             "body": {
               "id": 50573,
               "nodeType": "Block",
               "src": "823:100:91",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
@@ -844,10 +851,12 @@
             "id": 50590,
             "nodeType": "FunctionDefinition",
             "src": "1040:131:91",
+            "nodes": [],
             "body": {
               "id": 50589,
               "nodeType": "Block",
               "src": "1108:63:91",
+              "nodes": [],
               "statements": [
                 {
                   "expression": {
