@@ -1,0 +1,63 @@
+{
+  "transactions": [
+    {
+      "hash": "0x6eca62bf82add583ef4390e119c98a600f5c26f65d1360ec13331143a30a1b70",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0xE1A31cE32D91b3416Cb5e2Ea73c8F4d1FC2A49Bf",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://canto.slingshot.finance/",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xba7492bdc7c99c201a0310c817ed974184662ed7",
+        "to": "0xe1a31ce32d91b3416cb5e2ea73c8f4d1fc2a49bf",
+        "gas": "0x102e2",
+        "value": "0x0",
+        "data": "0xef60ceaf000000000000000000000000f0e4e74ce34738826477b9280776fc797506fe1300000000000000000000000000000000000000000000000000000000000002b2",
+        "nonce": "0x46",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0x6eca62bf82add583ef4390e119c98a600f5c26f65d1360ec13331143a30a1b70",
+      "transactionIndex": "0x0",
+      "blockHash": "0x1eb6c3525d2659e600996e973561bfec285035eb1649822ddaa8f7e6b48fa29c",
+      "blockNumber": "0x1ad62e",
+      "from": "0xBA7492BDc7C99C201a0310c817eD974184662Ed7",
+      "to": "0xE1A31cE32D91b3416Cb5e2Ea73c8F4d1FC2A49Bf",
+      "cumulativeGasUsed": "0xbb6e",
+      "gasUsed": "0xbb6e",
+      "contractAddress": null,
+      "logs": [
+        {
+          "address": "0xE1A31cE32D91b3416Cb5e2Ea73c8F4d1FC2A49Bf",
+          "topics": [
+            "0x2c5ea6e4103e78cb101e796fb2dace540362fc542cbff5145eaa24af7dd8fe41"
+          ],
+          "data": "0x000000000000000000000000f0e4e74ce34738826477b9280776fc797506fe1300000000000000000000000000000000000000000000000000000000000002b2",
+          "blockHash": "0x1eb6c3525d2659e600996e973561bfec285035eb1649822ddaa8f7e6b48fa29c",
+          "blockNumber": "0x1ad62e",
+          "transactionHash": "0x6eca62bf82add583ef4390e119c98a600f5c26f65d1360ec13331143a30a1b70",
+          "transactionIndex": "0x0",
+          "logIndex": "0x0",
+          "removed": false
+        }
+      ],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000400000000000000000000000000000000000080004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000",
+      "effectiveGasPrice": "0x1b364af8c0"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "/home/cgp/dev/alto/broadcast/SettingRoyalties.s.sol/7700/run-latest.json",
+  "returns": {},
+  "timestamp": 1669133650,
+  "chain": 7700,
+  "multi": false,
+  "commit": "fbdf851"
+}

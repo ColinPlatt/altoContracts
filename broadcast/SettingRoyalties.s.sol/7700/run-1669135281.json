@@ -1,0 +1,99 @@
+{
+  "transactions": [
+    {
+      "hash": "0x05aef0ea59afca1740cc619813e9726d9bb077b61bd04aaafd7dfaad2056e81a",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x87A5cEb25C8B74EAED3Bb65cD7977fd978Fca3ba",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://canto.slingshot.finance/",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xba7492bdc7c99c201a0310c817ed974184662ed7",
+        "to": "0x87a5ceb25c8b74eaed3bb65cd7977fd978fca3ba",
+        "gas": "0x2a56d",
+        "value": "0x0",
+        "data": "0x4994fa9a",
+        "nonce": "0x49",
+        "accessList": []
+      },
+      "additionalContracts": [
+        {
+          "transactionType": "CREATE",
+          "address": "0x0F804217b8BF1979a29681fAe501ef3A9bAAc46F",
+          "initCode": "3d602d80600a3d3981f3363d3d373d3d3d363d735f91cc0a691360cfc89d9dd13435634393c9e90d5af43d82803e903d91602b57fd5bf3"
+        }
+      ]
+    }
+  ],
+  "receipts": [
+    {
+      "transactionHash": "0x05aef0ea59afca1740cc619813e9726d9bb077b61bd04aaafd7dfaad2056e81a",
+      "transactionIndex": "0x0",
+      "blockHash": "0xd35e2ff3b13a82808bec84d56acbef087aa63317d6c99384feba77ddbe217129",
+      "blockNumber": "0x1ad73f",
+      "from": "0xBA7492BDc7C99C201a0310c817eD974184662Ed7",
+      "to": "0x87A5cEb25C8B74EAED3Bb65cD7977fd978Fca3ba",
+      "cumulativeGasUsed": "0x1cf33",
+      "gasUsed": "0x1cf33",
+      "contractAddress": null,
+      "logs": [
+        {
+          "address": "0x0F804217b8BF1979a29681fAe501ef3A9bAAc46F",
+          "topics": [
+            "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+            "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "0x00000000000000000000000087a5ceb25c8b74eaed3bb65cd7977fd978fca3ba"
+          ],
+          "data": "0x",
+          "blockHash": "0xd35e2ff3b13a82808bec84d56acbef087aa63317d6c99384feba77ddbe217129",
+          "blockNumber": "0x1ad73f",
+          "transactionHash": "0x05aef0ea59afca1740cc619813e9726d9bb077b61bd04aaafd7dfaad2056e81a",
+          "transactionIndex": "0x0",
+          "logIndex": "0x0",
+          "removed": false
+        },
+        {
+          "address": "0x0F804217b8BF1979a29681fAe501ef3A9bAAc46F",
+          "topics": [
+            "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+            "0x00000000000000000000000087a5ceb25c8b74eaed3bb65cd7977fd978fca3ba",
+            "0x000000000000000000000000ba7492bdc7c99c201a0310c817ed974184662ed7"
+          ],
+          "data": "0x",
+          "blockHash": "0xd35e2ff3b13a82808bec84d56acbef087aa63317d6c99384feba77ddbe217129",
+          "blockNumber": "0x1ad73f",
+          "transactionHash": "0x05aef0ea59afca1740cc619813e9726d9bb077b61bd04aaafd7dfaad2056e81a",
+          "transactionIndex": "0x0",
+          "logIndex": "0x1",
+          "removed": false
+        },
+        {
+          "address": "0x87A5cEb25C8B74EAED3Bb65cD7977fd978Fca3ba",
+          "topics": [
+            "0x6ace5835f14486bead350c58a6ce67b18fec46c58b809b749b08541cf7458025"
+          ],
+          "data": "0x0000000000000000000000000f804217b8bf1979a29681fae501ef3a9baac46f",
+          "blockHash": "0xd35e2ff3b13a82808bec84d56acbef087aa63317d6c99384feba77ddbe217129",
+          "blockNumber": "0x1ad73f",
+          "transactionHash": "0x05aef0ea59afca1740cc619813e9726d9bb077b61bd04aaafd7dfaad2056e81a",
+          "transactionIndex": "0x0",
+          "logIndex": "0x2",
+          "removed": false
+        }
+      ],
+      "status": "0x1",
+      "logsBloom": "0x00000000000000000200000000000000000000000000000000800080000000000000000000000000000000000000000000800008000000020010000000000100000000000000000000000000000000000001000000000000000000000000000000000002020000000000002000000800000000000000000000000000000000400000000000000000000000400000000000000000000000000010000000000010000000000000000000000000000000000000000010000000000004000000000000000000000000000000000000000000000004000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000",
+      "effectiveGasPrice": "0x17fb474600"
+    }
+  ],
+  "libraries": [],
+  "pending": [],
+  "path": "/home/cgp/dev/alto/broadcast/SettingRoyalties.s.sol/7700/run-latest.json",
+  "returns": {},
+  "timestamp": 1669135281,
+  "chain": 7700,
+  "multi": false,
+  "commit": "fbdf851"
+}

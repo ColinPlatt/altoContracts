@@ -30,4 +30,14 @@
 #############################
 ## Scripting ##
 
-forge script script/SettingRoyalties.s.sol:SettingRoyaltiesScript --rpc-url $RPC_URL --broadcast --verify -vvvv
+forge script scripts/SettingRoyalties.s.sol:SettingRoyaltiesScript --rpc-url $RPC_URL --broadcast --verify -vvvv
+
+## "EIP2981RoyaltyOverride": 
+## forge verify-contract $RoyaltyOverride contracts/manifold/overrides/RoyaltyOverride.sol:EIP2981RoyaltyOverride --chain-id 7700 --verifier-url https://evm.explorer.canto.io/api --verifier blockscout --watch
+
+## RoyaltyOverrideClone='0x5f91cc0a691360cfc89d9dd13435634393c9e90d'
+## forge verify-contract $RoyaltyOverrideClone contracts/manifold/overrides/RoyaltyOverrideCloneable.sol:EIP2981RoyaltyOverrideCloneable --chain-id 7700 --verifier-url https://evm.explorer.canto.io/api --verifier blockscout --watch
+
+
+## RoyaltyOverrideFactory='0x87a5ceb25c8b74eaed3bb65cd7977fd978fca3ba'
+## forge verify-contract $RoyaltyOverrideFactory contracts/manifold/overrides/RoyaltyOverrideFactory.sol:EIP2981RoyaltyOverrideFactory --constructor-args $(cast abi-encode "constructor(address)" $RoyaltyOverrideClone) --chain-id 7700 --verifier-url https://evm.explorer.canto.io/api --verifier blockscout --watch

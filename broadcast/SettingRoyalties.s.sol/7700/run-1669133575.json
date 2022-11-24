@@ -1,0 +1,55 @@
+{
+  "transactions": [
+    {
+      "hash": "0x19d546098fe5ef3be6cb916577dec944d91b6fd49b459533310e7ea3bc105a37",
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0x5829c7eAc45059bF33164D3E0B7B4Dd945f32782",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://canto.slingshot.finance/",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xba7492bdc7c99c201a0310c817ed974184662ed7",
+        "to": "0x5829c7eac45059bf33164d3e0b7b4dd945f32782",
+        "gas": "0x131b7",
+        "value": "0x0",
+        "data": "0x26bd8982000000000000000000000000de7aa2b085bef0d752aa61058837827247cc5253000000000000000000000000e1a31ce32d91b3416cb5e2ea73c8f4d1fc2a49bf",
+        "nonce": "0x45",
+        "accessList": []
+      },
+      "additionalContracts": []
+    },
+    {
+      "hash": null,
+      "transactionType": "CALL",
+      "contractName": null,
+      "contractAddress": "0xE1A31cE32D91b3416Cb5e2Ea73c8F4d1FC2A49Bf",
+      "function": null,
+      "arguments": null,
+      "rpc": "https://canto.slingshot.finance/",
+      "transaction": {
+        "type": "0x02",
+        "from": "0xba7492bdc7c99c201a0310c817ed974184662ed7",
+        "to": "0xe1a31ce32d91b3416cb5e2ea73c8f4d1fc2a49bf",
+        "gas": "0x102e2",
+        "value": "0x0",
+        "data": "0xef60ceaf000000000000000000000000f0e4e74ce34738826477b9280776fc797506fe1300000000000000000000000000000000000000000000000000000000000002b2",
+        "nonce": "0x46",
+        "accessList": []
+      },
+      "additionalContracts": []
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x19d546098fe5ef3be6cb916577dec944d91b6fd49b459533310e7ea3bc105a37"
+  ],
+  "path": "/home/cgp/dev/alto/broadcast/SettingRoyalties.s.sol/7700/run-latest.json",
+  "returns": {},
+  "timestamp": 1669133575,
+  "chain": 7700,
+  "multi": false,
+  "commit": "fbdf851"
+}
